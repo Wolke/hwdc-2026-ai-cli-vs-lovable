@@ -1,12 +1,8 @@
 <!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>課後延伸：將收藏匯出為行事曆</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;color:#17283e;background:#f5f8fc;line-height:1.85}main{max-width:1000px;margin:30px auto;padding:42px 48px;background:white}h1{font-size:32px;line-height:1.4;margin:0 0 24px;color:#123564}h2{font-size:24px;margin:42px 0 18px;border-bottom:2px solid #e0eafa;padding-bottom:8px}h3{font-size:20px}a{color:#155ebd;text-decoration-thickness:1px;text-underline-offset:3px}p,li{font-size:16px}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.65;margin:24px 0}th,td{border:1px solid #ccd9ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf3fc;color:#174777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fa;border-left:3px solid #155ebd;padding:18px;font:14px/1.8 ui-monospace,Menlo,monospace}code{font-family:ui-monospace,Menlo,monospace;color:#25476d}nav{max-width:1000px;margin:20px auto;padding:0 16px;font-size:14px}blockquote{margin:20px 0;padding:10px 20px;border-left:4px solid #d28c1f;background:#fff8e7}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:28px 20px}h1{font-size:27px}table{display:block;overflow-x:auto}th,td{min-width:110px}nav{margin:14px 0}}@page{size:A4;margin:18mm}@media print{body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}nav{display:none}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}p,li{font-size:11pt}table{font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}pre{font-size:9pt}a{color:inherit;text-decoration:none}}</style></head><body><nav><a href="../../開始這裡.html">教材首頁</a>　<a href="extension-ics.md">Markdown 原文</a>　可使用瀏覽器列印</nav><main><h1>課後延伸：將收藏匯出為行事曆</h1>
 <p>這是第二版之後的選做練習，不計入課程的 15／5 分鐘比較。</p>
 <h2>提示</h2>
-<pre><code class="language-text">請在議程收藏器加入「匯出行事曆」按鈕，輸出全部收藏為 UTF-8 的 .ics，不受目前搜尋或篩選影響。
-每場使用一個 VEVENT，包含穩定 UID、DTSTAMP、DTSTART、DTEND、SUMMARY、LOCATION。
-將時間轉為 UTC，以 Z 結尾。文字中的反斜線、分號、逗號及換行需要正確跳脫。
-用 CRLF 分行，長行以 UTF-8 位元組數折行，不切斷中文字元。沒有收藏時停用下載並清楚說明。
-下載檔名為 my-hwdc-demo-schedule.ics，並保留既有搜尋、收藏、儲存與衝堂功能。
-請驗證 4996 的 13:00 台北時間在檔案中為 05:00 UTC。
+<pre><code class="language-text">請讓我把全部收藏下載成 .ics 行事曆檔，不受搜尋或篩選影響，匯入後要有正確的議程名稱、日期時間與會議室。
+請保留原有收藏與功能，沒有收藏時提示我先收藏。完成後給我檔案，並說明怎麼驗證匯入結果。
 </code></pre>
 <h2>參考實作</h2>
 <p><code>extension-ics.mjs</code> 提供 <code>createCalendar(sessions, favoriteIds)</code> 與 <code>downloadCalendar(calendar)</code>。可改成 TypeScript 後整合到自己的專案。沒有收藏時前者回傳 <code>null</code>，供 UI 停用按鈕。</p>
@@ -14,7 +10,7 @@
 <h2>驗收</h2>
 <ol>
 <li>收藏 4996、5030，檔案有兩個 VEVENT，沒有重複。</li>
-<li>開始時間分別為 <code>20261014T010000Z</code>、<code>20261014T014000Z</code>。</li>
+<li>開始時間分別為 <code>20261014T050000Z</code>、<code>20261014T073000Z</code>。</li>
 <li>同一場再次匯出的 UID 相同，DTSTAMP 反映產生時間。</li>
 <li>中文名稱、逗號、分號、反斜線及換行不破壞欄位格式。</li>
 <li>CRLF 折行後每行不超過 75 位元組，接續行以空白開頭。</li>

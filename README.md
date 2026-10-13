@@ -25,7 +25,7 @@ cd hwdc-2026-ai-cli-vs-lovable
 | 取得兩日議程附件 | [70 筆公開議程 JSON](HWDC-workshop/materials/hwdc-agenda-2026.json) |
 | 閱讀學員步驟、提示與驗收 | [學員講義](HWDC-workshop/materials/student-handout.md) |
 | 準備講課、示範與備援 | [講師手冊](HWDC-workshop/materials/instructor-guide.md) |
-| 編輯投影片 | [38 頁 PPTX，含逐頁講者備註](HWDC-2026-workshop-v3.pptx) |
+| 編輯投影片 | [38 頁 PPTX，含逐頁講者備註](HWDC-2026-workshop-v4.pptx) |
 | 閱讀逐頁講稿 | [講者備註](HWDC-workshop/materials/speaker-notes.md) |
 | 先做不使用 AI 的限時開發 | [手工實測起始包](HWDC-manual-baseline-starter.zip) |
 | 記錄工具條件與結果 | [實測紀錄表](HWDC-workshop/materials/measurement-template.md) |
@@ -132,3 +132,5 @@ npm run build
 [官方文件、講師資料與查核日期](HWDC-workshop/evidence/sources.md) · [工具鏈版本](HWDC-workshop/evidence/versions.json)
 
 議程附件擷取自 [HWDC 官方議程](https://hwdc.ithome.com.tw/2026/agenda)，2026-10-13 快照共 70 筆，10/14、10/15 各 35 筆。保留官方 ID、完整主題、日期時間、會議室、講者與來源連結。[資料說明與原始來源](HWDC-workshop/materials/agenda-data.md)。
+
+本次 v4：投影片直接列出初版、修改、除錯與延伸 prompt；第 12 頁列出官方來源及 JSON 附件完整網址。瀏覽器投影片另提供可選取複製的提示文字。GitHub 附件目前需要私人 repo 存取權，現場可直接使用教材包內的 JSON。

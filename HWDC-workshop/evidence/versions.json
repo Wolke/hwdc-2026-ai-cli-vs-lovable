@@ -12,5 +12,5 @@
   "dependency_lock": "starter/package-lock.json；兩版參考解答使用相同鎖檔",
   "slides": "38 slides, 16:9, editable text/tables, Heiti TC and Menlo",
   "browser_qa": "Codex in-app browser / CUA；原生 PowerPoint 未開啟驗證",
-  "material_revision": "v3 — HWDC public snapshot, short prompts, UX parity, free UI"
+  "material_revision": "v4 — complete prompts and clickable source / attachment URLs on slides; same v3 public agenda and reference apps"
 }

@@ -1,8 +1,6 @@
 # 逐頁講者備註
 
-38 頁｜v3：真實議程附件、短提示與自由 UI。
-
-## 01　入場準備
+## 1　入場準備
 
 **時間：** 準備時段，約 10 分鐘循環顯示
 
@@ -14,9 +12,9 @@
 
 **轉場：** 接著確認本機起始專案。
 
-**來源：** [HWDC 公開議程](https://hwdc.ithome.com.tw/2026/lab/4996)
+來源索引：S1；完整連結見 evidence/sources.md。
 
-## 02　教材與起始專案
+## 2　教材與起始專案
 
 **時間：** 準備時段，約 10 分鐘
 
@@ -28,9 +26,9 @@
 
 **轉場：** 最後確認額度與卡關時的接續方法。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+來源索引：S14；完整連結見 evidence/sources.md。
 
-## 03　額度與求助方式
+## 3　額度與求助方式
 
 **時間：** 準備時段，約 10 分鐘
 
@@ -42,9 +40,9 @@
 
 **轉場：** 13:30 開始正式課程。
 
-**來源：** [Lovable subscription plans](https://docs.lovable.dev/introduction/subscription-plans)、[Lovable credits and usage](https://docs.lovable.dev/introduction/credits-and-usage)
+來源索引：S3, S4；完整連結見 evidence/sources.md。
 
-## 04　通用 AI CLI vs. 場景專用 AI
+## 4　通用 AI CLI vs. 場景專用 AI
 
 **時間：** 13:30–13:31，1 分鐘
 
@@ -56,9 +54,9 @@
 
 **轉場：** 先看看今天要完成的作品。
 
-**來源：** [HWDC 公開議程](https://hwdc.ithome.com.tw/2026/lab/4996)、[Wolke 的 Medium 個人頁](https://wolkesau.medium.com/)、[Wolke@林建宏 自我介紹](https://medium.com/wolkesau/wolke-林建宏-自我介紹-6fbddfef865a)、[Wolke 的 Medium 著作頁](https://wolkesau.medium.com/books)
+來源索引：S1, S11, S12, S13；完整連結見 evidence/sources.md。
 
-## 05　今天的成品
+## 5　今天的成品
 
 **時間：** 13:31–13:33，2 分鐘
 
@@ -70,9 +68,9 @@
 
 **轉場：** 接下來說明今天要留下什麼。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+來源索引：S14；完整連結見 evidence/sources.md。
 
-## 06　學習目標與流程
+## 6　學習目標與流程
 
 **時間：** 13:33–13:35，2 分鐘
 
@@ -84,7 +82,7 @@
 
 **轉場：** 先看兩類工具在工作流程中的差別。
 
-## 07　通用與場景專用工具
+## 7　通用與場景專用工具
 
 **時間：** 13:35–13:37，2 分鐘
 
@@ -96,9 +94,9 @@
 
 **轉場：** 把傳統開發也放進同一個流程來看。
 
-**來源：** [Lovable FAQ](https://docs.lovable.dev/introduction/faq)、[OpenAI desktop quickstart](https://learn.chatgpt.com/docs/quickstart)
+來源索引：S2, S6；完整連結見 evidence/sources.md。
 
-## 08　三種開發流程
+## 8　三種開發流程
 
 **時間：** 13:37–13:39，2 分鐘
 
@@ -110,7 +108,7 @@
 
 **轉場：** 現在把完成標準寫清楚。
 
-## 09　共同需求與完成標準
+## 9　共同需求與完成標準
 
 **時間：** 13:39–13:41，2 分鐘
 
@@ -122,7 +120,7 @@
 
 **轉場：** 接著定義如何計時。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+來源索引：S14；完整連結見 evidence/sources.md。
 
 ## 10　實測規則
 
@@ -136,33 +134,46 @@
 
 **轉場：** 最後把規格整理成可貼給工具的提示。
 
-## 11　短提示，先讓作品跑起來
+## 11　Lovable 初版 prompt
 
 **時間：** 13:43–13:45，2 分鐘
 
 **講述：** 人不需要先寫成工程規格才開始。上傳資料，講清楚想做什麼、用起來要怎樣，再讓 Agent 做出可試用的第一版。色彩、版型、字型都可以自由發揮。驗收表拿在自己手上，發現缺漏再描述操作與預期。
 
-**操作：** 展示 hwdc-agenda-2026.json 附件，再只貼 4 句短提示。可以邀請學員補充一個視覺想法，記下差異。
+**操作：** 直接複製本頁四句提示。下一頁提供 JSON 附件位置與完整網址，先上傳再送出。
 
 **檢核：** 學員知道 JSON 是附件，不需複製 70 筆資料；不把 UI 相似度當成功條件。
 
-**轉場：** 先從 Lovable 開始。
+**轉場：** 先確認這份資料從哪裡來，以及要上傳哪個檔案。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+**投影片完整 prompt：**
 
-## 12　Lovable 操作示範
+```text
+請用附件的 HWDC 議程做一個繁體中文「我的議程」網站：
+能搜尋議程或講者、依日期和主題篩選、加入或取消收藏，並查看自己的議程；重新整理後收藏要保留。
+搜尋與篩選可以一起用，日期時間要清楚，手機也能操作。資料照附件，保留來源。
+UI 風格自由發揮，不用登入。做好後請開啟預覽，讓我試用。
+```
+
+來源索引：S14；完整連結見 evidence/sources.md。
+
+## 12　資料附件與來源
 
 **時間：** 13:45–13:47，2 分鐘
 
-**講述：** 這份提示已包含所有HWDC 公開議程附件。請用新專案，避免帶入既有功能。平台介面可能調整，以帳號當日畫面為準。如果先顯示計畫，需要進入建置才會改程式。
+**講述：** 官網議程是公開來源；我們把兩天 70 筆場次整理成固定 JSON 快照。投影片寫出來源及附件完整網址。目前 GitHub repo 為私人，學員可使用教材包 materials 裡的 JSON；沒有 repo 權限時不要卡在 GitHub 登入。提示與資料分開，上傳完再送出第 11 頁提示。
 
-**操作：** 示範建立專案、上傳 JSON，確認附件存在，再貼短提示送出。額度已用完者私下向講師取得群組加入方式。
+**操作：** 示範從教材包選取 hwdc-agenda-2026.json 上傳，確認附件後貼第 11 頁提示。指出預覽入口並開始驗收。
 
 **檢核：** 學員準備好送出提示及計時。
 
 **轉場：** 下一頁會固定顯示任務。
 
-**來源：** [Lovable FAQ](https://docs.lovable.dev/introduction/faq)、[Lovable credits and usage](https://docs.lovable.dev/introduction/credits-and-usage)、[HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+- [官方議程](https://hwdc.ithome.com.tw/2026/agenda)
+- [JSON 附件（私人 repo，需存取權）](https://github.com/Wolke/hwdc-2026-ai-cli-vs-lovable/blob/main/HWDC-workshop/materials/hwdc-agenda-2026.json)
+
+
+來源索引：S2, S4, S14；完整連結見 evidence/sources.md。
 
 ## 13　實作 A：Lovable
 
@@ -176,7 +187,7 @@
 
 **轉場：** 時間到後一起回報完成狀態。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+來源索引：S14；完整連結見 evidence/sources.md。
 
 ## 14　初版驗收與紀錄
 
@@ -190,7 +201,7 @@
 
 **轉場：** 接下來從空白起點使用通用工具。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+來源索引：S14；完整連結見 evidence/sources.md。
 
 ## 15　Codex 桌面 App 操作
 
@@ -202,23 +213,34 @@
 
 **檢核：** 確認沒有學員直接把第一條路徑的程式交給第二條路徑。
 
-**轉場：** 接著指出三份最重要的上下文。
+**轉場：** 下一頁直接列出可貼上的完整提示。
 
-**來源：** [OpenAI desktop quickstart](https://learn.chatgpt.com/docs/quickstart)
+來源索引：S6；完整連結見 evidence/sources.md。
 
-## 16　專案上下文
+## 16　Codex 初版 prompt
 
 **時間：** 14:06–14:06:40，40 秒
 
-**講述：** 這三份檔案讓需求不只存在聊天裡。以後更換工具或開新的對話時，也能讀到相同基準。驗收文件的作用是留下預期行為，不能由 AI 任意改寫來讓自己通過。
+**講述：** 這次直接貼本頁提示，資料位置寫在第一行。本機檔案與上傳 Lovable 的附件內容一致，UI 不必一樣。驗收表由人操作，發現問題再補充。
 
-**操作：** 打開三份檔案，示範在提示中引用名稱。
+**操作：** 複製本頁完整內容至 Codex，確認專案是獨立 starter。
 
 **檢核：** 學員知道資料的位置及共同規格。
 
 **轉場：** 接著確認結果如何執行。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+**投影片完整 prompt：**
+
+```text
+資料檔：src/sessions.json（與 HWDC 議程附件相同）。
+
+請用附件的 HWDC 議程做一個繁體中文「我的議程」網站：
+能搜尋議程或講者、依日期和主題篩選、加入或取消收藏，並查看自己的議程；重新整理後收藏要保留。
+搜尋與篩選可以一起用，日期時間要清楚，手機也能操作。資料照附件，保留來源。
+UI 風格自由發揮，不用登入。做好後請開啟預覽，讓我試用。
+```
+
+來源索引：S14；完整連結見 evidence/sources.md。
 
 ## 17　執行與檢查
 
@@ -244,7 +266,7 @@
 
 **轉場：** 時間到，一起確認最容易漏掉的保存。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+來源索引：S14；完整連結見 evidence/sources.md。
 
 ## 19　同標準驗收與紀錄
 
@@ -258,7 +280,7 @@
 
 **轉場：** 現在需求要改變了。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+來源索引：S14；完整連結見 evidence/sources.md。
 
 ## 20　新需求：收藏衝堂提示
 
@@ -272,7 +294,7 @@
 
 **轉場：** 先把邊界說清楚。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+來源索引：S14；完整連結見 evidence/sources.md。
 
 ## 21　時間重疊案例
 
@@ -286,21 +308,29 @@
 
 **轉場：** 最後補上修改時必須保留的行為。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+來源索引：S14；完整連結見 evidence/sources.md。
 
-## 22　修改也用簡單的話
+## 22　修改 prompt：衝堂提醒
 
 **時間：** 14:25:40–14:26，20 秒
 
 **講述：** 這個提醒要看全部收藏，不受目前搜尋與篩選影響。請維持原來的儲存鍵與格式，避免改完功能卻清掉收藏。
 
-**操作：** 請學員開啟 prompt-revision-v2.txt。指出其中的保留條件及驗收案例。
+**操作：** 直接複製本頁三句提示，在兩套工具各自的初版接續修改。
 
 **檢核：** 學員準備好在各自的第一版繼續修改。
 
 **轉場：** 開始各五分鐘。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+**投影片完整 prompt：**
+
+```text
+請在「我的議程」加上衝堂提醒，指出時間重疊的收藏，讓我自己決定要不要取消。
+要看全部收藏，不受搜尋或篩選影響；一場結束剛好接下一場不算衝堂，不同日期也不要混在一起。
+請保留原本的收藏和功能，取消收藏後立即更新提醒。完成後讓我試用。
+```
+
+來源索引：S14；完整連結見 evidence/sources.md。
 
 ## 23　兩套工具各修改一次
 
@@ -326,7 +356,7 @@
 
 **轉場：** 接著用紀錄討論效率。
 
-**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+來源索引：S14；完整連結見 evidence/sources.md。
 
 ## 25　上一輪彩排觀察
 
@@ -340,17 +370,25 @@
 
 **轉場：** 我們用一個可重現錯誤來看除錯工作。
 
-## 26　除錯案例：首尾相接
+## 26　除錯 prompt：首尾相接
 
 **時間：** 14:43–14:45，2 分鐘
 
 **講述：** 若沒有適合教學的實測錯誤，就用明確標示的刻意植入案例。把小於寫成小於等於會使 4957 與 4958 首尾相接被誤判。修正後，真正重疊仍應提醒，跨日不能混在一起。
 
-**操作：** 指出兩個等號，說明最小修改。請學員以 4996+5030 與 4996+5018 成對驗證。
+**操作：** 把範本中的操作填成收藏 4957、4958，實際填看到衝堂提示，預期填 10:10 首尾相接應不衝堂。送出後重做邊界驗收。
 
 **檢核：** 學員能說出修正後要測的兩種結果。
 
 **轉場：** 接著把時間與費用放在一起看。
+
+**投影片完整 prompt：**
+
+```text
+我操作「＿＿」時，出現「＿＿」，但我預期是「＿＿」。
+請重現並修好，保留現有收藏與其他功能。修好後告訴我怎麼確認。
+（有錯誤訊息或畫面時，再附上。）
+```
 
 ## 27　費用與開發工時
 
@@ -364,7 +402,7 @@
 
 **轉場：** 還有一些影響後續使用的成本，今天只能觀察指標。
 
-**來源：** [Lovable credits and usage](https://docs.lovable.dev/introduction/credits-and-usage)、[OpenAI authentication](https://learn.chatgpt.com/docs/auth)、[OpenAI pricing](https://learn.chatgpt.com/docs/pricing)
+來源索引：S4, S7, S8；完整連結見 evidence/sources.md。
 
 ## 28　同一個 UX，不同的 UI
 
@@ -378,7 +416,7 @@
 
 **轉場：** 把這些觀察帶回自己的工作情境。
 
-**來源：** [Lovable FAQ](https://docs.lovable.dev/introduction/faq)、[Lovable GitHub sync](https://docs.lovable.dev/integrations/github)、[HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+來源索引：S2, S5, S14；完整連結見 evidence/sources.md。
 
 ## 29　情境選型表
 
@@ -440,7 +478,7 @@
 
 **轉場：** 回到實作或 Q&A。
 
-**來源：** [OpenAI pricing](https://learn.chatgpt.com/docs/pricing)、[Codex CLI](https://learn.chatgpt.com/docs/codex/cli)
+來源索引：S8, S9；完整連結見 evidence/sources.md。
 
 ## 34　macOS／Windows 環境檢查
 
@@ -466,19 +504,26 @@
 
 **轉場：** 回到下一個教學步驟。
 
-## 36　進階練習：匯出行事曆
+## 36　延伸 prompt：匯出行事曆
 
 **時間：** 附錄，課後延伸
 
-**講述：** 匯出 ICS 是一個很好的需求延伸題。除了把字串拼起來，還要處理時區、文字跳脫、CRLF 與長行折行。參考實作依 RFC 5545 的相關格式，正式使用前仍需驗證目標行事曆。
+**講述：** 先用這兩句人話描述想要的結果。實際 .ics 格式的欄位、跳脫、換行與時區，放在講義驗收及參考實作。匯入自己的行事曆軟體確認，不只相信文字回覆。
 
-**操作：** 開啟 extension-ics.md，指出測試例子與下載動作。
+**操作：** 複製本頁提示進行課後練習。檢查 4996 台北 13:00 對應 05:00 UTC，5030 台北 15:30 對應 07:30 UTC。
 
 **檢核：** 學員能說出至少一個畫面以外的驗收問題，例如 UTC 換算。
 
 **轉場：** 回到教材導覽。
 
-**來源：** [RFC 5545 iCalendar](https://www.rfc-editor.org/rfc/rfc5545)
+**投影片完整 prompt：**
+
+```text
+請讓我把全部收藏下載成 .ics 行事曆檔，不受搜尋或篩選影響，匯入後要有正確的議程名稱、日期時間與會議室。
+請保留原有收藏與功能，沒有收藏時提示我先收藏。完成後給我檔案，並說明怎麼驗證匯入結果。
+```
+
+來源索引：S10；完整連結見 evidence/sources.md。
 
 ## 37　完整實測紀錄表
 
@@ -492,16 +537,24 @@
 
 **轉場：** 需要更新簡報時，從這份紀錄取數。
 
-## 38　來源、版本與查核日期
+## 38　資料與官方參考網址
 
 **時間：** 附錄，供查閱
 
 **講述：** 議程附件是官網公開快照，70 筆場次與 12 筆休息原始資料分開保存。來源、擷取日期、台北時區正規化有紀錄，開課兩套工具使用同一份。主辦資訊以官網為準。
 
-**操作：** 需要追溯來源時開啟 sources.md。
+**操作：** 直接點選本頁官方網址，附件則看第 12 頁；完整來源記錄仍保留於 sources.md。
 
 **檢核：** 來源與限制可辨識。
 
 **轉場：** 結束。
 
-**來源：** [HWDC 公開議程](https://hwdc.ithome.com.tw/2026/lab/4996)、[Lovable FAQ](https://docs.lovable.dev/introduction/faq)、[Lovable subscription plans](https://docs.lovable.dev/introduction/subscription-plans)、[Lovable credits and usage](https://docs.lovable.dev/introduction/credits-and-usage)、[Lovable GitHub sync](https://docs.lovable.dev/integrations/github)、[OpenAI desktop quickstart](https://learn.chatgpt.com/docs/quickstart)、[OpenAI authentication](https://learn.chatgpt.com/docs/auth)、[OpenAI pricing](https://learn.chatgpt.com/docs/pricing)、[Codex CLI](https://learn.chatgpt.com/docs/codex/cli)、[RFC 5545 iCalendar](https://www.rfc-editor.org/rfc/rfc5545)、[Wolke 的 Medium 個人頁](https://wolkesau.medium.com/)、[Wolke@林建宏 自我介紹](https://medium.com/wolkesau/wolke-林建宏-自我介紹-6fbddfef865a)、[Wolke 的 Medium 著作頁](https://wolkesau.medium.com/books)、[HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+- [HWDC 議程](https://hwdc.ithome.com.tw/2026/agenda)
+- [Lovable 技術](https://docs.lovable.dev/introduction/faq)
+- [Lovable 額度](https://docs.lovable.dev/introduction/credits-and-usage)
+- [Codex 桌面](https://learn.chatgpt.com/docs/quickstart)
+- [Codex 登入／計費](https://learn.chatgpt.com/docs/auth)
+- [行事曆格式](https://www.rfc-editor.org/rfc/rfc5545)
+
+
+來源索引：S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14；完整連結見 evidence/sources.md。
