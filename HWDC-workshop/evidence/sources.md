@@ -13,8 +13,8 @@
 - [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)：CLI 操作與安裝入口。
 - [RFC 5545 iCalendar](https://www.rfc-editor.org/rfc/rfc5545)：延伸題的 VEVENT、轉義、CRLF 與折行。
 - [Wolke 的 Medium 個人頁](https://wolkesau.medium.com/)：公開自介所列 Google Developer Expert、LINE Expert 與 AI 協作主題。
-- [Wolke@林建宏 自我介紹](https://medium.com/wolkesau/wolke-林建宏-自我介紹-6fbddfef865a)：啟發者定位、提示與程式開發、大學及社群講授經驗。
-- [Wolke 的 Medium 著作頁](https://wolkesau.medium.com/books)：Gemini、ChatGPT 程式開發與 LINE 聊天機器人相關著作。
+- [Wolke@林建宏 自我介紹](https://medium.com/wolkesau/wolke-林建宏-自我介紹-6fbddfef865a)：啟發者定位、Google Developer Expert／LINE Message API Expert、大學及社群論壇講授經驗；第 5 頁照片源自文章內名片。
+- [Wolke 的 Medium 著作頁](https://wolkesau.medium.com/books)：四本著作與頁面所列年份，含 2026《實用的 Gemini API 開發點子書》。
 - [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)：2026-10-13 公開資料快照：70 筆議程與 12 筆休息；日期、講者、會議室和主題。
 - [本地舊條件彩排紀錄](rehearsal-observations.md)：單次操作觀察與限制，非正式效能排名。
 - [OpenAI Codex for students](https://developers.openai.com/community/students)：2,500 ChatGPT credits 等值 US$100，作美元面額換算假設，不代表本次實購價。

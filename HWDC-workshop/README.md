@@ -15,7 +15,7 @@
 
 可編輯 PPTX 採 Heiti TC／Menlo 字體。若電腦沒有這些字體，PowerPoint 可能替換字體；請投影前檢視，或使用 slides/index.html 的固定版面預覽。
 
-Lovable 額度用完者填寫群組申請表，由講師安排邀請；講師介紹依本人 Medium 自介與著作頁更新。新版簡報為根目錄 HWDC-2026-workshop-v7.pptx。
+Lovable 額度用完者填寫群組申請表，由講師安排邀請；講師介紹依本人 Medium 自介與著作頁更新。新版簡報為根目錄 HWDC-2026-workshop-v8.pptx。
 
 本次 v3：真實兩日議程以 JSON 附件提供，初版／修改 prompt 改為簡短人話，驗收 UX 邏輯，UI 由個人或 Agent 自由設計。資料來源見 materials/agenda-data.md，舊彩排結果見 evidence/rehearsal-observations.md。
 
@@ -28,3 +28,5 @@ Lovable 額度用完者填寫群組申請表，由講師安排邀請；講師介
 本次 v7：已建立只收 email 的 [Lovable 群組申請表](https://forms.gle/pt3nLWy622sYTfsG6)，開放持連結者填寫。第 3、35 頁均附 QR Code，另有 [申請說明與 QR 圖檔](materials/lovable-group-application.md)。邀請由講師安排，送出表單後不會自動加入。
 
 新增 [Roblox 與 Lovable 鐵人賽系列訂閱 QR Code](materials/series-subscriptions/index.html)：提供獨立 PNG／SVG、附標題版及 16:9 並排投影圖。
+
+本次 v8：第 5 頁為獨立自我介紹，含本人 Medium 照片、專業資格、講授經驗與代表著作。第 6 頁整合成品及學習目標，總頁數維持 38 頁。附 [講師介紹與完整書目](materials/speaker-profile.md)。
