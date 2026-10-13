@@ -47,7 +47,8 @@
       "id": "S8",
       "title": "OpenAI pricing",
       "url": "https://learn.chatgpt.com/docs/pricing",
-      "supports": "用量儀表板、CLI /status、方案與用量口徑；GPT-6 Astra Standard 250／25／1250 credits per million tokens 與速度倍率"
+      "supports": "用量儀表板、CLI /status、方案與用量口徑；GPT-6 Astra Standard 250／25／1250 credits per million tokens 與速度倍率",
+      "checked_on": "2026-10-14"
     },
     {
       "id": "S9",
@@ -71,7 +72,7 @@
       "id": "S12",
       "title": "Wolke@林建宏 自我介紹",
       "url": "https://medium.com/wolkesau/wolke-林建宏-自我介紹-6fbddfef865a",
-      "supports": "啟發者定位、Google Developer Expert／LINE Message API Expert、大學及社群論壇講授經驗；第 5 頁照片源自文章內名片"
+      "supports": "啟發者定位、大學及社群論壇講授經驗；第 5 頁照片源自文章內名片。專家身分日期依 S19 的較新自介修正。"
     },
     {
       "id": "S13",
@@ -108,6 +109,70 @@
       "title": "Lovable 群組加入申請表",
       "url": "https://forms.gle/pt3nLWy622sYTfsG6",
       "supports": "本次工作坊建立的公開填寫入口，只收集 Lovable 登入 email，由講師安排邀請"
+    },
+    {
+      "id": "S19",
+      "title": "Wolke：Lovable 到底強在哪裡",
+      "url": "https://ithelp.ithome.com.tw/articles/10406618",
+      "supports": "系列第 1 篇：整合開發流程、Plan／Build、測試與發布；作者自介明示曾任 GDE（2019–2023）及 LINE API Expert",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "id": "S20",
+      "title": "Wolke：Paddle 金流、Email、AI 與第三方整合",
+      "url": "https://ithelp.ithome.com.tw/articles/10406629",
+      "supports": "系列第 11 篇：第三方串接、Resend、Notion 與授權／費用邊界",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "id": "S21",
+      "title": "Wolke：發布、網域與正式上線",
+      "url": "https://ithelp.ithome.com.tw/articles/10406635",
+      "supports": "系列第 17 篇：lovable.app、發布快照、再次發布、自有網域與上線驗收",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "id": "S22",
+      "title": "Lovable Publishing",
+      "url": "https://docs.lovable.dev/features/publish",
+      "supports": "預設 lovable.app 網址、發布更新與付費方案自有網域",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "id": "S23",
+      "title": "Lovable Integrations",
+      "url": "https://docs.lovable.dev/integrations/introduction",
+      "supports": "App + chat、Chat（MCP）及 App user connectors 的帳號與使用時機差異",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "id": "S24",
+      "title": "Lovable Cloud",
+      "url": "https://docs.lovable.dev/features/cloud",
+      "supports": "託管、資料庫、身分驗證、儲存與 Edge functions",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "id": "S25",
+      "title": "Wolke：Roblox Studio AI 協作開發大全",
+      "url": "https://ithelp.ithome.com.tw/users/20046160/ironman/9450",
+      "supports": "Roblox 系列訂閱頁，第 44 頁 QR Code 目的地",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "id": "S26",
+      "title": "Wolke：Lovable 全端網站 Agentic 開發實戰",
+      "url": "https://ithelp.ithome.com.tw/users/20046160/ironman/9449",
+      "supports": "Lovable 系列訂閱頁及 30 篇章節索引，第 44 頁 QR Code 目的地",
+      "checked_on": "2026-10-14"
+    },
+    {
+      "id": "S27",
+      "title": "講師提供：原投稿題目與改題經過",
+      "url": "../materials/bonus-content.md",
+      "supports": "2026-10-14 本次對話由講師提供，僅描述當時採用流程與贊助洽詢結果",
+      "checked_on": "2026-10-14"
     }
-  ]
+  ],
+  "updated_on": "2026-10-14"
 }

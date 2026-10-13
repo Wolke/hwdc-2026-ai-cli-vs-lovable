@@ -1,0 +1,80 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>選講補充：費用、開發場景與 Lovable 平台</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;color:#17283e;background:#f5f8fc;line-height:1.85}main{max-width:1000px;margin:30px auto;padding:42px 48px;background:white}h1{font-size:32px;line-height:1.4;margin:0 0 24px;color:#123564}h2{font-size:24px;margin:42px 0 18px;border-bottom:2px solid #e0eafa;padding-bottom:8px}h3{font-size:20px}a{color:#155ebd;text-decoration-thickness:1px;text-underline-offset:3px}p,li{font-size:16px}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.65;margin:24px 0}th,td{border:1px solid #ccd9ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf3fc;color:#174777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fa;border-left:3px solid #155ebd;padding:18px;font:14px/1.8 ui-monospace,Menlo,monospace}code{font-family:ui-monospace,Menlo,monospace;color:#25476d}nav{max-width:1000px;margin:20px auto;padding:0 16px;font-size:14px}blockquote{margin:20px 0;padding:10px 20px;border-left:4px solid #d28c1f;background:#fff8e7}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:28px 20px}h1{font-size:27px}table{display:block;overflow-x:auto}th,td{min-width:110px}nav{margin:14px 0}}@page{size:A4;margin:18mm}@media print{body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}nav{display:none}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}p,li{font-size:11pt}table{font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}pre{font-size:9pt}a{color:inherit;text-decoration:none}}</style></head><body><nav><a href="../../開始這裡.html">教材首頁</a>　<a href="bonus-content.md">Markdown 原文</a>　可使用瀏覽器列印</nav><main><h1>選講補充：費用、開發場景與 Lovable 平台</h1>
+<p>第 39–43 頁供時間充裕時選講，完整約 10–11 分鐘。第 44 頁是課後系列訂閱，約 1 分鐘。原本 90 分鐘的核心實作與 Q&amp;A 不變；若無餘裕，第 32 頁 Q&amp;A 後直接跳到第 44 頁。瀏覽器投影片提供「補充內容」與「訂閱 QR」快捷鍵。</p>
+<h2>第 39 頁：這次的費用估算代表什麼</h2>
+<table>
+<thead>
+<tr>
+<th>工具</th>
+<th>取得的用量</th>
+<th>美元換算口徑</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Lovable</td>
+<td>初版 2 + 修改 3.10 = 5.10 credits</td>
+<td>正常 Business 月費 588／1,200 credits 分攤，約 US$2.50</td>
+</tr>
+<tr>
+<td>Codex</td>
+<td>754,275 tokens，含 730,150 cached input</td>
+<td>GPT-6 Astra Standard 額度率，再以 US$0.04／credit 面額換算，約 US$1.39</td>
+</tr>
+</tbody></table>
+<p>在這組假設下，Codex 估值較低。Lovable 的正常訂閱分攤與 Codex 的額度面額估算都不等於已核實的專案扣款。Codex 實際速度模式未取得，若以加購額度 Fast 2 倍或 Ultrafast 6 倍試算，約為 US$2.77／US$8.32。不能從 Standard 情境推論所有模式都較便宜。</p>
+<p>此資料屬 2026-10-13 的舊版 12 筆資料、長提示彩排，新版 70 筆真實議程＋短提示尚未獨立限時重測。比較時還要看通過項目、返工與人的投入，且不可將不同平台的 credits 視為相同單位。完整公式、帳單狀態與證據見 <a href="../evidence/cost-check-20261013.md">用量與費用紀錄</a>。</p>
+<h2>第 40 頁：Roblox 原投稿題目與換場景重測</h2>
+<p>以下為講師於 2026-10-14 提供的投稿經驗：原先想以 Roblox Studio AI 與通用 AI 比較。當時預計使用的流程需要參與者提供自己的 API key 與用量預算，主辦單位曾洽詢贊助，但未取得，最後改成 Lovable。此敘述限於當時規劃的操作方式，不代表所有 Roblox AI 功能都必須提供自備 key。</p>
+<p>這次網站開發屬通用 coding agent 的常見任務。講師想提醒的是：換到需要掌握編輯器狀態、場景物件與資產的任務，結果可能不同。可以用 Roblox 的 Luau 腳本、場景操作與 Playtest 當下一個課題，但本堂沒有 Roblox 效能或費用實測結果。</p>
+<p>課後比較仍沿用本堂框架：</p>
+<ol>
+<li>先定共同需求、起始資料與可觀察的完成條件。</li>
+<li>各自限時建置，保存所有追加提示及失敗紀錄。</li>
+<li>提出相同修改，再檢查新功能與原有行為。</li>
+<li>同時比較完成度、經過時間、主動工時及等待。</li>
+<li>取得用量或帳單，分開寫訂閱分攤、額外費用與估算假設。</li>
+</ol>
+<h2>第 41 頁：發布與網域</h2>
+<p>Lovable 可直接發布到預設的 <code>project-name.lovable.app</code> 網址，由平台提供網站託管。投影片中的網址是格式示意。程式編輯與正式站更新有各自步驟，修改完成後需再次發布。付費方案可連接自己購買的網域。</p>
+<p>延伸閱讀：<a href="https://ithelp.ithome.com.tw/articles/10406635">系列第 17 篇</a>、<a href="https://docs.lovable.dev/features/publish">官方 Publishing</a>。</p>
+<h2>第 42 頁：整合在平台裡的工具</h2>
+<p>Lovable 將需求討論、Agent 實作、後端資源、測試與發布放在同一套流程：</p>
+<ul>
+<li>Plan／Build：先討論規劃，再讓 Agent 實作。</li>
+<li>Lovable Cloud：資料庫、登入、檔案儲存與後端函式。</li>
+<li>測試與安全檢查：提供工具協助檢查，發布前仍需親自驗收。</li>
+<li>GitHub 與發布：同步程式碼、查看預覽、發布正式站。</li>
+</ul>
+<p>評估平台價值時，也要記錄省下多少設定與整合工時。建置 credits、Cloud／AI 使用與第三方服務可能各有計費口徑，依實際方案核對，不假設全部包含或無上限。</p>
+<p>延伸閱讀：<a href="https://ithelp.ithome.com.tw/articles/10406618">系列第 1 篇</a>、<a href="https://docs.lovable.dev/features/cloud">官方 Cloud</a>。</p>
+<h2>第 43 頁：第三方服務與 connectors</h2>
+<p>常見例子包含 Notion、Google Workspace、Slack 與 Resend。Connector 減少串接工作，但仍需授權帳號、設定權限，並核對第三方費用。依 2026-10-14 官方說明，區分如下：</p>
+<table>
+<thead>
+<tr>
+<th>類型</th>
+<th>帳號與使用方式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>App + chat connector</td>
+<td>共用連線，可供成品 App 執行時和建置對話使用</td>
+</tr>
+<tr>
+<td>Chat connector（MCP）</td>
+<td>個人的建置上下文，不隨成品部署</td>
+</tr>
+<tr>
+<td>App user connector</td>
+<td>由每位 App 使用者登入自己的帳號與授權</td>
+</tr>
+</tbody></table>
+<p>不同服務支援的類型不同，不可看到同一個品牌名稱就假設帳號、權限及執行方式完全一樣。例如以 Notion 文件作為建置參考，與成品 App 寫入 Notion 是兩個不同需求。</p>
+<p>延伸閱讀：<a href="https://ithelp.ithome.com.tw/articles/10406629">系列第 11 篇</a>、<a href="https://docs.lovable.dev/integrations/introduction">官方 Integrations</a>。</p>
+<h2>第 44 頁：兩個系列訂閱</h2>
+<p>投影片已直接放入兩張 QR Code。掃碼開啟系列，登入 iT 邦幫忙後點「訂閱系列文」。</p>
+<ul>
+<li><a href="https://ithelp.ithome.com.tw/users/20046160/ironman/9450">Roblox Studio AI 協作開發大全</a></li>
+<li><a href="https://ithelp.ithome.com.tw/users/20046160/ironman/9449">Lovable：地球上最強的 AI 生成全端網站 Agentic 開發實戰</a></li>
+</ul>
+<p>可另開 <a href="series-subscriptions/index.html">QR 展示頁</a>，或取用同目錄的 PNG／SVG 圖檔。</p>
+</main></body></html>
