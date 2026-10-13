@@ -17,13 +17,13 @@
       "id": "S3",
       "title": "Lovable subscription plans",
       "url": "https://docs.lovable.dev/introduction/subscription-plans",
-      "supports": "每日／每月建置額度、Git 同步與付費程式下載"
+      "supports": "每日／每月建置額度、Git 同步與付費程式下載；Business 月繳 US$588／1,200 credits"
     },
     {
       "id": "S4",
       "title": "Lovable credits and usage",
       "url": "https://docs.lovable.dev/introduction/credits-and-usage",
-      "supports": "建置依複雜度耗點、用量查詢方法"
+      "supports": "建置依複雜度耗點、用量查詢方法；訊息 Credits used、Business 加購 US$30／50 credits"
     },
     {
       "id": "S5",
@@ -47,7 +47,7 @@
       "id": "S8",
       "title": "OpenAI pricing",
       "url": "https://learn.chatgpt.com/docs/pricing",
-      "supports": "用量儀表板、CLI /status、方案與用量口徑"
+      "supports": "用量儀表板、CLI /status、方案與用量口徑；GPT-6 Astra Standard 250／25／1250 credits per million tokens 與速度倍率"
     },
     {
       "id": "S9",
@@ -90,6 +90,18 @@
       "title": "本地舊條件彩排紀錄",
       "url": "rehearsal-observations.md",
       "supports": "單次操作觀察與限制，非正式效能排名"
+    },
+    {
+      "id": "S16",
+      "title": "OpenAI Codex for students",
+      "url": "https://developers.openai.com/community/students",
+      "supports": "2,500 ChatGPT credits 等值 US$100，作美元面額換算假設，不代表本次實購價"
+    },
+    {
+      "id": "S17",
+      "title": "舊彩排用量與費用補充",
+      "url": "cost-check-20261013.md",
+      "supports": "Lovable 每訊息實耗與 Codex 時間窗 token 衍生統計、估算假設和限制"
     }
   ]
 }

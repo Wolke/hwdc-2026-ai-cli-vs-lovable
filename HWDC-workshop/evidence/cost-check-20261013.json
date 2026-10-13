@@ -1,0 +1,109 @@
+{
+  "checked_on": "2026-10-13",
+  "scope": "Old rehearsal: 12 synthetic records and long prompts; not the new 70-record comparison",
+  "currency": "USD",
+  "lovable": {
+    "measurement_method": "Each original project reply: More options > Credits used",
+    "v1_actual_credits": 2,
+    "v2_actual_credits": 3.1,
+    "total_actual_credits": 5.1,
+    "plan": "Business monthly, 1200 credits",
+    "normal_monthly_list_usd": 588,
+    "allocation_usd_per_credit": 0.49,
+    "normal_subscription_allocation_usd": 2.499,
+    "topup_usd_per_credit": 0.6,
+    "topup_equivalent_usd": 3.06,
+    "current_discounted_subscription_invoice_usd": 0,
+    "discount_note": "Full subscription discount observed; no coupon or billing identifiers retained",
+    "project_actual_charge_usd": null,
+    "per_message_credit_grant_source": null,
+    "evidence_images": [
+      "cost-check/lovable-v1-credits.png",
+      "cost-check/lovable-v2-credits.png"
+    ]
+  },
+  "codex": {
+    "originator": "Codex Desktop",
+    "cli_version": "0.160.0",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "actual_speed_mode": null,
+    "actual_charge_usd": null,
+    "measurement_method": "Sum unique token_usage_record payload.usage by response timestamp within rehearsal windows; approximate task attribution",
+    "phases": [
+      {
+        "phase": "v1",
+        "start_utc": "2026-10-13T03:58:54.533Z",
+        "end_utc": "2026-10-13T04:00:49.852Z",
+        "requests": 6,
+        "usage": {
+          "input_tokens": 336117,
+          "cached_input_tokens": 327293,
+          "cache_write_input_tokens": 8806,
+          "output_tokens": 7202,
+          "reasoning_output_tokens": 102,
+          "total_tokens": 343319,
+          "uncached_input_tokens": 8824
+        },
+        "standard_codex_credit_equivalent": 19.390825,
+        "standard_usd_equivalent_at_0_04_per_credit": 0.775633,
+        "first_usage_record": "2026-10-13T03:59:39.715Z",
+        "last_usage_record": "2026-10-13T04:00:47.365Z"
+      },
+      {
+        "phase": "v2",
+        "start_utc": "2026-10-13T04:01:21.611Z",
+        "end_utc": "2026-10-13T04:02:24.959Z",
+        "requests": 6,
+        "usage": {
+          "input_tokens": 407778,
+          "cached_input_tokens": 402857,
+          "cache_write_input_tokens": 4903,
+          "output_tokens": 3178,
+          "reasoning_output_tokens": 176,
+          "total_tokens": 410956,
+          "uncached_input_tokens": 4921
+        },
+        "standard_codex_credit_equivalent": 15.274175,
+        "standard_usd_equivalent_at_0_04_per_credit": 0.610967,
+        "first_usage_record": "2026-10-13T04:01:21.680Z",
+        "last_usage_record": "2026-10-13T04:02:23.159Z"
+      }
+    ],
+    "total_usage": {
+      "input_tokens": 743895,
+      "cached_input_tokens": 730150,
+      "cache_write_input_tokens": 13709,
+      "output_tokens": 10380,
+      "reasoning_output_tokens": 278,
+      "total_tokens": 754275,
+      "uncached_input_tokens": 13745
+    },
+    "standard_rates_credits_per_million_tokens": {
+      "uncached_input": 250,
+      "cached_input": 25,
+      "output": 1250
+    },
+    "assumed_credit_face_value_usd": 0.04,
+    "standard_credit_equivalent": 34.665,
+    "standard_usd_face_equivalent": 1.3866,
+    "purchased_credit_speed_scenarios_usd": {
+      "standard": 1.3866,
+      "fast": 2.7732,
+      "ultrafast": 8.319600000000001
+    },
+    "limitations": [
+      "Long prior conversation and cached context included",
+      "Interleaved tool control and QA; response-time windows only",
+      "Speed mode and actual billing unknown",
+      "Not API billing; included subscription limit multipliers differ"
+    ]
+  },
+  "source_urls": [
+    "https://docs.lovable.dev/introduction/subscription-plans",
+    "https://docs.lovable.dev/introduction/credits-and-usage",
+    "https://learn.chatgpt.com/docs/pricing",
+    "https://developers.openai.com/community/students",
+    "https://learn.chatgpt.com/docs/auth"
+  ]
+}

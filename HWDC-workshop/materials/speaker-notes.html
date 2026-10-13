@@ -203,13 +203,18 @@ UI 風格自由發揮，不用登入。做好後請開啟預覽，讓我試用�
 請重現並修好，保留現有收藏與其他功能。修好後告訴我怎麼確認。
 （有錯誤訊息或畫面時，再附上。）
 </code></pre>
-<h2>27　費用與開發工時</h2>
+<h2>27　彩排用量與費用換算</h2>
 <p><strong>時間：</strong> 14:45–14:48，3 分鐘</p>
-<p><strong>講述：</strong> 不同平台的點數不能直接當成相同價值。訂閱包含的額度、額外付費與人的時間需要分開。Codex 以 ChatGPT 登入和 API 金鑰登入適用不同計費口徑。公式中的費率與分攤都要寫清楚。 使用講師提供群組者，額度來源要註明；若無法取得個人消耗數據，填未取得，不把講師提供當作工具成本為零。</p>
-<p><strong>操作：</strong> 以學員紀錄表找出可取得與不可取得的欄位。沒有值就保留公式，跨幣別先交代匯率與日期。</p>
-<p><strong>檢核：</strong> 學員不把未知用量當零，也不重複加總除錯時間。</p>
-<p><strong>轉場：</strong> 還有一些影響後續使用的成本，今天只能觀察指標。</p>
-<p>來源索引：S4, S7, S8；完整連結見 evidence/sources.md。</p>
+<p><strong>講述：</strong> 本頁屬舊版 12 筆資料、長提示的彩排。Lovable 逐訊息實耗為初版 2 credits、修改 3.10，共 5.10。使用 Business 每月 1,200 credits 正常月費 US$588 全數分攤，單位 US$0.49，合計 US$2.499，約 US$2.50。此分攤未把每日附送點數或訂閱功能另外估值。工作區目前有全額訂閱優惠，當期訂閱帳單為 US$0，因此表中的金額不是專案實扣。若以 Business 加購 US$30／50 credits 換算，則為 US$3.06，兩個口徑不相加。Codex 在兩段實作時間窗共 743,895 輸入 tokens（其中 730,150 快取、13,745 未快取）及 10,380 輸出。依 GPT-6 Astra Standard 每百萬 tokens 的 250／25／1250 credits，換算 34.665 Codex credits。另採官方 2,500 credits 等值 US$100 的面額假設，得到約 US$1.39。這不是已核實的額度扣除或帳單。速度模式未記錄，若依加購額度的 Fast 2 倍／Ultrafast 6 倍試算，約 US$2.77／US$8.32。Codex 長對話及交錯操作使時間窗歸屬只能近似，和 Lovable 平台內訊息耗點的邊界不完全一致。這些結果不足以判定誰較便宜。人的主動工時與等待另外記錄，缺值不補零。</p>
+<p><strong>操作：</strong> 先指認直接取得的用量，再指認換算假設。需要細節時，開啟教材 evidence/cost-check-20261013.html，展示兩張 Lovable 訊息耗點截圖、Codex token 明細與公式。提醒新條件的 70 筆議程比較仍待測。</p>
+<p><strong>檢核：</strong> 學員能區分實耗、正常訂閱分攤、Standard 情境估算與帳單實扣，不把不同平台 credits 當成相同單位，也不重複加總快取輸入或推理輸出。</p>
+<p><strong>轉場：</strong> 除了這次用量，接著看修改範圍與後續接手會帶來什麼工作。</p>
+<ul>
+<li><a href="https://docs.lovable.dev/introduction/subscription-plans">Lovable 訂閱牌價</a></li>
+<li><a href="https://learn.chatgpt.com/docs/pricing">Codex 額度牌價</a></li>
+<li><a href="https://developers.openai.com/community/students">Codex credit 美元面額假設</a></li>
+</ul>
+<p>來源索引：S3, S4, S7, S8, S15, S16, S17；完整連結見 evidence/sources.md。</p>
 <h2>28　同一個 UX，不同的 UI</h2>
 <p><strong>時間：</strong> 14:48–14:50，2 分鐘</p>
 <p><strong>講述：</strong> 讓兩位學員用不同 UI 展示同一任務：找到議程、收藏、看衝堂、決定取消或保留。上一輪 Lovable 在提醒區直接加取消按鈕，Codex 由卡片取消；兩者都能完成，但步驟不同。討論這些操作是否清楚，再分享個人的視覺風格。</p>

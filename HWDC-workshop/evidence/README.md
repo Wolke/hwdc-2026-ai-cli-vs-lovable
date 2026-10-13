@@ -8,3 +8,5 @@
 - sources.json / sources.md 記錄公開來源、支持的主張與查核日期。
 
 參考解答與離線版本由 Codex 協助製作。操作與 QA 的具體範圍、未測項目以 reference-qa.json 為準。
+
+- [cost-check-20261013.md](cost-check-20261013.md) / [JSON](cost-check-20261013.json)：舊彩排兩則 Lovable 訊息耗點，以及 Codex 本機 token 時間窗估算、換算公式與限制。cost-check/ 保存兩張訊息耗點截圖。美元為估算／分攤，不代表專案實扣。
