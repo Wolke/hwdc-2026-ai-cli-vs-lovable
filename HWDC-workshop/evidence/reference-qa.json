@@ -1,0 +1,73 @@
+{
+  "checked_on": "2026-10-13",
+  "scope": "Codex 製作的參考程式功能 QA，非工具效能實測",
+  "browser": "Google Chrome headless, fresh test profile",
+  "viewports": [
+    "1366x900",
+    "390x844"
+  ],
+  "browser_timezone": "America/Los_Angeles",
+  "checks": [
+    {
+      "name": "A1: 12 sessions sorted, Taipei time independent of browser zone",
+      "status": "passed"
+    },
+    {
+      "name": "A2: speaker search and empty state",
+      "status": "passed"
+    },
+    {
+      "name": "A3: search and track AND filter",
+      "status": "passed"
+    },
+    {
+      "name": "A4: favorite add/remove without duplicates",
+      "status": "passed"
+    },
+    {
+      "name": "A5: favorites view ordered",
+      "status": "passed"
+    },
+    {
+      "name": "A6: reload persistence, mobile 390px, usable controls",
+      "status": "passed"
+    },
+    {
+      "name": "B6 part: cross-version favorites retained on same origin",
+      "status": "passed"
+    },
+    {
+      "name": "B4: adjacent sessions have no conflict",
+      "status": "passed"
+    },
+    {
+      "name": "B1 partial",
+      "status": "passed"
+    },
+    {
+      "name": "B2 containment",
+      "status": "passed"
+    },
+    {
+      "name": "B3 identical",
+      "status": "passed"
+    },
+    {
+      "name": "B5: conflict independent of filter and removed immediately",
+      "status": "passed"
+    },
+    {
+      "name": "V2 regression: filters, favorites, empty state, persistence",
+      "status": "passed"
+    },
+    {
+      "name": "Malformed storage does not crash",
+      "status": "passed"
+    },
+    {
+      "name": "Offline single HTML builds work without network",
+      "status": "passed"
+    }
+  ],
+  "console_errors": []
+}

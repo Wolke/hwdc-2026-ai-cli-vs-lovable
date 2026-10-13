@@ -1,0 +1,35 @@
+{
+  "description": "獨立比較紀錄，未執行者保持 null，不以教學參考解答 QA 代替。",
+  "runs": [
+    {
+      "workflow": "手工開發",
+      "status": "未取得實測",
+      "v1_seconds": null,
+      "v1_passed": null,
+      "v2_seconds": null,
+      "v2_passed": null,
+      "usage": null,
+      "reason": "需講師依規則親自實作"
+    },
+    {
+      "workflow": "Lovable",
+      "status": "未取得實測",
+      "v1_seconds": null,
+      "v1_passed": null,
+      "v2_seconds": null,
+      "v2_passed": null,
+      "usage": null,
+      "reason": "瀏覽器連線受目前驗證方式限制；原生 App 停在載入畫面，未完成獨立建置"
+    },
+    {
+      "workflow": "Codex 桌面 App",
+      "status": "未取得實測",
+      "v1_seconds": null,
+      "v1_passed": null,
+      "v2_seconds": null,
+      "v2_passed": null,
+      "usage": null,
+      "reason": "本聊天製作教材與參考解答，未執行獨立的新專案限時比較"
+    }
+  ]
+}

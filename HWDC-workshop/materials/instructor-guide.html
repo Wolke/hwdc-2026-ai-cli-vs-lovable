@@ -1,0 +1,132 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HWDC 2026 講師手冊</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;color:#17283e;background:#f5f8fc;line-height:1.85}main{max-width:1000px;margin:30px auto;padding:42px 48px;background:white}h1{font-size:32px;line-height:1.4;margin:0 0 24px;color:#123564}h2{font-size:24px;margin:42px 0 18px;border-bottom:2px solid #e0eafa;padding-bottom:8px}h3{font-size:20px}a{color:#155ebd;text-decoration-thickness:1px;text-underline-offset:3px}p,li{font-size:16px}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.65;margin:24px 0}th,td{border:1px solid #ccd9ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf3fc;color:#174777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fa;border-left:3px solid #155ebd;padding:18px;font:14px/1.8 ui-monospace,Menlo,monospace}code{font-family:ui-monospace,Menlo,monospace;color:#25476d}nav{max-width:1000px;margin:20px auto;padding:0 16px;font-size:14px}blockquote{margin:20px 0;padding:10px 20px;border-left:4px solid #d28c1f;background:#fff8e7}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:28px 20px}h1{font-size:27px}table{display:block;overflow-x:auto}th,td{min-width:110px}nav{margin:14px 0}}@page{size:A4;margin:18mm}@media print{body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}nav{display:none}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}p,li{font-size:11pt}table{font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}pre{font-size:9pt}a{color:inherit;text-decoration:none}}</style></head><body><nav><a href="../../開始這裡.html">教材首頁</a>　<a href="instructor-guide.md">Markdown 原文</a>　可使用瀏覽器列印</nav><main><h1>HWDC 2026 講師手冊</h1>
+<p>講師：林建宏（Wolke Lin）
+正式課程：2026/10/14 13:30–15:00，環境準備：13:00–13:30。</p>
+<h2>開講前先做</h2>
+<ol>
+<li>先完成手工實測，再看參考解答。使用 starter，關閉 AI 補全，允許查官方文件。</li>
+<li>初版 15 分鐘、修改 5 分鐘都包含驗收。第二輪需求放在獨立檔案，第一輪結束才看。</li>
+<li>每條 AI 路徑使用新專案及相同需求，保留追加提示與失敗。不要以這套教材的製作過程當成 Codex 實測。</li>
+<li>將可核實結果填入 measurement-template.md，再更新簡報第 25 頁的可編輯表格。沒有紀錄就保留「未取得實測」。</li>
+<li>下載教材、投影片及 offline HTML 到本機。實際打開一份離線版本，準備切換。</li>
+<li>確認投影可讀性、字體、鏡像或延伸顯示，以及實作時可看見的計時器。</li>
+<li>準備私下提供的群組加入方式，先確認學員加入後的實作入口可用。邀請方式由講師現場提供。</li>
+</ol>
+<h2>講師介紹與開場（約 30 秒）</h2>
+<p>「我是林建宏 Wolke。我把自己定位為一名啟發者，透過分享開發經驗，幫助大家理解問題並動手實作。我是 Google Developer Expert、LINE Expert，也是技術書作者，持續分享 AI 人機協作、提示工程與程式開發。今天我們就用同一份需求，一起觀察工具建置、修改與驗收的差異。」</p>
+<p>介紹依本人 <a href="https://medium.com/wolkesau/wolke-%E6%9E%97%E5%BB%BA%E5%AE%8F-%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9-6fbddfef865a">Medium 自介</a> 與 <a href="https://wolkesau.medium.com/books">著作頁</a> 整理。相關著作主題包含 Gemini 開發、ChatGPT 輔助程式開發及 LINE 聊天機器人。開場以與本課相關的經驗為主，完整書目供課後參考。</p>
+<h2>素材狀態</h2>
+<p>本套教材已提供合成資料、起始專案、兩版參考解答、提示詞、驗收表及離線版本。參考解答由 Codex 製作，不能標示為人類手工版本。
+人類手工比較需要講師實作。Lovable 的獨立實測與 Codex 桌面 App 的獨立計時實測目前未取得，結果表保持空白狀態並註明原因。功能測試與工具效能實測分開。</p>
+<h2>入場準備</h2>
+<p>13:00–13:10：播放第 1–2 頁，確認學員取得教材、帳號與網路可用。
+13:10–13:20：確認 Node、npm、空白專案可啟動，讓已完成者協助鄰座。
+13:20–13:30：確認 Lovable 及通用工具額度，準備紀錄表。今天 5 點已用完者，由講師私下提供群組加入方式，盡量在正式計時前確認可操作。13:25 後依大會現場安排入場，不自行更動規則。</p>
+<h2>正式課程逐段腳本</h2>
+<table>
+<thead>
+<tr>
+<th>時段</th>
+<th>頁碼</th>
+<th>帶領方式與檢核</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>13:30–13:35</td>
+<td>4–6</td>
+<td>介紹自己約 30 秒。示範搜尋、收藏、重新整理，再切到有衝堂的版本。問學員目前主要用哪套工具。說明今天留下作品與紀錄。</td>
+</tr>
+<tr>
+<td>13:35–13:45</td>
+<td>7–11</td>
+<td>定義工具類型及比較邊界。強調功能、資料、驗收相同，框架差異記錄。解釋 15／5 分鐘、截止未完成及未知用量的記法。拆解一次初版提示。</td>
+</tr>
+<tr>
+<td>13:45–13:48</td>
+<td>12–13</td>
+<td>在 Lovable 新專案貼完整提示，展示預覽入口及用量查詢方法。依帳號當日介面操作，不宣稱固定耗點。</td>
+</tr>
+<tr>
+<td>13:48–14:03</td>
+<td>13</td>
+<td>學員操作與驗收。第 5 分鐘提醒看畫面，第 10 分鐘提醒轉入驗收，最後 2 分鐘記錄。卡關超過 2 分鐘切備援。</td>
+</tr>
+<tr>
+<td>14:03–14:05</td>
+<td>14</td>
+<td>請大家舉手回報完成 6 項、部分完成、尚未生成，保留原因。</td>
+</tr>
+<tr>
+<td>14:05–14:08</td>
+<td>15–18</td>
+<td>Codex App 開啟獨立 starter，指出需求、資料及驗收文件，貼同正文提示，展示差異與終端機。</td>
+</tr>
+<tr>
+<td>14:08–14:23</td>
+<td>18</td>
+<td>第二套工具實作與驗收 15 分鐘。提醒不能複製第一套工具的程式。</td>
+</tr>
+<tr>
+<td>14:23–14:25</td>
+<td>19</td>
+<td>保存成果、完成度與用量。尚未完成者以參考版本接續。</td>
+</tr>
+<tr>
+<td>14:25–14:26</td>
+<td>20–22</td>
+<td>發布衝堂需求，指出首尾相接不算重疊，原收藏應保留。</td>
+</tr>
+<tr>
+<td>14:26–14:31</td>
+<td>23</td>
+<td>Lovable 修改與驗收 5 分鐘。</td>
+</tr>
+<tr>
+<td>14:31–14:36</td>
+<td>23</td>
+<td>通用工具修改與驗收 5 分鐘。</td>
+</tr>
+<tr>
+<td>14:36–14:40</td>
+<td>24</td>
+<td>檢查邊界與回歸，記下未測項目，邀請兩位學員分享各一句觀察。</td>
+</tr>
+<tr>
+<td>14:40–14:50</td>
+<td>25–28</td>
+<td>展示實際紀錄或未取得狀態。用完成度解讀耗時，說明除錯、成本及維護觀察的限制。</td>
+</tr>
+<tr>
+<td>14:50–14:55</td>
+<td>29–31</td>
+<td>請學員寫下一個工作情境及選型理由。以 PDCA 整理今天留下的規格、程式、驗收及修正。介紹課後教材。</td>
+</tr>
+<tr>
+<td>14:55–15:00</td>
+<td>32</td>
+<td>回答與本案例相關的問題，延伸環境問題留待課後。15:00 結束。</td>
+</tr>
+</tbody></table>
+<p>每頁完整講述備註另見 speaker-notes.md，PPTX 內也有相同內容。</p>
+<h2>統一實測口徑</h2>
+<p>使用乾淨起始專案。帳號登入、套件安裝、空白頁啟動另計設定時間，建置從開始撰寫／送出該輪需求或程式開始。預先提供的共同需求正文不計撰寫時間，但追加提示計入。停止於全部驗收通過或時間上限。</p>
+<p>經過時間包含生成等待、人工檢查與除錯。主動操作與等待可分項觀察，但不改動經過時間。除錯是經過時間的組成，不另行加總。</p>
+<p>預先提供空白框架對手工與 Codex 一致。Lovable 使用平台原生初始化，技術堆疊差異揭露。本次比較是工作流程案例，無法隔離模型本身能力。單次結果不代表普遍優劣。</p>
+<h2>提問與可能回答</h2>
+<p><strong>誰比較快？</strong> 先確認完成哪些功能。只有同樣通過驗收的結果才適合比較完成時間，未完成者同時看通過項數及截止時間。</p>
+<p><strong>免費就沒有成本？</strong> 免費額度仍有限，另有人的操作、等待與除錯時間。保留點數單位，不把不同平台的一點視為相同價值。</p>
+<p><strong>為何用桌面 App 講 CLI 題目？</strong> 本課比較通用開發代理與場景整合工具。桌面 App 是本次示範介面，CLI 對應操作在附錄。同一產品不同介面仍可能有不同設定與能力，需記錄。</p>
+<p><strong>可以用其他工具嗎？</strong> 可以，用相同需求與資料，記錄工具、模型及環境。學員的異質結果只作體驗交流。</p>
+<p><strong>維護成本如何得知？</strong> 這堂課只觀察一次修改、回歸及交接。長期維護需更長時間追蹤，本次不推估未測成本。</p>
+<h2>除錯示範（第 26 頁）</h2>
+<p>若沒有可用的真實錯誤，使用以下明示為「刻意植入錯誤」的案例：將區間判斷式的兩個 <code>&lt;</code> 改為 <code>&lt;=</code>。收藏 S01 09:00–09:40 與 S03 09:40–10:20，會錯判衝堂。請 AI 用重現步驟定位，改回 <code>&lt;</code>，再驗證真正重疊的 S01+S02 仍會提示。此案例不能列為任一工具的實測失誤。</p>
+<h2>成本說明</h2>
+<p>把訂閱固定費、額外付費、額度消耗、人的主動工時分開記。使用講師提供群組者應註明額度來源；若無法取得個人用量，維持「未取得」。若要估算專案成本：訂閱分攤＋額外用量費＋人工作業時數×每小時成本。跨幣別先說明換算日期與匯率；若缺值則保留公式，不產生總額。等待時間是否影響交付，另外討論。</p>
+<h2>現場備援與時間控制</h2>
+<p>Lovable 額度用完者先向講師示意，由講師私下提供群組加入方式。加入後確認實作入口可用，紀錄個人或群組額度來源。若在第二輪切換，先保存原專案與收藏，不假設群組加入會自動轉移既有成果。</p>
+<p>單一講師不逐台排障。群組加入後仍無法建置，或其他問題卡關 2 分鐘仍無法接續，就記錄原因並開啟 offline/reference-v1.html 或 reference-v2.html。學員使用備援時標明，避免混入實測。</p>
+<p>若全場網路不穩，讓學員先在離線版逐項驗收，寫出修改提示，再使用截圖與既有紀錄討論工具差異。若流程落後，縮短成果分享與第 28 頁講述，保留第二輪、驗收及最後 5 分鐘 Q&amp;A。</p>
+<h2>彩排紀錄</h2>
+<p>本套教案的排程總長 90 分鐘。機器檢查可驗證分段加總與教材連結，不能取代講師實際講述的 90 分鐘彩排。開講前至少走一次開檔、切換工具、啟動預覽、切離線版與投影片備註流程。把實際彩排時間另填紀錄，不混入工具比較。</p>
+<h2>更新結果</h2>
+<p>第 25 頁是原生可編輯表格。把已核實的「初版通過數／耗時」「修改通過數／耗時」填入，保留條件及來源。未取得資料仍維持原標示。若只有一條路徑有結果，展示這條路徑的案例，不宣布三方排名。</p>
+</main></body></html>

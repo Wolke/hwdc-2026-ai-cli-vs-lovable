@@ -1,0 +1,281 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HWDC 2026 學員講義</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;color:#17283e;background:#f5f8fc;line-height:1.85}main{max-width:1000px;margin:30px auto;padding:42px 48px;background:white}h1{font-size:32px;line-height:1.4;margin:0 0 24px;color:#123564}h2{font-size:24px;margin:42px 0 18px;border-bottom:2px solid #e0eafa;padding-bottom:8px}h3{font-size:20px}a{color:#155ebd;text-decoration-thickness:1px;text-underline-offset:3px}p,li{font-size:16px}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.65;margin:24px 0}th,td{border:1px solid #ccd9ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf3fc;color:#174777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fa;border-left:3px solid #155ebd;padding:18px;font:14px/1.8 ui-monospace,Menlo,monospace}code{font-family:ui-monospace,Menlo,monospace;color:#25476d}nav{max-width:1000px;margin:20px auto;padding:0 16px;font-size:14px}blockquote{margin:20px 0;padding:10px 20px;border-left:4px solid #d28c1f;background:#fff8e7}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:28px 20px}h1{font-size:27px}table{display:block;overflow-x:auto}th,td{min-width:110px}nav{margin:14px 0}}@page{size:A4;margin:18mm}@media print{body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}nav{display:none}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}p,li{font-size:11pt}table{font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}pre{font-size:9pt}a{color:inherit;text-decoration:none}}</style></head><body><nav><a href="../../開始這裡.html">教材首頁</a>　<a href="student-handout.md">Markdown 原文</a>　可使用瀏覽器列印</nav><main><h1>HWDC 2026 學員講義</h1>
+<p><strong>通用 AI CLI vs. 場景專用 AI：以 Lovable Web 開發為例的效能實測</strong></p>
+<p>講師：林建宏（Wolke Lin）　課程：2026/10/14 13:30–15:00</p>
+<h2>今天要完成的事</h2>
+<p>用 Lovable 與自己的通用 AI 工具各建一版議程收藏器，再各修改一次需求。你需要帶走能操作的作品、驗收紀錄，以及適合自己工作情境的工具選擇理由。</p>
+<p>全部議程與講者為合成教學資料。兩條路徑使用相同功能、資料與驗收標準。講師使用 Codex 桌面 App，你可以使用已準備好的其他工具。</p>
+<h2>講師</h2>
+<p>林建宏（Wolke Lin），Google Developer Expert、LINE Expert 與技術書作者。分享 AI 人機協作、提示工程及程式開發，將教學視為幫助學員理解問題與開始實作的方式。背景及著作可見 <a href="https://medium.com/@wolkesau">Medium</a>。</p>
+<h2>課前準備（13:00–13:30）</h2>
+<ol>
+<li>開啟瀏覽器，登入 Lovable，查看剩餘建置額度。若今天的 5 點已用完，請向講師示意，由講師私下提供群組加入方式。</li>
+<li>確認自己的通用 AI 工具已安裝、登入且能修改本機專案。</li>
+<li>本機實作需 Node.js 24，或相容的 22.12 以上版本。在終端機執行 <code>node --version</code>、<code>npm --version</code>。</li>
+<li>解壓教材，複製 starter 成為自己的實驗目錄，進入該目錄執行 <code>npm ci</code>。</li>
+<li>執行 <code>npm run dev</code>，開啟終端機顯示的網址。看到「環境已就緒」即可。</li>
+<li>準備計時器與 measurement-template.md。先不要看 reference-v1、reference-v2。</li>
+</ol>
+<p>首次安裝套件需要網路。macOS 可在終端機輸入 <code>cd </code> 後拖入資料夾；Windows 可在資料夾空白處選「在終端機中開啟」。請以終端機實際顯示的網址為準，通常是 <a href="http://localhost:5173%E3%80%82">http://localhost:5173。</a></p>
+<p>Lovable 免費方案有每日 5 點與每月 30 點建置上限，任務耗點不固定。若額度已用完或不足，講師會私下提供群組加入方式，加入後確認實作入口與可用狀態。仍無法建置時，再使用離線備援教材。官方來源見本文最後。</p>
+<h2>時間安排</h2>
+<table>
+<thead>
+<tr>
+<th>時段</th>
+<th>你的任務</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>13:30–13:45</td>
+<td>看成品、確認需求與驗收規則</td>
+</tr>
+<tr>
+<td>13:45–14:05</td>
+<td>Lovable 初版：示範後實作及驗收 15 分鐘</td>
+</tr>
+<tr>
+<td>14:05–14:25</td>
+<td>通用 AI 初版：示範後實作及驗收 15 分鐘</td>
+</tr>
+<tr>
+<td>14:25–14:40</td>
+<td>兩套工具各用 5 分鐘修改，最後回歸檢查</td>
+</tr>
+<tr>
+<td>14:40–14:55</td>
+<td>比較紀錄、討論成本與選型</td>
+</tr>
+<tr>
+<td>14:55–15:00</td>
+<td>Q&amp;A</td>
+</tr>
+</tbody></table>
+<h2>第一版完成標準</h2>
+<ol>
+<li>顯示議程名稱、講者、主題、會議室、起訖時間，依開始時間排序，同時段依 ID 排序。</li>
+<li>以一個輸入框搜尋名稱或講者。忽略頭尾空白及英文字母大小寫。</li>
+<li>提供主題篩選，與搜尋條件同時生效（AND）。包含「全部主題」。</li>
+<li>每筆資料可加入或取消收藏。重複點擊不得產生重複收藏。</li>
+<li>提供「我的議程」視圖及收藏數量，依開始時間排序。</li>
+<li>localStorage 只儲存收藏 ID 陣列，鍵名 hwdc-lab-favorites-v1。同一瀏覽器、同一網址重新整理後保留收藏。</li>
+<li>搜尋無結果及尚無收藏都要顯示可理解的空白狀態。</li>
+<li>繁體中文介面，在桌面及 390px 寬度可操作，時間顯示採 Asia/Taipei。</li>
+</ol>
+<h2>實作 A：Lovable</h2>
+<ol>
+<li>在 Lovable 建立新的空白專案，不使用已有功能的範本。</li>
+<li>開啟 prompt-lovable-v1.txt，完整複製內容。檔案已包含同一份 12 筆資料。</li>
+<li>開始計時並送出建置需求。若工具先產生計畫，確認進入實作後再觀察預覽；所有往返都保留紀錄。</li>
+<li>看到可操作畫面後，依 A1–A6 操作。畫面出現只是開始。</li>
+<li>問題描述要包含實際結果、預期結果與重現方式，使用本文的除錯提示。</li>
+<li>15 分鐘截止時記下完成項目、耗時、追加提示及可見用量。</li>
+</ol>
+<h2>實作 B：Codex 桌面 App</h2>
+<ol>
+<li>使用未修改的 starter 副本。不要將 Lovable 產生的程式帶進來。</li>
+<li>在桌面 App 選擇 Codex，開啟自己的專案資料夾。</li>
+<li>使用 prompt-codex-v1.txt，讓工具讀 requirements-v1.md、acceptance-v1.md 及 src/sessions.json。</li>
+<li>開始計時，讓工具實作並啟動預覽。確認它操作的是本次專案。</li>
+<li>查看檔案修改、終端機輸出與預覽，按 A1–A6 驗收。</li>
+<li>15 分鐘截止時保存結果。其他通用工具可用相同需求，只替換開啟專案及啟動的方法。</li>
+</ol>
+<h2>驗收 A1–A6</h2>
+<p>「通過／失敗／未測」，失敗附重現方式。每一項全部條件成立才計 1 分，共 6 項。</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>操作</th>
+<th>預期結果</th>
+<th>結果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A1</td>
+<td>開啟清單</td>
+<td>12 筆、欄位齊全、時間正確，順序 S01、S04、S02、S03、S05、S06、S07、S08、S09、S10、S11、S12</td>
+<td>未測</td>
+</tr>
+<tr>
+<td>A2</td>
+<td>搜尋「林以安」，再搜尋「不存在的議程」</td>
+<td>前者只剩 S01，後者顯示無結果；清空恢復</td>
+<td>未測</td>
+</tr>
+<tr>
+<td>A3</td>
+<td>搜尋「AI」，主題選「Web 技術」；再選「AI 開發」</td>
+<td>前者 0 筆，後者 S01、S06，共 2 筆</td>
+<td>未測</td>
+</tr>
+<tr>
+<td>A4</td>
+<td>收藏 S01、S03，取消 S01，再加回 S01</td>
+<td>收藏總數依序正確，最後為 2，沒有重複項</td>
+<td>未測</td>
+</tr>
+<tr>
+<td>A5</td>
+<td>切到我的議程，清空搜尋並選全部主題</td>
+<td>只顯示 S01、S03，依時間排序；全取消後有空白提示</td>
+<td>未測</td>
+</tr>
+<tr>
+<td>A6</td>
+<td>再收藏 S01、S03，重新整理，檢查 390px 寬度</td>
+<td>兩筆收藏保留，沒有水平溢出，搜尋與收藏按鈕可操作</td>
+<td>未測</td>
+</tr>
+</tbody></table>
+<h2>計時</h2>
+<p>初版最多 15 分鐘，包含驗收。截止仍未完成時填寫當下通過項數及失敗項，不把「15 分鐘截止」寫成「15 分鐘完成」。</p>
+<h2>第二輪：需求變更</h2>
+<p>講師發布第二輪後，開啟 prompt-revision-v2.txt。先在 Lovable 執行 5 分鐘，再在通用工具執行 5 分鐘。修改前記下目前收藏，修改後確認仍在。</p>
+<p>加入收藏議程衝堂提示，保留所有既有功能和收藏資料。</p>
+<ol>
+<li>比較全部收藏議程，不受搜尋、主題篩選或目前視圖影響。</li>
+<li>以時間區間判斷。部分重疊、完全包含及相同時段都算衝堂，首尾相接不算。</li>
+<li>規則為 a.start &lt; b.end &amp;&amp; b.start &lt; a.end，時間要先轉換成可比較的時間值。</li>
+<li>清楚顯示衝堂的兩個議程名稱及各自時段。同一對只列一次，不與自己比較。</li>
+<li>不自動取消任何收藏，讓使用者自己決定。</li>
+<li>取消收藏後即時更新提示。</li>
+<li>維持原 localStorage 鍵名與 ID 格式，重新整理仍保留第一版的收藏。</li>
+</ol>
+<h2>驗收（B1–B6，共 6 項）</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>收藏組合或操作</th>
+<th>預期結果</th>
+<th>結果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>B1</td>
+<td>S01 + S02</td>
+<td>部分重疊，提示 1 對</td>
+<td>未測</td>
+</tr>
+<tr>
+<td>B2</td>
+<td>S01 + S04</td>
+<td>完全包含，提示 1 對</td>
+<td>未測</td>
+</tr>
+<tr>
+<td>B3</td>
+<td>S05 + S06</td>
+<td>相同時段，提示 1 對</td>
+<td>未測</td>
+</tr>
+<tr>
+<td>B4</td>
+<td>S01 + S03</td>
+<td>09:40 首尾相接，不衝堂</td>
+<td>未測</td>
+</tr>
+<tr>
+<td>B5</td>
+<td>S01 + S02，搜尋 S01 的講者或切主題，再取消 S02</td>
+<td>篩選時仍提示原衝突，取消後提示消失</td>
+<td>未測</td>
+</tr>
+<tr>
+<td>B6</td>
+<td>跨版本保留收藏並重做 A1–A6</td>
+<td>第一版收藏仍在，既有功能全部通過</td>
+<td>未測</td>
+</tr>
+</tbody></table>
+<p>每個案例先清除其他收藏。修改最多 5 分鐘，包含驗收。來不及的項目記錄未測，不猜測通過。</p>
+<h2>共用需求正文</h2>
+<p>兩套工具的需求正文一致。Lovable 版另外附上完整 JSON，本機版指定既有檔案。不要刻意替其中一套工具增加功能或預先提供解答。</p>
+<pre><code class="language-text">請建立「研討會議程收藏器」，使用下列合成教學資料，不要更動資料。
+
+功能：顯示全部 12 場的名稱、講者、主題、會議室及台北時間，依開始時間排序。同時段依 ID 排序。可用名稱或講者搜尋，忽略頭尾空白及英文大小寫。可選主題，搜尋與主題條件採 AND。可加入與取消收藏，收藏不得重複。可切換「所有議程」及「我的議程」，顯示收藏數量。沒有結果或收藏時顯示清楚提示。
+
+收藏以 ID 陣列寫入 localStorage，鍵名固定為 hwdc-lab-favorites-v1。同一瀏覽器、同一網址重新整理後保留。若環境有伺服器渲染，請只在瀏覽器端讀寫 localStorage。
+
+介面為繁體中文，白底、深色文字、藍色重點，桌面及 390px 寬度均可使用。標示「合成教學資料，非 HWDC 真實議程」。使用本機資料，不建立登入、資料庫、外部 API、衝堂提示或行事曆匯出，不使用外部圖片。
+
+請實作並啟動可預覽的版本，再實際檢查搜尋、主題篩選、收藏、我的議程、重新整理後保留以及手機寬度。回覆啟動方式、已驗證項目及仍有問題的項目。
+</code></pre>
+<h2>第二輪完整提示</h2>
+<pre><code class="language-text">請在目前的議程收藏器加入「收藏議程衝堂提示」，保留原有收藏資料與所有既有功能。
+
+請比較全部收藏，不受搜尋或主題篩選影響。部分重疊、完全包含、相同時段都算衝堂，首尾相接不算。判斷式為 a.start &lt; b.end &amp;&amp; b.start &lt; a.end，先將時間轉成可比較的時間值。同一對只列一次，不與自己比較。
+
+清楚顯示衝堂的兩場名稱及各自時段，讓使用者自己決定保留或取消。取消收藏後立即更新。維持 localStorage 鍵名 hwdc-lab-favorites-v1 及 ID 陣列格式。
+
+驗收：S01+S02 衝堂；S01+S04 衝堂；S05+S06 衝堂；S01+S03 首尾相接，不衝堂。收藏 S01+S02 後搜尋林以安，衝堂仍須顯示。取消 S02 後提示消失。確認修改前的收藏仍在，並重做第一版搜尋、篩選、收藏、我的議程與重新整理驗收。
+
+請完成修改後說明改動的檔案與實際驗證結果。不要順便改設計、重建整個專案或加新功能。
+</code></pre>
+<h2>除錯提示範本</h2>
+<pre><code class="language-text">目前發現以下問題，請先重現並定位原因，再做範圍最小的修正。
+
+實際現象：[具體看到什麼]
+預期結果：[應該發生什麼]
+重現步驟：[從哪個畫面、輸入什麼、點哪些按鈕]
+錯誤訊息：[貼原文；沒有則寫「沒有」]
+最近的修改：[已知時補充]
+
+請保留既有收藏與其他功能。修正後重新執行重現步驟，再檢查搜尋、主題篩選、收藏、我的議程及重新整理後保留。請回覆根因、改動檔案、驗證結果與仍未確認的部分。
+</code></pre>
+<h2>紀錄與比較</h2>
+<p>使用 measurement-template.md。區分設定、建置、修改和除錯。建置經過時間已包含等待及除錯，不要把除錯時間再加一次。</p>
+<p>比較時先看完成項目，再看花了多少時間與用量。不同人的模型、網路、經驗與起始狀態不同，課堂觀察不能直接整理成工具排行榜。</p>
+<p>訂閱費、額外付費及工具額度分別記錄。用量沒顯示就寫「未取得」。若使用講師提供的群組，註明額度來源與切換時間；群組的總消耗不能直接當成自己的用量。人的主動操作時間與等待時間分開，決定是否計入等待成本時要說明假設。</p>
+<h2>卡關與備援</h2>
+<table>
+<thead>
+<tr>
+<th>狀況</th>
+<th>接續方式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Lovable 的 5 點已用完或額度不足</td>
+<td>向講師示意，取得私人提供的群組加入方式；加入後確認可繼續實作，仍無法使用時開啟離線版</td>
+</tr>
+<tr>
+<td>Lovable 服務中斷或群組加入後仍無法建置</td>
+<td>保存畫面與未完成項，開啟 offline/reference-v1.html 做驗收，繼續通用工具</td>
+</tr>
+<tr>
+<td>本機啟動失敗超過 2 分鐘</td>
+<td>記下錯誤，切到 offline 參考版本，避免漏掉第二輪</td>
+</tr>
+<tr>
+<td>搜尋顯示 0 筆</td>
+<td>先清除文字並選全部主題，確認不是篩選條件造成</td>
+</tr>
+<tr>
+<td>收藏重新整理後消失</td>
+<td>確認同一瀏覽器、同一網址及埠號，查看頁面的儲存警告</td>
+</tr>
+<tr>
+<td>localStorage 未定義</td>
+<td>伺服器渲染不能直接使用瀏覽器 API，移到瀏覽器端執行</td>
+</tr>
+<tr>
+<td>提早完成</td>
+<td>做全部邊界案例，協助鄰座，或做行事曆延伸題</td>
+</tr>
+</tbody></table>
+<p>備援程式是 Codex 製作的教學解答，不是你的實測成果。使用備援時請在紀錄中註明。</p>
+<h2>課後練習：行事曆匯出</h2>
+<p>將收藏議程匯出為 .ics。每場一個 VEVENT，包含穩定 UID、DTSTAMP、開始與結束時間、名稱及會議室。轉成 UTC 後使用 Z 結尾，正確跳脫文字並以 CRLF 分行。測試中文、逗號、分號、換行及沒有收藏的情境。延伸提示與參考實作見 extension-ics.md。</p>
+<h2>我會如何選工具</h2>
+<p>完成以下句子：我的下一個專案是＿＿。最重要的驗收條件是＿＿。我會先用＿＿，因為本次觀察到＿＿。如果遇到＿＿，我會調整工作方式。尚未驗證的假設是＿＿。</p>
+<h2>官方來源</h2>
+<ul>
+<li><a href="https://hwdc.ithome.com.tw/2026/lab/4996">活動議程</a></li>
+<li><a href="https://docs.lovable.dev/introduction/faq">Lovable 技術堆疊與程式碼</a></li>
+<li><a href="https://docs.lovable.dev/introduction/credits-and-usage">Lovable 額度</a></li>
+<li><a href="https://learn.chatgpt.com/docs/quickstart">Codex 桌面開始方式</a></li>
+<li><a href="https://learn.chatgpt.com/docs/auth">Codex 登入與計費方式</a></li>
+</ul>
+<p>查核日期：2026-10-13。介面與方案可能更新，以現場帳號可用功能及官方頁面為準。</p>
+</main></body></html>

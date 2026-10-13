@@ -1,0 +1,83 @@
+{
+  "checked_on": "2026-10-13",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "HWDC 公開議程",
+      "url": "https://hwdc.ithome.com.tw/2026/lab/4996",
+      "supports": "標題、講師、時間、參與條件"
+    },
+    {
+      "id": "S2",
+      "title": "Lovable FAQ",
+      "url": "https://docs.lovable.dev/introduction/faq",
+      "supports": "新專案技術堆疊、原始碼取得與框架限制"
+    },
+    {
+      "id": "S3",
+      "title": "Lovable subscription plans",
+      "url": "https://docs.lovable.dev/introduction/subscription-plans",
+      "supports": "每日／每月建置額度、Git 同步與付費程式下載"
+    },
+    {
+      "id": "S4",
+      "title": "Lovable credits and usage",
+      "url": "https://docs.lovable.dev/introduction/credits-and-usage",
+      "supports": "建置依複雜度耗點、用量查詢方法"
+    },
+    {
+      "id": "S5",
+      "title": "Lovable GitHub sync",
+      "url": "https://docs.lovable.dev/integrations/github",
+      "supports": "程式同步、既有專案匯入限制"
+    },
+    {
+      "id": "S6",
+      "title": "OpenAI desktop quickstart",
+      "url": "https://learn.chatgpt.com/docs/quickstart",
+      "supports": "桌面選擇 Codex、開啟專案資料夾"
+    },
+    {
+      "id": "S7",
+      "title": "OpenAI authentication",
+      "url": "https://learn.chatgpt.com/docs/auth",
+      "supports": "訂閱登入與 API 登入計費差異"
+    },
+    {
+      "id": "S8",
+      "title": "OpenAI pricing",
+      "url": "https://learn.chatgpt.com/docs/pricing",
+      "supports": "用量儀表板、CLI /status、方案與用量口徑"
+    },
+    {
+      "id": "S9",
+      "title": "Codex CLI",
+      "url": "https://learn.chatgpt.com/docs/codex/cli",
+      "supports": "CLI 操作與安裝入口"
+    },
+    {
+      "id": "S10",
+      "title": "RFC 5545 iCalendar",
+      "url": "https://www.rfc-editor.org/rfc/rfc5545",
+      "supports": "延伸題的 VEVENT、轉義、CRLF 與折行"
+    },
+    {
+      "id": "S11",
+      "title": "Wolke 的 Medium 個人頁",
+      "url": "https://wolkesau.medium.com/",
+      "supports": "公開自介所列 Google Developer Expert、LINE Expert 與 AI 協作主題"
+    },
+    {
+      "id": "S12",
+      "title": "Wolke@林建宏 自我介紹",
+      "url": "https://medium.com/wolkesau/wolke-林建宏-自我介紹-6fbddfef865a",
+      "supports": "啟發者定位、提示與程式開發、大學及社群講授經驗"
+    },
+    {
+      "id": "S13",
+      "title": "Wolke 的 Medium 著作頁",
+      "url": "https://wolkesau.medium.com/books",
+      "supports": "Gemini、ChatGPT 程式開發與 LINE 聊天機器人相關著作"
+    }
+  ]
+}

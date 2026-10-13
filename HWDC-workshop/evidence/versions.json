@@ -1,0 +1,15 @@
+{
+  "checked_on": "2026-10-13",
+  "scope": "教學參考程式工具鏈，不是三方獨立實測條件",
+  "tested_node": "24.16.0",
+  "packages": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.7",
+    "@vitejs/plugin-react": "5.2.0"
+  },
+  "dependency_lock": "starter/package-lock.json；兩版參考解答使用相同鎖檔",
+  "slides": "38 slides, 16:9, editable text/tables, Heiti TC and Menlo",
+  "browser_qa": "Google Chrome headless, fresh test profile; native PowerPoint rendering not tested"
+}

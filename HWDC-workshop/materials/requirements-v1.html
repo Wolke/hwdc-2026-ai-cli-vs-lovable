@@ -1,0 +1,21 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第一版需求：研討會議程收藏器</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;color:#17283e;background:#f5f8fc;line-height:1.85}main{max-width:1000px;margin:30px auto;padding:42px 48px;background:white}h1{font-size:32px;line-height:1.4;margin:0 0 24px;color:#123564}h2{font-size:24px;margin:42px 0 18px;border-bottom:2px solid #e0eafa;padding-bottom:8px}h3{font-size:20px}a{color:#155ebd;text-decoration-thickness:1px;text-underline-offset:3px}p,li{font-size:16px}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.65;margin:24px 0}th,td{border:1px solid #ccd9ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf3fc;color:#174777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fa;border-left:3px solid #155ebd;padding:18px;font:14px/1.8 ui-monospace,Menlo,monospace}code{font-family:ui-monospace,Menlo,monospace;color:#25476d}nav{max-width:1000px;margin:20px auto;padding:0 16px;font-size:14px}blockquote{margin:20px 0;padding:10px 20px;border-left:4px solid #d28c1f;background:#fff8e7}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:28px 20px}h1{font-size:27px}table{display:block;overflow-x:auto}th,td{min-width:110px}nav{margin:14px 0}}@page{size:A4;margin:18mm}@media print{body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}nav{display:none}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}p,li{font-size:11pt}table{font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}pre{font-size:9pt}a{color:inherit;text-decoration:none}}</style></head><body><nav><a href="../../開始這裡.html">教材首頁</a>　<a href="requirements-v1.md">Markdown 原文</a>　可使用瀏覽器列印</nav><main><h1>第一版需求：研討會議程收藏器</h1>
+<h2>目標</h2>
+<p>讓參加者在瀏覽器查詢並收藏想參加的議程。全部議程及講者為合成教學資料，不代表 HWDC 真實議程。</p>
+<h2>輸入資料</h2>
+<p>使用 sessions.json 的全部 12 筆資料。欄位：id、title、speaker、track、room、startsAt、endsAt。不要改動 ID 或時段，不新增議程。</p>
+<h2>必做功能</h2>
+<ol>
+<li>顯示議程名稱、講者、主題、會議室、起訖時間，依開始時間排序，同時段依 ID 排序。</li>
+<li>以一個輸入框搜尋名稱或講者。忽略頭尾空白及英文字母大小寫。</li>
+<li>提供主題篩選，與搜尋條件同時生效（AND）。包含「全部主題」。</li>
+<li>每筆資料可加入或取消收藏。重複點擊不得產生重複收藏。</li>
+<li>提供「我的議程」視圖及收藏數量，依開始時間排序。</li>
+<li>localStorage 只儲存收藏 ID 陣列，鍵名 hwdc-lab-favorites-v1。同一瀏覽器、同一網址重新整理後保留收藏。</li>
+<li>搜尋無結果及尚無收藏都要顯示可理解的空白狀態。</li>
+<li>繁體中文介面，在桌面及 390px 寬度可操作，時間顯示採 Asia/Taipei。</li>
+</ol>
+<h2>範圍</h2>
+<p>使用固定本機資料。無登入、雲端資料庫、外部 API 或付費素材。第一版不做衝堂提示或行事曆匯出。保留可閱讀的原始碼。</p>
+<h2>完成標準</h2>
+<p>依 acceptance-v1.md 的 A1–A6 實際操作並記錄結果。不能只以畫面出現判定完成。</p>
+</main></body></html>
