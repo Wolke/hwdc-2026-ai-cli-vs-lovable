@@ -138,3 +138,5 @@ npm run build
 本次 v6：第 27 頁補上舊彩排費用。Lovable 實耗 5.10 credits，正常月費分攤約 US$2.50；Codex Standard 情境估算約 US$1.39，速度模式與實扣未取得。完整 [token 明細、證據與換算假設](HWDC-workshop/evidence/cost-check-20261013.md)。
 
 本次 v7：已建立只收 email 的 [Lovable 群組申請表](https://forms.gle/pt3nLWy622sYTfsG6)，開放持連結者填寫。第 3、35 頁均附 QR Code，另有 [申請說明與 QR 圖檔](HWDC-workshop/materials/lovable-group-application.md)。邀請由講師安排，送出表單後不會自動加入。
+
+新增 [Roblox 與 Lovable 鐵人賽系列訂閱 QR Code](HWDC-workshop/materials/series-subscriptions/index.html)：提供獨立 PNG／SVG、附標題版及 16:9 並排投影圖。
