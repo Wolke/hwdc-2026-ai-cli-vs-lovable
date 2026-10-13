@@ -1,6 +1,6 @@
 {
   "checked_on": "2026-10-13",
-  "scope": "教學參考程式工具鏈，不是三方獨立實測條件",
+  "scope": "教學參考程式工具鏈；兩套 AI 工具的獨立實測條件另記",
   "tested_node": "24.16.0",
   "packages": {
     "react": "19.3.0",
@@ -12,5 +12,5 @@
   "dependency_lock": "starter/package-lock.json；兩版參考解答使用相同鎖檔",
   "slides": "38 slides, 16:9, editable text/tables, Heiti TC and Menlo",
   "browser_qa": "Codex in-app browser / CUA；原生 PowerPoint 未開啟驗證",
-  "material_revision": "v4 — complete prompts and clickable source / attachment URLs on slides; same v3 public agenda and reference apps"
+  "material_revision": "v5 — Lovable and general AI workflows only; 38 slides and 90-minute schedule retained; prompts, public agenda and reference apps unchanged from v4"
 }

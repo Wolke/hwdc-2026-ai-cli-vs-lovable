@@ -1,16 +1,6 @@
 {
-  "description": "新版 70 筆公開議程＋短提示＋自由 UI 的獨立限時比較；未執行者保持 null。舊條件彩排另見 rehearsal-observations.md。",
+  "description": "Lovable 與 Codex 桌面 App：新版 70 筆公開議程＋短提示＋自由 UI 的獨立限時比較；未執行者保持 null。舊條件彩排另見 rehearsal-observations.md。",
   "runs": [
-    {
-      "workflow": "手工開發",
-      "status": "未取得實測",
-      "v1_seconds": null,
-      "v1_passed": null,
-      "v2_seconds": null,
-      "v2_passed": null,
-      "usage": null,
-      "reason": "需講師依規則親自實作"
-    },
     {
       "workflow": "Lovable",
       "status": "未取得實測",

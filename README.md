@@ -25,9 +25,9 @@ cd hwdc-2026-ai-cli-vs-lovable
 | 取得兩日議程附件 | [70 筆公開議程 JSON](HWDC-workshop/materials/hwdc-agenda-2026.json) |
 | 閱讀學員步驟、提示與驗收 | [學員講義](HWDC-workshop/materials/student-handout.md) |
 | 準備講課、示範與備援 | [講師手冊](HWDC-workshop/materials/instructor-guide.md) |
-| 編輯投影片 | [38 頁 PPTX，含逐頁講者備註](HWDC-2026-workshop-v4.pptx) |
+| 編輯投影片 | [38 頁 PPTX，含逐頁講者備註](HWDC-2026-workshop-v5.pptx) |
 | 閱讀逐頁講稿 | [講者備註](HWDC-workshop/materials/speaker-notes.md) |
-| 先做不使用 AI 的限時開發 | [手工實測起始包](HWDC-manual-baseline-starter.zip) |
+| 準備通用 AI 實作 | [空白起始專案](HWDC-workshop/starter/) |
 | 記錄工具條件與結果 | [實測紀錄表](HWDC-workshop/materials/measurement-template.md) |
 
 講義同時提供 Markdown 與可列印 HTML。投影片的固定版面預覽位於 `HWDC-workshop/slides/index.html`。PPTX 使用 Heiti TC／Menlo 字體，投影前請確認本機字體及版面。
@@ -59,7 +59,7 @@ npm run dev
 - [第二輪修改提示](HWDC-workshop/materials/prompt-revision-v2.txt)
 - [除錯提示範本](HWDC-workshop/materials/prompt-debug.txt)
 
-不要把第一套工具產生的程式直接帶入第二套工具。手工實測請先完成限時開發，再查看參考解答。
+兩套工具各自從新專案開始，不要把第一套工具產生的程式直接帶入第二套工具。
 
 初版短提示只說明想做的事、必要使用行為和預覽需求。詳細欄位放附件、驗收條件放講義，操作後發現問題再用人話補充。
 
@@ -86,7 +86,7 @@ a.start < b.end && b.start < a.end
 | 14:40–14:55 | 討論完成度、工時、用量、維護觀察與選型 |
 | 14:55–15:00 | Q&A |
 
-每條路徑的初版最多 **15 分鐘**，修改最多 **5 分鐘**，均包含驗收。帳號登入、套件安裝與環境設定另計。截止仍未完成時保存當下成果與通過項目。
+90 分鐘聚焦 **Lovable 與通用 AI 兩條路徑**。每條路徑的初版最多 **15 分鐘**，修改最多 **5 分鐘**，均包含驗收。帳號登入、套件安裝與環境設定另計。截止仍未完成時保存當下成果與通過項目。
 
 ## 參考答案與離線備援
 
@@ -121,7 +121,7 @@ npm run build
 
 目前 **70 筆真實議程＋短提示＋自由 UI 的新版比較尚未獨立重測**。[measurements.json](HWDC-workshop/evidence/measurements.json) 缺值保留 `null`。簡報第 25 頁呈現 [上次舊條件彩排觀察](HWDC-workshop/evidence/rehearsal-observations.md)：兩套最後都能完成，Codex 初版 1 分 55 秒、修改 1 分 3 秒；Lovable 初版 4 分 22 秒、修改核心驗收 3 分 33 秒，精確手機尺寸於截止後補測。這輪用長提示與 12 筆合成資料，操作者看過解答且第二輪交錯操作，不能當成新版結果或工具排名。
 
-參考解答由 Codex 協助製作，新版功能 QA 已涵蓋搜尋與篩選、收藏保存、跨版本保存、衝堂邊界與 390px 手機操作；兩個專案測試與建置通過。離線 HTML 已重新產生，這次未重跑斷網瀏覽器驗證。[功能驗證紀錄](HWDC-workshop/evidence/reference-qa.json) 不能代替三方效能實測。課堂上不同學員的結果也不直接合成工具排名。
+參考解答由 Codex 協助製作，新版功能 QA 已涵蓋搜尋與篩選、收藏保存、跨版本保存、衝堂邊界與 390px 手機操作；兩個專案測試與建置通過。離線 HTML 已重新產生，這次未重跑斷網瀏覽器驗證。[功能驗證紀錄](HWDC-workshop/evidence/reference-qa.json) 不能代替兩套 AI 工具的效能實測。課堂上不同學員的結果也不直接合成工具排名。
 
 講師可依共同規則完成實測後，更新紀錄與可編輯比較表。群組總用量不能直接當成個人消耗；無法取得的數值填「未取得」。
 
@@ -133,4 +133,4 @@ npm run build
 
 議程附件擷取自 [HWDC 官方議程](https://hwdc.ithome.com.tw/2026/agenda)，2026-10-13 快照共 70 筆，10/14、10/15 各 35 筆。保留官方 ID、完整主題、日期時間、會議室、講者與來源連結。[資料說明與原始來源](HWDC-workshop/materials/agenda-data.md)。
 
-本次 v4：投影片直接列出初版、修改、除錯與延伸 prompt；第 12 頁列出官方來源及 JSON 附件完整網址。瀏覽器投影片另提供可選取複製的提示文字。GitHub 附件目前需要私人 repo 存取權，現場可直接使用教材包內的 JSON。
+目前版本 v5：課程與比較只保留 Lovable 和通用 AI 工具。投影片直接列出初版、修改、除錯與延伸 prompt；第 12 頁列出官方來源及 JSON 附件完整網址。瀏覽器投影片另提供可選取複製的提示文字。GitHub 附件目前需要私人 repo 存取權，現場可直接使用教材包內的 JSON。

@@ -4,6 +4,8 @@
 
 用 Lovable 與自選通用 AI 工具各做一版「我的 HWDC 議程」。同一份公開議程附件、同樣的 UX 任務，UI 由你或 Agent 自由設計。
 
+90 分鐘聚焦兩套 AI 工具的建置、需求修改與驗收。每套初版 15 分鐘、修改 5 分鐘，驗收包含在時間內；到時保存成果與未完成項目。
+
 ## 講師
 林建宏（Wolke Lin），Google Developer Expert、LINE Expert 與技術書作者。分享 AI 人機協作、提示工程及程式開發，將教學視為幫助學員理解問題與開始實作的方式。背景及著作可見 [Medium](https://medium.com/@wolkesau)。
 
