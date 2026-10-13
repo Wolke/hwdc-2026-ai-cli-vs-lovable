@@ -11,5 +11,6 @@
   },
   "dependency_lock": "starter/package-lock.json；兩版參考解答使用相同鎖檔",
   "slides": "38 slides, 16:9, editable text/tables, Heiti TC and Menlo",
-  "browser_qa": "Google Chrome headless, fresh test profile; native PowerPoint rendering not tested"
+  "browser_qa": "Codex in-app browser / CUA；原生 PowerPoint 未開啟驗證",
+  "material_revision": "v3 — HWDC public snapshot, short prompts, UX parity, free UI"
 }

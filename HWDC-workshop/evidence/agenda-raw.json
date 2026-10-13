@@ -1,0 +1,1960 @@
+{
+  "sessions": [
+    {
+      "id": "4957",
+      "type": "session",
+      "title": "Welcome opening",
+      "started_at": "2026-10-14T10:00",
+      "finished_at": "2026-10-14T10:10",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "ABCDEF 會議室"
+      },
+      "session_type": "Remarks",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [],
+      "addition_tag": []
+    },
+    {
+      "id": "4958",
+      "type": "session",
+      "title": "以一些範例來討論AI Coding新時代的團隊開發",
+      "started_at": "2026-10-14T10:10",
+      "finished_at": "2026-10-14T10:55",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "ABCDEF 會議室"
+      },
+      "session_type": "Keynote",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "陳宜昌 (YC Chen)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        },
+        {
+          "name": "AI 驅動的軟體開發資安新思維"
+        },
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "4959",
+      "type": "session",
+      "title": "讓 Agent Skills 介入你的軟體開發的工作流",
+      "started_at": "2026-10-14T16:00",
+      "finished_at": "2026-10-14T16:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "吳俊毅 (Gelis)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "SDLC 相關議題"
+        }
+      ]
+    },
+    {
+      "id": "4960",
+      "type": "session",
+      "title": "當 Secret 不再是秘密",
+      "started_at": "2026-10-14T16:00",
+      "finished_at": "2026-10-14T16:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "邱繼平 (山姆大叔)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "SDLC 相關議題"
+        }
+      ]
+    },
+    {
+      "id": "4961",
+      "type": "session",
+      "title": "AI O11y：數據決策到技術選型",
+      "started_at": "2026-10-15T14:15",
+      "finished_at": "2026-10-15T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "張哲嘉 (Che Chia Chang)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        }
+      ]
+    },
+    {
+      "id": "4962",
+      "type": "session",
+      "title": "AI 工具爆發時代的企業身分認證治理實戰",
+      "started_at": "2026-10-14T11:15",
+      "finished_at": "2026-10-14T12:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "吳柏毅 (appleboy)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        }
+      ]
+    },
+    {
+      "id": "4963",
+      "type": "break",
+      "title": "Break",
+      "started_at": "2026-10-14T10:55",
+      "finished_at": "2026-10-14T11:15",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "4964",
+      "type": "break",
+      "title": "Lunch",
+      "started_at": "2026-10-14T12:00",
+      "finished_at": "2026-10-14T13:30",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "4965",
+      "type": "session",
+      "title": "雲端把花錢的權力交給了工程師，然後呢？",
+      "started_at": "2026-10-14T15:15",
+      "finished_at": "2026-10-14T15:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "林宗穎 (Kater)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "FinOps"
+        }
+      ]
+    },
+    {
+      "id": "4966",
+      "type": "session",
+      "title": "AI Workflow：打造 PM 的第二大腦",
+      "started_at": "2026-10-14T13:30",
+      "finished_at": "2026-10-14T14:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "林芝羽 (Xenia)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        }
+      ]
+    },
+    {
+      "id": "4967",
+      "type": "session",
+      "title": "當架構設計被 AI 加速後，工程判斷力的養成與傳承該怎麼辦？",
+      "started_at": "2026-10-14T17:00",
+      "finished_at": "2026-10-14T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "林承毅 (Jed)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "Beyond AI"
+        }
+      ]
+    },
+    {
+      "id": "4968",
+      "type": "session",
+      "title": "穩才是快 ～ 以 OKF 打造 Agentic AIOps 治理閉環",
+      "started_at": "2026-10-14T15:15",
+      "finished_at": "2026-10-14T15:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "許庭魁 (Jerry Hsu)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何驅動 DevOps 革命"
+        }
+      ]
+    },
+    {
+      "id": "4969",
+      "type": "break",
+      "title": "Break",
+      "started_at": "2026-10-14T14:00",
+      "finished_at": "2026-10-14T14:15",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "4970",
+      "type": "session",
+      "title": "MCP 時代的 AI Agent 資安攻防",
+      "started_at": "2026-10-15T11:15",
+      "finished_at": "2026-10-15T12:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "吳勝繙 (Chris)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 驅動的軟體開發資安新思維"
+        }
+      ]
+    },
+    {
+      "id": "4971",
+      "type": "session",
+      "title": "當 AI 開始調查事故：讓 Kubernetes 告警從噪音變決策",
+      "started_at": "2026-10-15T11:15",
+      "finished_at": "2026-10-15T12:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "Duo"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何驅動 DevOps 革命"
+        }
+      ]
+    },
+    {
+      "id": "4972",
+      "type": "session",
+      "title": "讓工程師失業的 N + 1 道陰影",
+      "started_at": "2026-10-14T14:15",
+      "finished_at": "2026-10-14T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "高見龍"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "SDLC 相關議題"
+        }
+      ]
+    },
+    {
+      "id": "4973",
+      "type": "session",
+      "title": "同一個 Prompt 為什麼差這麼多？——從踩坑到 Harness Engineering",
+      "started_at": "2026-10-15T16:00",
+      "finished_at": "2026-10-15T16:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "許舜雯 (Olivia Shiu)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        }
+      ]
+    },
+    {
+      "id": "4974",
+      "type": "break",
+      "title": "Break",
+      "started_at": "2026-10-14T15:00",
+      "finished_at": "2026-10-14T15:15",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "4975",
+      "type": "session",
+      "title": "[本場次為預錄影片] 以敵為師的軟體防禦：導入AI紅隊思維與MITRE ATLAS的攻擊面拆解",
+      "started_at": "2026-10-15T13:30",
+      "finished_at": "2026-10-15T14:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "林毅力 (Stanley)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 驅動的軟體開發資安新思維"
+        }
+      ]
+    },
+    {
+      "id": "4976",
+      "type": "session",
+      "title": "可製造的 AI：讓 AI 成為工廠的第二大腦",
+      "started_at": "2026-10-14T17:00",
+      "finished_at": "2026-10-14T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "戚務漢 (Caesar)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "4977",
+      "type": "session",
+      "title": "從痛點到產品：用資料與 AI 重新定義產品的規劃邏輯",
+      "started_at": "2026-10-15T17:00",
+      "finished_at": "2026-10-15T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "孫甫璋 (udothemath)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        }
+      ]
+    },
+    {
+      "id": "4978",
+      "type": "session",
+      "title": "光靠 Prompt 守不住架構：用 Lint 與 Architecture Test 打造 Agentic Coding 防護牆",
+      "started_at": "2026-10-15T17:00",
+      "finished_at": "2026-10-15T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "Neo Hsu"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "4979",
+      "type": "break",
+      "title": "Break",
+      "started_at": "2026-10-14T15:45",
+      "finished_at": "2026-10-14T16:00",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "4980",
+      "type": "session",
+      "title": "別讓 Agent 瞎掰：用 Semantic Layer 打造可信賴的企業 AI",
+      "started_at": "2026-10-15T14:15",
+      "finished_at": "2026-10-15T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "林士凱 (Danny)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        }
+      ]
+    },
+    {
+      "id": "4981",
+      "type": "session",
+      "title": "AI 時代下測試的迷思——為什麼綠燈越多，品質卻沒有變好",
+      "started_at": "2026-10-15T14:15",
+      "finished_at": "2026-10-15T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "柯仁傑 (David Ko/敏捷三叔公)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "SDLC 相關議題"
+        }
+      ]
+    },
+    {
+      "id": "4982",
+      "type": "session",
+      "title": "AI Gateway：AI 治理的第一步",
+      "started_at": "2026-10-15T16:00",
+      "finished_at": "2026-10-15T16:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "張哲嘉 (Che Chia Chang)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        }
+      ]
+    },
+    {
+      "id": "4983",
+      "type": "session",
+      "title": "懂行規的 Agent：把規範變成技能，自動化開發到部署",
+      "started_at": "2026-10-14T14:15",
+      "finished_at": "2026-10-14T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "張云姵 (Sarah)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "4984",
+      "type": "break",
+      "title": "Break",
+      "started_at": "2026-10-14T16:45",
+      "finished_at": "2026-10-14T17:00",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "4985",
+      "type": "session",
+      "title": "透過 ACP 解放 Terminal：打造 Coding Agent 的協作模式",
+      "started_at": "2026-10-15T15:15",
+      "finished_at": "2026-10-15T15:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "Neo Hsu"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "4986",
+      "type": "session",
+      "title": "AI 導入之後：傳統開發團隊的角色鬆動與開發新節奏",
+      "started_at": "2026-10-14T15:15",
+      "finished_at": "2026-10-14T15:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "陳仁傑"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "Beyond AI"
+        }
+      ]
+    },
+    {
+      "id": "4987",
+      "type": "session",
+      "title": "用 AI 工作流重整事件驅動交易系統的一致性、效能與監測",
+      "started_at": "2026-10-14T13:30",
+      "finished_at": "2026-10-14T14:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "蔡宜庭 (ET)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "4988",
+      "type": "session",
+      "title": "讓 AI Agent 記住你：從零打造仿生長期記憶系統的設計決策",
+      "started_at": "2026-10-15T15:15",
+      "finished_at": "2026-10-15T15:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "吳勝繙 (Chris)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        }
+      ]
+    },
+    {
+      "id": "4989",
+      "type": "lab",
+      "title": "為 Agentic AI 設計前端狀態機與即時回饋介面",
+      "started_at": "2026-10-14T10:10",
+      "finished_at": "2026-10-14T12:10",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "603+604 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "何剛 (Michael Ho)"
+          }
+        },
+        {
+          "speaker": {
+            "public_name": "Sunny Wu"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "4990",
+      "type": "lab",
+      "title": "從點子到產品：AI 驅動的現代軟體開發全流程實踐",
+      "started_at": "2026-10-14T10:10",
+      "finished_at": "2026-10-14T12:10",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "605+606 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "林正祥 (ATai)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        }
+      ]
+    },
+    {
+      "id": "4991",
+      "type": "lab",
+      "title": "讓 AI 讀懂你的系統 with knowledge graph",
+      "started_at": "2026-10-14T13:00",
+      "finished_at": "2026-10-14T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "607+608 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "Neo Hsu"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "4992",
+      "type": "lab",
+      "title": "打造跨模型 AI Agent 的 CI/CD 管線：從本地開發到雲端部署",
+      "started_at": "2026-10-15T13:00",
+      "finished_at": "2026-10-15T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "603+604 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "Jimmy Liao"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "持續整合和持續部署"
+        }
+      ]
+    },
+    {
+      "id": "4993",
+      "type": "lab",
+      "title": "讓 AI Agent、MCP Server、CLI 安全登入的實作工作坊",
+      "started_at": "2026-10-14T13:00",
+      "finished_at": "2026-10-14T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "605+606 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "吳柏毅 (appleboy)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 驅動的軟體開發資安新思維"
+        }
+      ]
+    },
+    {
+      "id": "4994",
+      "type": "lab",
+      "title": "AI 時代下,軟體團隊要怎麼設計?",
+      "started_at": "2026-10-15T10:10",
+      "finished_at": "2026-10-15T12:10",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "605+606 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "柯仁傑 (David Ko/敏捷三叔公)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "組織文化與敏捷"
+        }
+      ]
+    },
+    {
+      "id": "4995",
+      "type": "lab",
+      "title": "Google AI Studio X Antigravity 驗收實戰",
+      "started_at": "2026-10-15T10:10",
+      "finished_at": "2026-10-15T12:10",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "607+608 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "陳佳新 (佳新哥)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "4996",
+      "type": "lab",
+      "title": "通用 AI CLI vs. 場景專用 AI：以 Lovable Web 開發為例的效能實測",
+      "started_at": "2026-10-14T13:00",
+      "finished_at": "2026-10-14T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "603+604 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "林建宏 (Wolke Lin)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "4997",
+      "type": "lab",
+      "title": "在解決跟AI的溝通之前先解決人和人之間的溝通",
+      "started_at": "2026-10-14T15:30",
+      "finished_at": "2026-10-14T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "607+608 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "范育銘 (老范)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "團隊溝通與協作"
+        }
+      ]
+    },
+    {
+      "id": "4998",
+      "type": "session",
+      "title": "Welcome opening",
+      "started_at": "2026-10-15T10:00",
+      "finished_at": "2026-10-15T10:10",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "ABCDEF 會議室"
+      },
+      "session_type": "Remarks",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [],
+      "addition_tag": []
+    },
+    {
+      "id": "4999",
+      "type": "session",
+      "title": "從一人 AI 工作流到團隊工程系統",
+      "started_at": "2026-10-15T10:10",
+      "finished_at": "2026-10-15T10:55",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "ABCDEF 會議室"
+      },
+      "session_type": "Keynote",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "謝浩哲 (HAO)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "5000",
+      "type": "break",
+      "title": "Break",
+      "started_at": "2026-10-15T10:55",
+      "finished_at": "2026-10-15T11:15",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "5001",
+      "type": "session",
+      "title": "買完 AI 工具，然後呢？",
+      "started_at": "2026-10-15T11:15",
+      "finished_at": "2026-10-15T12:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "董淳吉 (Marcus Tung)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "領導與人才培訓"
+        }
+      ]
+    },
+    {
+      "id": "5002",
+      "type": "session",
+      "title": "自己刻 Agent 框架：最難的不是呼叫 LLM",
+      "started_at": "2026-10-14T11:15",
+      "finished_at": "2026-10-14T12:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "Jamis Liao"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        }
+      ]
+    },
+    {
+      "id": "5003",
+      "type": "session",
+      "title": "Rule Driven Develpoment-AI時代的軟體開發策略",
+      "started_at": "2026-10-14T16:00",
+      "finished_at": "2026-10-14T16:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "董大偉 (David)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "SDLC 相關議題"
+        }
+      ]
+    },
+    {
+      "id": "5004",
+      "type": "session",
+      "title": "當 AI 加入團隊：打造可審查、可驗證、會自我改善的 AI 開發工作流",
+      "started_at": "2026-10-15T14:15",
+      "finished_at": "2026-10-15T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "蔡景翔 (James Tsai)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "5005",
+      "type": "break",
+      "title": "Lunch",
+      "started_at": "2026-10-15T12:00",
+      "finished_at": "2026-10-15T13:30",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "5006",
+      "type": "session",
+      "title": "AI Agent Payments：x402 架構實戰",
+      "started_at": "2026-10-15T13:30",
+      "finished_at": "2026-10-15T14:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "York Chang"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        }
+      ]
+    },
+    {
+      "id": "5007",
+      "type": "session",
+      "title": "使用過狩野分析與NPS嗎？讓我們一起務實的簡化它",
+      "started_at": "2026-10-15T13:30",
+      "finished_at": "2026-10-15T14:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "陳啟彰 (Nor)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "團隊溝通與協作"
+        },
+        {
+          "name": "領導與人才培訓"
+        }
+      ]
+    },
+    {
+      "id": "5008",
+      "type": "session",
+      "title": "初級工程師如何 AI 賦能的翻寫一個跟自己年紀差不多大的框架",
+      "started_at": "2026-10-15T13:30",
+      "finished_at": "2026-10-15T14:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "Maple Kuo"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "5009",
+      "type": "session",
+      "title": "從 Hello World 看懂 AI 開發工具的計費結構——如何省得到錢",
+      "started_at": "2026-10-14T15:15",
+      "finished_at": "2026-10-14T15:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "謝政廷 (Duran Hsieh)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        },
+        {
+          "name": "SDLC 相關議題"
+        },
+        {
+          "name": "數位轉型策與技術創新"
+        }
+      ]
+    },
+    {
+      "id": "5010",
+      "type": "break",
+      "title": "Break",
+      "started_at": "2026-10-15T14:00",
+      "finished_at": "2026-10-15T14:15",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "5011",
+      "type": "session",
+      "title": "AI 把寫程式變便宜了，那開發者還剩下什麼？",
+      "started_at": "2026-10-15T16:00",
+      "finished_at": "2026-10-15T16:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "鄭重男 (Nickle)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "5012",
+      "type": "session",
+      "title": "當網站客群不再是人類：WebMCP 的前端新革命",
+      "started_at": "2026-10-14T11:15",
+      "finished_at": "2026-10-14T12:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "黃銘 (Mike Huang)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        }
+      ]
+    },
+    {
+      "id": "5013",
+      "type": "session",
+      "title": "解構 Agentic AI 時代的系統架構：A2A、x402、AP2",
+      "started_at": "2026-10-14T16:00",
+      "finished_at": "2026-10-14T16:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "蕭兆洋 (Charles Hsiao)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        }
+      ]
+    },
+    {
+      "id": "5014",
+      "type": "session",
+      "title": "產出的人不能驗自己：AI 時代的驗收設計",
+      "started_at": "2026-10-14T11:15",
+      "finished_at": "2026-10-14T12:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "楊騏 (Ci)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "Beyond AI"
+        }
+      ]
+    },
+    {
+      "id": "5015",
+      "type": "break",
+      "title": "Break",
+      "started_at": "2026-10-15T15:00",
+      "finished_at": "2026-10-15T15:15",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "5016",
+      "type": "session",
+      "title": "從一本旅遊書到 LINE OMO 服務：一個很殘酷的真實漏斗教會我的事",
+      "started_at": "2026-10-15T15:15",
+      "finished_at": "2026-10-15T15:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "陳佳新 (佳新哥)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "數位轉型策與技術創新"
+        }
+      ]
+    },
+    {
+      "id": "5017",
+      "type": "session",
+      "title": "AI 時代下的另類多工與心流 ：碎片化工作中的「動態專注」法則",
+      "started_at": "2026-10-14T13:30",
+      "finished_at": "2026-10-14T14:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "Ruddy 老師"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "組織文化與敏捷"
+        },
+        {
+          "name": "團隊溝通與協作"
+        }
+      ]
+    },
+    {
+      "id": "5018",
+      "type": "session",
+      "title": "LLM Wiki：企業內部知識問答系統的架構演進",
+      "started_at": "2026-10-14T13:30",
+      "finished_at": "2026-10-14T14:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "張維峻 (Justin)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "5019",
+      "type": "session",
+      "title": "每個人都有 AI，為什麼團隊還是這麼慢？",
+      "started_at": "2026-10-15T15:15",
+      "finished_at": "2026-10-15T15:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "薛良斌 (hlb/布丁)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        },
+        {
+          "name": "SDLC 相關議題"
+        },
+        {
+          "name": "團隊溝通與協作"
+        },
+        {
+          "name": "數位轉型策與技術創新"
+        }
+      ]
+    },
+    {
+      "id": "5020",
+      "type": "break",
+      "title": "Break",
+      "started_at": "2026-10-15T15:45",
+      "finished_at": "2026-10-15T16:00",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "5021",
+      "type": "session",
+      "title": "從寫得快到交付可信的 AI Coding 工程戰場",
+      "started_at": "2026-10-14T14:15",
+      "finished_at": "2026-10-14T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "A 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "陳葵懋 (Ian Chen)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "5022",
+      "type": "session",
+      "title": "AI在企業的應用與挑戰之路",
+      "started_at": "2026-10-15T11:15",
+      "finished_at": "2026-10-15T12:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "Edward Kuo"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "Beyond AI"
+        }
+      ]
+    },
+    {
+      "id": "5023",
+      "type": "session",
+      "title": "讓IT主管睡不著的課題，台灣企業Agent規模化的聖杯考驗",
+      "started_at": "2026-10-14T14:15",
+      "finished_at": "2026-10-14T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "王宏仁"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "FinOps"
+        },
+        {
+          "name": "SDLC 相關議題"
+        },
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        },
+        {
+          "name": "AI 與系統架構設計"
+        },
+        {
+          "name": "AI 如何驅動 DevOps 革命"
+        },
+        {
+          "name": "AI 驅動的軟體開發資安新思維"
+        },
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        },
+        {
+          "name": "Beyond AI"
+        },
+        {
+          "name": "組織文化與敏捷"
+        },
+        {
+          "name": "團隊溝通與協作"
+        },
+        {
+          "name": "數位轉型策與技術創新"
+        },
+        {
+          "name": "持續整合和持續部署"
+        },
+        {
+          "name": "領導與人才培訓"
+        }
+      ]
+    },
+    {
+      "id": "5024",
+      "type": "session",
+      "title": "都用AI寫Code了，工程師若再往前一步：Product Builder",
+      "started_at": "2026-10-15T16:00",
+      "finished_at": "2026-10-15T16:45",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "BC 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "劉兆恭 (JUGG)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        }
+      ]
+    },
+    {
+      "id": "5025",
+      "type": "break",
+      "title": "Break",
+      "started_at": "2026-10-15T16:45",
+      "finished_at": "2026-10-15T17:00",
+      "classroom": null,
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": []
+    },
+    {
+      "id": "5026",
+      "type": "session",
+      "title": "挖掘技能的全新可能性",
+      "started_at": "2026-10-15T17:00",
+      "finished_at": "2026-10-15T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "尹相志"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        },
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        }
+      ]
+    },
+    {
+      "id": "5027",
+      "type": "session",
+      "title": "從 Sprint 到 Prompt：用 AIDD 從 0 打造 LINE Bot",
+      "started_at": "2026-10-15T17:00",
+      "finished_at": "2026-10-15T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "Zona Wang"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        },
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "5028",
+      "type": "session",
+      "title": "「開發效能提升實戰」：Claude Design 搭配自建 Skill，團隊達到提升四倍產出",
+      "started_at": "2026-10-14T17:00",
+      "finished_at": "2026-10-14T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "DE 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "吳品毅 (阿咪 A-mi)"
+          }
+        },
+        {
+          "speaker": {
+            "public_name": "林杰伶 (Jennifer Lin)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        },
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        },
+        {
+          "name": "組織文化與敏捷"
+        },
+        {
+          "name": "團隊溝通與協作"
+        }
+      ]
+    },
+    {
+      "id": "5029",
+      "type": "session",
+      "title": "AI Agent 時代：當人人都能快速上手，什麼才是真正的專業？",
+      "started_at": "2026-10-14T17:00",
+      "finished_at": "2026-10-14T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "F 會議室"
+      },
+      "session_type": "Session",
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "江佳佳"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        },
+        {
+          "name": "SDLC 相關議題"
+        },
+        {
+          "name": "團隊溝通與協作"
+        }
+      ]
+    },
+    {
+      "id": "5030",
+      "type": "lab",
+      "title": "把「做完了」寫下來：90 分鐘做出一份機器能檢查的驗收清單",
+      "started_at": "2026-10-14T15:30",
+      "finished_at": "2026-10-14T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "603+604 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "楊騏 (Ci)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "SDLC 相關議題"
+        }
+      ]
+    },
+    {
+      "id": "5031",
+      "type": "lab",
+      "title": "AI 驅動架構實戰：Structurizr × OpenCode",
+      "started_at": "2026-10-14T10:10",
+      "finished_at": "2026-10-14T12:10",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "607+608 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "郭孟坤 (Mansun Kuo)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        }
+      ]
+    },
+    {
+      "id": "5032",
+      "type": "lab",
+      "title": "從點子到產品：AI 驅動的現代軟體開發全流程實踐",
+      "started_at": "2026-10-14T15:30",
+      "finished_at": "2026-10-14T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "605+606 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "林正祥 (ATai)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 如何改變產品規劃與需求定義"
+        }
+      ]
+    },
+    {
+      "id": "5033",
+      "type": "lab",
+      "title": "AI Coding 治理實戰：從開發到交付的Harness工程",
+      "started_at": "2026-10-15T13:00",
+      "finished_at": "2026-10-15T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "607+608 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "陳葵懋 (Ian Chen)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "5034",
+      "type": "lab",
+      "title": "讓 AI Agent、MCP Server、CLI 安全登入的實作工作坊",
+      "started_at": "2026-10-15T13:00",
+      "finished_at": "2026-10-15T15:00",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "605+606 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "吳柏毅 (appleboy)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 驅動的軟體開發資安新思維"
+        }
+      ]
+    },
+    {
+      "id": "5035",
+      "type": "lab",
+      "title": "AI Coding 治理實戰：從開發到交付的Harness工程",
+      "started_at": "2026-10-15T10:10",
+      "finished_at": "2026-10-15T12:10",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "603+604 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "陳葵懋 (Ian Chen)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 開發工具實戰和流程改造"
+        }
+      ]
+    },
+    {
+      "id": "5036",
+      "type": "lab",
+      "title": "從瀑布式的崩潰到 AI 的拯救：用積木與 AI 助手重塑敏捷協作",
+      "started_at": "2026-10-15T15:30",
+      "finished_at": "2026-10-15T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "607+608 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "葉承宇 (丁哥Dean Yeh)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "組織文化與敏捷"
+        }
+      ]
+    },
+    {
+      "id": "5037",
+      "type": "lab",
+      "title": "AI 時代下,軟體團隊要怎麼設計?",
+      "started_at": "2026-10-15T15:30",
+      "finished_at": "2026-10-15T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "605+606 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "柯仁傑 (David Ko/敏捷三叔公)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "組織文化與敏捷"
+        }
+      ]
+    },
+    {
+      "id": "5038",
+      "type": "lab",
+      "title": "AI 驅動架構實戰：Structurizr × OpenCode",
+      "started_at": "2026-10-15T15:30",
+      "finished_at": "2026-10-15T17:30",
+      "classroom": {
+        "floor": "6F",
+        "tw_name": "603+604 會議室"
+      },
+      "session_type": null,
+      "relatedCampaigns": [],
+      "relatedSpeakers": [
+        {
+          "speaker": {
+            "public_name": "郭孟坤 (Mansun Kuo)"
+          }
+        }
+      ],
+      "addition_tag": [
+        {
+          "name": "AI 與系統架構設計"
+        }
+      ]
+    }
+  ]
+}

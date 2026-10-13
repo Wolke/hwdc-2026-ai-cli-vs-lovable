@@ -1,0 +1,38 @@
+
+  query {
+    getProject: HWDC2026(lang: tw) {
+      sessions {
+        id
+        type
+        title
+        started_at
+        finished_at
+        classroom {
+          floor
+          tw_name
+        }
+        session_type
+        relatedCampaigns {
+          campaign {
+            title
+            id
+          }
+        }
+        relatedSpeakers {
+          speaker {
+            public_name
+          }
+        }
+        ... on Session {
+          addition_tag {
+            name
+          }
+        }
+        ... on Lab {
+          addition_tag {
+            name
+          }
+        }
+      }
+    }
+  }

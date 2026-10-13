@@ -1,51 +1,43 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第一版驗收表</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;color:#17283e;background:#f5f8fc;line-height:1.85}main{max-width:1000px;margin:30px auto;padding:42px 48px;background:white}h1{font-size:32px;line-height:1.4;margin:0 0 24px;color:#123564}h2{font-size:24px;margin:42px 0 18px;border-bottom:2px solid #e0eafa;padding-bottom:8px}h3{font-size:20px}a{color:#155ebd;text-decoration-thickness:1px;text-underline-offset:3px}p,li{font-size:16px}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.65;margin:24px 0}th,td{border:1px solid #ccd9ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf3fc;color:#174777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fa;border-left:3px solid #155ebd;padding:18px;font:14px/1.8 ui-monospace,Menlo,monospace}code{font-family:ui-monospace,Menlo,monospace;color:#25476d}nav{max-width:1000px;margin:20px auto;padding:0 16px;font-size:14px}blockquote{margin:20px 0;padding:10px 20px;border-left:4px solid #d28c1f;background:#fff8e7}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:28px 20px}h1{font-size:27px}table{display:block;overflow-x:auto}th,td{min-width:110px}nav{margin:14px 0}}@page{size:A4;margin:18mm}@media print{body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}nav{display:none}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}p,li{font-size:11pt}table{font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}pre{font-size:9pt}a{color:inherit;text-decoration:none}}</style></head><body><nav><a href="../../開始這裡.html">教材首頁</a>　<a href="acceptance-v1.md">Markdown 原文</a>　可使用瀏覽器列印</nav><main><h1>第一版驗收表</h1>
-<p>每項記錄「通過／失敗／未測」，失敗附重現方式。每一項全部條件成立才計 1 分，共 6 項。</p>
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第一版 UX 驗收表</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;color:#17283e;background:#f5f8fc;line-height:1.85}main{max-width:1000px;margin:30px auto;padding:42px 48px;background:white}h1{font-size:32px;line-height:1.4;margin:0 0 24px;color:#123564}h2{font-size:24px;margin:42px 0 18px;border-bottom:2px solid #e0eafa;padding-bottom:8px}h3{font-size:20px}a{color:#155ebd;text-decoration-thickness:1px;text-underline-offset:3px}p,li{font-size:16px}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.65;margin:24px 0}th,td{border:1px solid #ccd9ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf3fc;color:#174777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fa;border-left:3px solid #155ebd;padding:18px;font:14px/1.8 ui-monospace,Menlo,monospace}code{font-family:ui-monospace,Menlo,monospace;color:#25476d}nav{max-width:1000px;margin:20px auto;padding:0 16px;font-size:14px}blockquote{margin:20px 0;padding:10px 20px;border-left:4px solid #d28c1f;background:#fff8e7}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:28px 20px}h1{font-size:27px}table{display:block;overflow-x:auto}th,td{min-width:110px}nav{margin:14px 0}}@page{size:A4;margin:18mm}@media print{body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}nav{display:none}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}p,li{font-size:11pt}table{font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}pre{font-size:9pt}a{color:inherit;text-decoration:none}}</style></head><body><nav><a href="../../開始這裡.html">教材首頁</a>　<a href="acceptance-v1.md">Markdown 原文</a>　可使用瀏覽器列印</nav><main><h1>第一版 UX 驗收表</h1>
+<p>不要求相同 UI。每項全部成立才記通過；不確定就記未測。資料為 2026-10-13 的固定快照。</p>
 <table>
 <thead>
 <tr>
 <th>ID</th>
 <th>操作</th>
 <th>預期結果</th>
-<th>結果</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>A1</td>
-<td>開啟清單</td>
-<td>12 筆、欄位齊全、時間正確，順序 S01、S04、S02、S03、S05、S06、S07、S08、S09、S10、S11、S12</td>
-<td>未測</td>
+<td>清除所有條件，再依日期分別查看</td>
+<td>共 70 筆，10/14 和 10/15 各 35 筆；日期、時間、講者、會議室與來源清楚；不把休息時段混入</td>
 </tr>
 <tr>
 <td>A2</td>
-<td>搜尋「林以安」，再搜尋「不存在的議程」</td>
-<td>前者只剩 S01，後者顯示無結果；清空恢復</td>
-<td>未測</td>
+<td>搜尋「 林建宏 」及「不存在的議程」</td>
+<td>前者只剩 4996；後者有無結果提示；清除恢復；英文大小寫不影響</td>
 </tr>
 <tr>
 <td>A3</td>
-<td>搜尋「AI」，主題選「Web 技術」；再選「AI 開發」</td>
-<td>前者 0 筆，後者 S01、S06，共 2 筆</td>
-<td>未測</td>
+<td>搜尋林建宏，日期選 10/14，主題選 SDLC 相關議題再選 AI 開發工具實戰和流程改造</td>
+<td>前者 0 筆，後者 4996；改 10/15 為 0。另搜尋陳宜昌，三個官方標籤都能篩到 4958</td>
 </tr>
 <tr>
 <td>A4</td>
-<td>收藏 S01、S03，取消 S01，再加回 S01</td>
-<td>收藏總數依序正確，最後為 2，沒有重複項</td>
-<td>未測</td>
+<td>收藏 4996、5030，取消 4996，再加回</td>
+<td>收藏數 1→2→1→2，沒有重複；篩選不會誤刪收藏</td>
 </tr>
 <tr>
 <td>A5</td>
-<td>切到我的議程，清空搜尋並選全部主題</td>
-<td>只顯示 S01、S03，依時間排序；全取消後有空白提示</td>
-<td>未測</td>
+<td>查看自己的議程並清除篩選，再取消全部收藏</td>
+<td>僅 4996、5030，依日期時間排序；全取消後有可接續操作的空狀態</td>
 </tr>
 <tr>
 <td>A6</td>
-<td>再收藏 S01、S03，重新整理，檢查 390px 寬度</td>
-<td>兩筆收藏保留，沒有水平溢出，搜尋與收藏按鈕可操作</td>
-<td>未測</td>
+<td>再收藏 4996、5030，重新整理，於 390px 操作</td>
+<td>收藏保留；搜尋、日期／主題篩選與取消收藏能完成；不需橫向捲動才能操作</td>
 </tr>
 </tbody></table>
-<h2>計時</h2>
-<p>初版最多 15 分鐘，包含驗收。截止仍未完成時填寫當下通過項數及失敗項，不把「15 分鐘截止」寫成「15 分鐘完成」。</p>
+<p>初版上限 15 分鐘，包含驗收。到時保存成果、通過編號與未完成原因。UI 偏好另作分享，不混入功能分數。</p>
 </main></body></html>

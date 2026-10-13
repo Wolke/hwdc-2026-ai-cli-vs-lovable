@@ -1,60 +1,45 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第二版需求：收藏衝堂提示</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;color:#17283e;background:#f5f8fc;line-height:1.85}main{max-width:1000px;margin:30px auto;padding:42px 48px;background:white}h1{font-size:32px;line-height:1.4;margin:0 0 24px;color:#123564}h2{font-size:24px;margin:42px 0 18px;border-bottom:2px solid #e0eafa;padding-bottom:8px}h3{font-size:20px}a{color:#155ebd;text-decoration-thickness:1px;text-underline-offset:3px}p,li{font-size:16px}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.65;margin:24px 0}th,td{border:1px solid #ccd9ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf3fc;color:#174777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fa;border-left:3px solid #155ebd;padding:18px;font:14px/1.8 ui-monospace,Menlo,monospace}code{font-family:ui-monospace,Menlo,monospace;color:#25476d}nav{max-width:1000px;margin:20px auto;padding:0 16px;font-size:14px}blockquote{margin:20px 0;padding:10px 20px;border-left:4px solid #d28c1f;background:#fff8e7}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:28px 20px}h1{font-size:27px}table{display:block;overflow-x:auto}th,td{min-width:110px}nav{margin:14px 0}}@page{size:A4;margin:18mm}@media print{body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}nav{display:none}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}p,li{font-size:11pt}table{font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}pre{font-size:9pt}a{color:inherit;text-decoration:none}}</style></head><body><nav><a href="../../開始這裡.html">教材首頁</a>　<a href="requirements-v2.md">Markdown 原文</a>　可使用瀏覽器列印</nav><main><h1>第二版需求：收藏衝堂提示</h1>
-<p>在第一版上加入收藏議程衝堂提示，保留所有既有功能和收藏資料。</p>
-<ol>
-<li>比較全部收藏議程，不受搜尋、主題篩選或目前視圖影響。</li>
-<li>以時間區間判斷。部分重疊、完全包含及相同時段都算衝堂，首尾相接不算。</li>
-<li>規則為 a.start &lt; b.end &amp;&amp; b.start &lt; a.end，時間要先轉換成可比較的時間值。</li>
-<li>清楚顯示衝堂的兩個議程名稱及各自時段。同一對只列一次，不與自己比較。</li>
-<li>不自動取消任何收藏，讓使用者自己決定。</li>
-<li>取消收藏後即時更新提示。</li>
-<li>維持原 localStorage 鍵名與 ID 格式，重新整理仍保留第一版的收藏。</li>
-</ol>
-<h2>驗收（B1–B6，共 6 項）</h2>
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>第二版：收藏議程衝堂提醒</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;color:#17283e;background:#f5f8fc;line-height:1.85}main{max-width:1000px;margin:30px auto;padding:42px 48px;background:white}h1{font-size:32px;line-height:1.4;margin:0 0 24px;color:#123564}h2{font-size:24px;margin:42px 0 18px;border-bottom:2px solid #e0eafa;padding-bottom:8px}h3{font-size:20px}a{color:#155ebd;text-decoration-thickness:1px;text-underline-offset:3px}p,li{font-size:16px}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.65;margin:24px 0}th,td{border:1px solid #ccd9ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf3fc;color:#174777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fa;border-left:3px solid #155ebd;padding:18px;font:14px/1.8 ui-monospace,Menlo,monospace}code{font-family:ui-monospace,Menlo,monospace;color:#25476d}nav{max-width:1000px;margin:20px auto;padding:0 16px;font-size:14px}blockquote{margin:20px 0;padding:10px 20px;border-left:4px solid #d28c1f;background:#fff8e7}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:28px 20px}h1{font-size:27px}table{display:block;overflow-x:auto}th,td{min-width:110px}nav{margin:14px 0}}@page{size:A4;margin:18mm}@media print{body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}nav{display:none}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}p,li{font-size:11pt}table{font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}pre{font-size:9pt}a{color:inherit;text-decoration:none}}</style></head><body><nav><a href="../../開始這裡.html">教材首頁</a>　<a href="requirements-v2.md">Markdown 原文</a>　可使用瀏覽器列印</nav><main><h1>第二版：收藏議程衝堂提醒</h1>
+<p>在現有作品增加衝堂提示，保留第一版收藏、設計與既有功能。樣式與提醒位置自由。</p>
+<p>比較全部收藏，不受搜尋、日期、主題或視圖影響。部分重疊、完全包含、相同時段都算衝堂；首尾相接不算。以含日期的時間比較：<code>a.start &lt; b.end &amp;&amp; b.start &lt; a.end</code>。不能只比 HH:mm。</p>
+<p>每對只列一次，不與自己比較；說清楚是哪兩場、哪一天與何時。使用者自己決定，不能自動刪除收藏。取消後立即更新，原有收藏格式不能改到遺失資料。</p>
 <table>
 <thead>
 <tr>
 <th>ID</th>
-<th>收藏組合或操作</th>
-<th>預期結果</th>
-<th>結果</th>
+<th>收藏或操作</th>
+<th>預期</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>B1</td>
-<td>S01 + S02</td>
-<td>部分重疊，提示 1 對</td>
-<td>未測</td>
+<td>5030＋5009</td>
+<td>10/14 15:30–17:30 與 15:15–15:45，部分重疊 1 對</td>
 </tr>
 <tr>
 <td>B2</td>
-<td>S01 + S04</td>
-<td>完全包含，提示 1 對</td>
-<td>未測</td>
+<td>4996＋5018</td>
+<td>10/14 13:00–15:00 包含 13:30–14:00，1 對</td>
 </tr>
 <tr>
 <td>B3</td>
-<td>S05 + S06</td>
-<td>相同時段，提示 1 對</td>
-<td>未測</td>
+<td>4996＋4993</td>
+<td>同為 10/14 13:00–15:00，1 對</td>
 </tr>
 <tr>
 <td>B4</td>
-<td>S01 + S03</td>
-<td>09:40 首尾相接，不衝堂</td>
-<td>未測</td>
+<td>4957＋4958；另試 4996＋4992</td>
+<td>10/14 10:10 首尾相接不衝堂；跨日相同鐘點也不衝堂</td>
 </tr>
 <tr>
 <td>B5</td>
-<td>S01 + S02，搜尋 S01 的講者或切主題，再取消 S02</td>
-<td>篩選時仍提示原衝突，取消後提示消失</td>
-<td>未測</td>
+<td>收藏 4996＋5018，搜尋林建宏、改日期或主題，再取消 5018</td>
+<td>篩選後仍提醒；取消後立即更新，不誤刪 4996</td>
 </tr>
 <tr>
 <td>B6</td>
-<td>跨版本保留收藏並重做 A1–A6</td>
-<td>第一版收藏仍在，既有功能全部通過</td>
-<td>未測</td>
+<td>修改前收藏 4996、5030，修改後重做 A1–A6</td>
+<td>原有收藏仍在；搜尋、篩選、手機操作與儲存仍通過</td>
 </tr>
 </tbody></table>
-<p>每個案例先清除其他收藏。修改最多 5 分鐘，包含驗收。來不及的項目記錄未測，不猜測通過。</p>
+<p>每個案例先清除其他收藏，保留簡單的兩場狀態。修改上限 5 分鐘，包含驗收；來不及的項目記未測。</p>
 </main></body></html>

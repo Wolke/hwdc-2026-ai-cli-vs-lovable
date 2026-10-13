@@ -78,6 +78,18 @@
       "title": "Wolke 的 Medium 著作頁",
       "url": "https://wolkesau.medium.com/books",
       "supports": "Gemini、ChatGPT 程式開發與 LINE 聊天機器人相關著作"
+    },
+    {
+      "id": "S14",
+      "title": "HWDC 2026 官方議程與公開資料",
+      "url": "https://hwdc.ithome.com.tw/2026/agenda",
+      "supports": "2026-10-13 公開資料快照：70 筆議程與 12 筆休息；日期、講者、會議室和主題"
+    },
+    {
+      "id": "S15",
+      "title": "本地舊條件彩排紀錄",
+      "url": "rehearsal-observations.md",
+      "supports": "單次操作觀察與限制，非正式效能排名"
     }
   ]
 }

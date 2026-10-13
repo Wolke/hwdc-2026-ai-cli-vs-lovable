@@ -1,0 +1,1214 @@
+[
+  {
+    "id": "4957",
+    "title": "Welcome opening",
+    "speaker": "",
+    "speakers": [],
+    "tags": [],
+    "track": "未標示主題",
+    "room": "ABCDEF 會議室",
+    "startsAt": "2026-10-14T10:00:00+08:00",
+    "endsAt": "2026-10-14T10:10:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4957"
+  },
+  {
+    "id": "4958",
+    "title": "以一些範例來討論AI Coding新時代的團隊開發",
+    "speaker": "陳宜昌 (YC Chen)",
+    "speakers": [
+      "陳宜昌 (YC Chen)"
+    ],
+    "tags": [
+      "AI 如何改變產品規劃與需求定義",
+      "AI 驅動的軟體開發資安新思維",
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 如何改變產品規劃與需求定義",
+    "room": "ABCDEF 會議室",
+    "startsAt": "2026-10-14T10:10:00+08:00",
+    "endsAt": "2026-10-14T10:55:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4958"
+  },
+  {
+    "id": "4989",
+    "title": "為 Agentic AI 設計前端狀態機與即時回饋介面",
+    "speaker": "何剛 (Michael Ho)、Sunny Wu",
+    "speakers": [
+      "何剛 (Michael Ho)",
+      "Sunny Wu"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "603+604 會議室",
+    "startsAt": "2026-10-14T10:10:00+08:00",
+    "endsAt": "2026-10-14T12:10:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/4989"
+  },
+  {
+    "id": "4990",
+    "title": "從點子到產品：AI 驅動的現代軟體開發全流程實踐",
+    "speaker": "林正祥 (ATai)",
+    "speakers": [
+      "林正祥 (ATai)"
+    ],
+    "tags": [
+      "AI 如何改變產品規劃與需求定義"
+    ],
+    "track": "AI 如何改變產品規劃與需求定義",
+    "room": "605+606 會議室",
+    "startsAt": "2026-10-14T10:10:00+08:00",
+    "endsAt": "2026-10-14T12:10:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/4990"
+  },
+  {
+    "id": "5031",
+    "title": "AI 驅動架構實戰：Structurizr × OpenCode",
+    "speaker": "郭孟坤 (Mansun Kuo)",
+    "speakers": [
+      "郭孟坤 (Mansun Kuo)"
+    ],
+    "tags": [
+      "AI 與系統架構設計"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "607+608 會議室",
+    "startsAt": "2026-10-14T10:10:00+08:00",
+    "endsAt": "2026-10-14T12:10:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/5031"
+  },
+  {
+    "id": "4962",
+    "title": "AI 工具爆發時代的企業身分認證治理實戰",
+    "speaker": "吳柏毅 (appleboy)",
+    "speakers": [
+      "吳柏毅 (appleboy)"
+    ],
+    "tags": [
+      "AI 與系統架構設計"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-14T11:15:00+08:00",
+    "endsAt": "2026-10-14T12:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4962"
+  },
+  {
+    "id": "5002",
+    "title": "自己刻 Agent 框架：最難的不是呼叫 LLM",
+    "speaker": "Jamis Liao",
+    "speakers": [
+      "Jamis Liao"
+    ],
+    "tags": [
+      "AI 與系統架構設計"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-14T11:15:00+08:00",
+    "endsAt": "2026-10-14T12:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5002"
+  },
+  {
+    "id": "5012",
+    "title": "當網站客群不再是人類：WebMCP 的前端新革命",
+    "speaker": "黃銘 (Mike Huang)",
+    "speakers": [
+      "黃銘 (Mike Huang)"
+    ],
+    "tags": [
+      "AI 與系統架構設計"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "F 會議室",
+    "startsAt": "2026-10-14T11:15:00+08:00",
+    "endsAt": "2026-10-14T12:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5012"
+  },
+  {
+    "id": "5014",
+    "title": "產出的人不能驗自己：AI 時代的驗收設計",
+    "speaker": "楊騏 (Ci)",
+    "speakers": [
+      "楊騏 (Ci)"
+    ],
+    "tags": [
+      "Beyond AI"
+    ],
+    "track": "Beyond AI",
+    "room": "A 會議室",
+    "startsAt": "2026-10-14T11:15:00+08:00",
+    "endsAt": "2026-10-14T12:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5014"
+  },
+  {
+    "id": "4991",
+    "title": "讓 AI 讀懂你的系統 with knowledge graph",
+    "speaker": "Neo Hsu",
+    "speakers": [
+      "Neo Hsu"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "607+608 會議室",
+    "startsAt": "2026-10-14T13:00:00+08:00",
+    "endsAt": "2026-10-14T15:00:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/4991"
+  },
+  {
+    "id": "4993",
+    "title": "讓 AI Agent、MCP Server、CLI 安全登入的實作工作坊",
+    "speaker": "吳柏毅 (appleboy)",
+    "speakers": [
+      "吳柏毅 (appleboy)"
+    ],
+    "tags": [
+      "AI 驅動的軟體開發資安新思維"
+    ],
+    "track": "AI 驅動的軟體開發資安新思維",
+    "room": "605+606 會議室",
+    "startsAt": "2026-10-14T13:00:00+08:00",
+    "endsAt": "2026-10-14T15:00:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/4993"
+  },
+  {
+    "id": "4996",
+    "title": "通用 AI CLI vs. 場景專用 AI：以 Lovable Web 開發為例的效能實測",
+    "speaker": "林建宏 (Wolke Lin)",
+    "speakers": [
+      "林建宏 (Wolke Lin)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "603+604 會議室",
+    "startsAt": "2026-10-14T13:00:00+08:00",
+    "endsAt": "2026-10-14T15:00:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/4996"
+  },
+  {
+    "id": "4966",
+    "title": "AI Workflow：打造 PM 的第二大腦",
+    "speaker": "林芝羽 (Xenia)",
+    "speakers": [
+      "林芝羽 (Xenia)"
+    ],
+    "tags": [
+      "AI 如何改變產品規劃與需求定義"
+    ],
+    "track": "AI 如何改變產品規劃與需求定義",
+    "room": "F 會議室",
+    "startsAt": "2026-10-14T13:30:00+08:00",
+    "endsAt": "2026-10-14T14:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4966"
+  },
+  {
+    "id": "4987",
+    "title": "用 AI 工作流重整事件驅動交易系統的一致性、效能與監測",
+    "speaker": "蔡宜庭 (ET)",
+    "speakers": [
+      "蔡宜庭 (ET)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-14T13:30:00+08:00",
+    "endsAt": "2026-10-14T14:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4987"
+  },
+  {
+    "id": "5017",
+    "title": "AI 時代下的另類多工與心流 ：碎片化工作中的「動態專注」法則",
+    "speaker": "Ruddy 老師",
+    "speakers": [
+      "Ruddy 老師"
+    ],
+    "tags": [
+      "組織文化與敏捷",
+      "團隊溝通與協作"
+    ],
+    "track": "組織文化與敏捷",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-14T13:30:00+08:00",
+    "endsAt": "2026-10-14T14:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5017"
+  },
+  {
+    "id": "5018",
+    "title": "LLM Wiki：企業內部知識問答系統的架構演進",
+    "speaker": "張維峻 (Justin)",
+    "speakers": [
+      "張維峻 (Justin)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "A 會議室",
+    "startsAt": "2026-10-14T13:30:00+08:00",
+    "endsAt": "2026-10-14T14:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5018"
+  },
+  {
+    "id": "4972",
+    "title": "讓工程師失業的 N + 1 道陰影",
+    "speaker": "高見龍",
+    "speakers": [
+      "高見龍"
+    ],
+    "tags": [
+      "SDLC 相關議題"
+    ],
+    "track": "SDLC 相關議題",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-14T14:15:00+08:00",
+    "endsAt": "2026-10-14T15:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4972"
+  },
+  {
+    "id": "4983",
+    "title": "懂行規的 Agent：把規範變成技能，自動化開發到部署",
+    "speaker": "張云姵 (Sarah)",
+    "speakers": [
+      "張云姵 (Sarah)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-14T14:15:00+08:00",
+    "endsAt": "2026-10-14T15:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4983"
+  },
+  {
+    "id": "5021",
+    "title": "從寫得快到交付可信的 AI Coding 工程戰場",
+    "speaker": "陳葵懋 (Ian Chen)",
+    "speakers": [
+      "陳葵懋 (Ian Chen)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "A 會議室",
+    "startsAt": "2026-10-14T14:15:00+08:00",
+    "endsAt": "2026-10-14T15:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5021"
+  },
+  {
+    "id": "5023",
+    "title": "讓IT主管睡不著的課題，台灣企業Agent規模化的聖杯考驗",
+    "speaker": "王宏仁",
+    "speakers": [
+      "王宏仁"
+    ],
+    "tags": [
+      "FinOps",
+      "SDLC 相關議題",
+      "AI 如何改變產品規劃與需求定義",
+      "AI 與系統架構設計",
+      "AI 如何驅動 DevOps 革命",
+      "AI 驅動的軟體開發資安新思維",
+      "AI 開發工具實戰和流程改造",
+      "Beyond AI",
+      "組織文化與敏捷",
+      "團隊溝通與協作",
+      "數位轉型策與技術創新",
+      "持續整合和持續部署",
+      "領導與人才培訓"
+    ],
+    "track": "FinOps",
+    "room": "F 會議室",
+    "startsAt": "2026-10-14T14:15:00+08:00",
+    "endsAt": "2026-10-14T15:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5023"
+  },
+  {
+    "id": "4965",
+    "title": "雲端把花錢的權力交給了工程師，然後呢？",
+    "speaker": "林宗穎 (Kater)",
+    "speakers": [
+      "林宗穎 (Kater)"
+    ],
+    "tags": [
+      "FinOps"
+    ],
+    "track": "FinOps",
+    "room": "F 會議室",
+    "startsAt": "2026-10-14T15:15:00+08:00",
+    "endsAt": "2026-10-14T15:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4965"
+  },
+  {
+    "id": "4968",
+    "title": "穩才是快 ～ 以 OKF 打造 Agentic AIOps 治理閉環",
+    "speaker": "許庭魁 (Jerry Hsu)",
+    "speakers": [
+      "許庭魁 (Jerry Hsu)"
+    ],
+    "tags": [
+      "AI 如何驅動 DevOps 革命"
+    ],
+    "track": "AI 如何驅動 DevOps 革命",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-14T15:15:00+08:00",
+    "endsAt": "2026-10-14T15:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4968"
+  },
+  {
+    "id": "4986",
+    "title": "AI 導入之後：傳統開發團隊的角色鬆動與開發新節奏",
+    "speaker": "陳仁傑",
+    "speakers": [
+      "陳仁傑"
+    ],
+    "tags": [
+      "Beyond AI"
+    ],
+    "track": "Beyond AI",
+    "room": "A 會議室",
+    "startsAt": "2026-10-14T15:15:00+08:00",
+    "endsAt": "2026-10-14T15:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4986"
+  },
+  {
+    "id": "5009",
+    "title": "從 Hello World 看懂 AI 開發工具的計費結構——如何省得到錢",
+    "speaker": "謝政廷 (Duran Hsieh)",
+    "speakers": [
+      "謝政廷 (Duran Hsieh)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造",
+      "SDLC 相關議題",
+      "數位轉型策與技術創新"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-14T15:15:00+08:00",
+    "endsAt": "2026-10-14T15:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5009"
+  },
+  {
+    "id": "4997",
+    "title": "在解決跟AI的溝通之前先解決人和人之間的溝通",
+    "speaker": "范育銘 (老范)",
+    "speakers": [
+      "范育銘 (老范)"
+    ],
+    "tags": [
+      "團隊溝通與協作"
+    ],
+    "track": "團隊溝通與協作",
+    "room": "607+608 會議室",
+    "startsAt": "2026-10-14T15:30:00+08:00",
+    "endsAt": "2026-10-14T17:30:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/4997"
+  },
+  {
+    "id": "5030",
+    "title": "把「做完了」寫下來：90 分鐘做出一份機器能檢查的驗收清單",
+    "speaker": "楊騏 (Ci)",
+    "speakers": [
+      "楊騏 (Ci)"
+    ],
+    "tags": [
+      "SDLC 相關議題"
+    ],
+    "track": "SDLC 相關議題",
+    "room": "603+604 會議室",
+    "startsAt": "2026-10-14T15:30:00+08:00",
+    "endsAt": "2026-10-14T17:30:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/5030"
+  },
+  {
+    "id": "5032",
+    "title": "從點子到產品：AI 驅動的現代軟體開發全流程實踐",
+    "speaker": "林正祥 (ATai)",
+    "speakers": [
+      "林正祥 (ATai)"
+    ],
+    "tags": [
+      "AI 如何改變產品規劃與需求定義"
+    ],
+    "track": "AI 如何改變產品規劃與需求定義",
+    "room": "605+606 會議室",
+    "startsAt": "2026-10-14T15:30:00+08:00",
+    "endsAt": "2026-10-14T17:30:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/5032"
+  },
+  {
+    "id": "4959",
+    "title": "讓 Agent Skills 介入你的軟體開發的工作流",
+    "speaker": "吳俊毅 (Gelis)",
+    "speakers": [
+      "吳俊毅 (Gelis)"
+    ],
+    "tags": [
+      "SDLC 相關議題"
+    ],
+    "track": "SDLC 相關議題",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-14T16:00:00+08:00",
+    "endsAt": "2026-10-14T16:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4959"
+  },
+  {
+    "id": "4960",
+    "title": "當 Secret 不再是秘密",
+    "speaker": "邱繼平 (山姆大叔)",
+    "speakers": [
+      "邱繼平 (山姆大叔)"
+    ],
+    "tags": [
+      "SDLC 相關議題"
+    ],
+    "track": "SDLC 相關議題",
+    "room": "A 會議室",
+    "startsAt": "2026-10-14T16:00:00+08:00",
+    "endsAt": "2026-10-14T16:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4960"
+  },
+  {
+    "id": "5003",
+    "title": "Rule Driven Develpoment-AI時代的軟體開發策略",
+    "speaker": "董大偉 (David)",
+    "speakers": [
+      "董大偉 (David)"
+    ],
+    "tags": [
+      "SDLC 相關議題"
+    ],
+    "track": "SDLC 相關議題",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-14T16:00:00+08:00",
+    "endsAt": "2026-10-14T16:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5003"
+  },
+  {
+    "id": "5013",
+    "title": "解構 Agentic AI 時代的系統架構：A2A、x402、AP2",
+    "speaker": "蕭兆洋 (Charles Hsiao)",
+    "speakers": [
+      "蕭兆洋 (Charles Hsiao)"
+    ],
+    "tags": [
+      "AI 與系統架構設計"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "F 會議室",
+    "startsAt": "2026-10-14T16:00:00+08:00",
+    "endsAt": "2026-10-14T16:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5013"
+  },
+  {
+    "id": "4967",
+    "title": "當架構設計被 AI 加速後，工程判斷力的養成與傳承該怎麼辦？",
+    "speaker": "林承毅 (Jed)",
+    "speakers": [
+      "林承毅 (Jed)"
+    ],
+    "tags": [
+      "Beyond AI"
+    ],
+    "track": "Beyond AI",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-14T17:00:00+08:00",
+    "endsAt": "2026-10-14T17:30:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4967"
+  },
+  {
+    "id": "4976",
+    "title": "可製造的 AI：讓 AI 成為工廠的第二大腦",
+    "speaker": "戚務漢 (Caesar)",
+    "speakers": [
+      "戚務漢 (Caesar)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "A 會議室",
+    "startsAt": "2026-10-14T17:00:00+08:00",
+    "endsAt": "2026-10-14T17:30:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4976"
+  },
+  {
+    "id": "5028",
+    "title": "「開發效能提升實戰」：Claude Design 搭配自建 Skill，團隊達到提升四倍產出",
+    "speaker": "吳品毅 (阿咪 A-mi)、林杰伶 (Jennifer Lin)",
+    "speakers": [
+      "吳品毅 (阿咪 A-mi)",
+      "林杰伶 (Jennifer Lin)"
+    ],
+    "tags": [
+      "AI 如何改變產品規劃與需求定義",
+      "AI 開發工具實戰和流程改造",
+      "組織文化與敏捷",
+      "團隊溝通與協作"
+    ],
+    "track": "AI 如何改變產品規劃與需求定義",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-14T17:00:00+08:00",
+    "endsAt": "2026-10-14T17:30:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5028"
+  },
+  {
+    "id": "5029",
+    "title": "AI Agent 時代：當人人都能快速上手，什麼才是真正的專業？",
+    "speaker": "江佳佳",
+    "speakers": [
+      "江佳佳"
+    ],
+    "tags": [
+      "AI 如何改變產品規劃與需求定義",
+      "SDLC 相關議題",
+      "團隊溝通與協作"
+    ],
+    "track": "AI 如何改變產品規劃與需求定義",
+    "room": "F 會議室",
+    "startsAt": "2026-10-14T17:00:00+08:00",
+    "endsAt": "2026-10-14T17:30:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5029"
+  },
+  {
+    "id": "4998",
+    "title": "Welcome opening",
+    "speaker": "",
+    "speakers": [],
+    "tags": [],
+    "track": "未標示主題",
+    "room": "ABCDEF 會議室",
+    "startsAt": "2026-10-15T10:00:00+08:00",
+    "endsAt": "2026-10-15T10:10:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4998"
+  },
+  {
+    "id": "4994",
+    "title": "AI 時代下,軟體團隊要怎麼設計?",
+    "speaker": "柯仁傑 (David Ko/敏捷三叔公)",
+    "speakers": [
+      "柯仁傑 (David Ko/敏捷三叔公)"
+    ],
+    "tags": [
+      "組織文化與敏捷"
+    ],
+    "track": "組織文化與敏捷",
+    "room": "605+606 會議室",
+    "startsAt": "2026-10-15T10:10:00+08:00",
+    "endsAt": "2026-10-15T12:10:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/4994"
+  },
+  {
+    "id": "4995",
+    "title": "Google AI Studio X Antigravity 驗收實戰",
+    "speaker": "陳佳新 (佳新哥)",
+    "speakers": [
+      "陳佳新 (佳新哥)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "607+608 會議室",
+    "startsAt": "2026-10-15T10:10:00+08:00",
+    "endsAt": "2026-10-15T12:10:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/4995"
+  },
+  {
+    "id": "4999",
+    "title": "從一人 AI 工作流到團隊工程系統",
+    "speaker": "謝浩哲 (HAO)",
+    "speakers": [
+      "謝浩哲 (HAO)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "ABCDEF 會議室",
+    "startsAt": "2026-10-15T10:10:00+08:00",
+    "endsAt": "2026-10-15T10:55:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4999"
+  },
+  {
+    "id": "5035",
+    "title": "AI Coding 治理實戰：從開發到交付的Harness工程",
+    "speaker": "陳葵懋 (Ian Chen)",
+    "speakers": [
+      "陳葵懋 (Ian Chen)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "603+604 會議室",
+    "startsAt": "2026-10-15T10:10:00+08:00",
+    "endsAt": "2026-10-15T12:10:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/5035"
+  },
+  {
+    "id": "4970",
+    "title": "MCP 時代的 AI Agent 資安攻防",
+    "speaker": "吳勝繙 (Chris)",
+    "speakers": [
+      "吳勝繙 (Chris)"
+    ],
+    "tags": [
+      "AI 驅動的軟體開發資安新思維"
+    ],
+    "track": "AI 驅動的軟體開發資安新思維",
+    "room": "F 會議室",
+    "startsAt": "2026-10-15T11:15:00+08:00",
+    "endsAt": "2026-10-15T12:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4970"
+  },
+  {
+    "id": "4971",
+    "title": "當 AI 開始調查事故：讓 Kubernetes 告警從噪音變決策",
+    "speaker": "Duo",
+    "speakers": [
+      "Duo"
+    ],
+    "tags": [
+      "AI 如何驅動 DevOps 革命"
+    ],
+    "track": "AI 如何驅動 DevOps 革命",
+    "room": "A 會議室",
+    "startsAt": "2026-10-15T11:15:00+08:00",
+    "endsAt": "2026-10-15T12:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4971"
+  },
+  {
+    "id": "5001",
+    "title": "買完 AI 工具，然後呢？",
+    "speaker": "董淳吉 (Marcus Tung)",
+    "speakers": [
+      "董淳吉 (Marcus Tung)"
+    ],
+    "tags": [
+      "領導與人才培訓"
+    ],
+    "track": "領導與人才培訓",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-15T11:15:00+08:00",
+    "endsAt": "2026-10-15T12:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5001"
+  },
+  {
+    "id": "5022",
+    "title": "AI在企業的應用與挑戰之路",
+    "speaker": "Edward Kuo",
+    "speakers": [
+      "Edward Kuo"
+    ],
+    "tags": [
+      "Beyond AI"
+    ],
+    "track": "Beyond AI",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-15T11:15:00+08:00",
+    "endsAt": "2026-10-15T12:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5022"
+  },
+  {
+    "id": "4992",
+    "title": "打造跨模型 AI Agent 的 CI/CD 管線：從本地開發到雲端部署",
+    "speaker": "Jimmy Liao",
+    "speakers": [
+      "Jimmy Liao"
+    ],
+    "tags": [
+      "持續整合和持續部署"
+    ],
+    "track": "持續整合和持續部署",
+    "room": "603+604 會議室",
+    "startsAt": "2026-10-15T13:00:00+08:00",
+    "endsAt": "2026-10-15T15:00:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/4992"
+  },
+  {
+    "id": "5033",
+    "title": "AI Coding 治理實戰：從開發到交付的Harness工程",
+    "speaker": "陳葵懋 (Ian Chen)",
+    "speakers": [
+      "陳葵懋 (Ian Chen)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "607+608 會議室",
+    "startsAt": "2026-10-15T13:00:00+08:00",
+    "endsAt": "2026-10-15T15:00:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/5033"
+  },
+  {
+    "id": "5034",
+    "title": "讓 AI Agent、MCP Server、CLI 安全登入的實作工作坊",
+    "speaker": "吳柏毅 (appleboy)",
+    "speakers": [
+      "吳柏毅 (appleboy)"
+    ],
+    "tags": [
+      "AI 驅動的軟體開發資安新思維"
+    ],
+    "track": "AI 驅動的軟體開發資安新思維",
+    "room": "605+606 會議室",
+    "startsAt": "2026-10-15T13:00:00+08:00",
+    "endsAt": "2026-10-15T15:00:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/5034"
+  },
+  {
+    "id": "4975",
+    "title": "[本場次為預錄影片] 以敵為師的軟體防禦：導入AI紅隊思維與MITRE ATLAS的攻擊面拆解",
+    "speaker": "林毅力 (Stanley)",
+    "speakers": [
+      "林毅力 (Stanley)"
+    ],
+    "tags": [
+      "AI 驅動的軟體開發資安新思維"
+    ],
+    "track": "AI 驅動的軟體開發資安新思維",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-15T13:30:00+08:00",
+    "endsAt": "2026-10-15T14:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4975"
+  },
+  {
+    "id": "5006",
+    "title": "AI Agent Payments：x402 架構實戰",
+    "speaker": "York Chang",
+    "speakers": [
+      "York Chang"
+    ],
+    "tags": [
+      "AI 與系統架構設計"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-15T13:30:00+08:00",
+    "endsAt": "2026-10-15T14:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5006"
+  },
+  {
+    "id": "5007",
+    "title": "使用過狩野分析與NPS嗎？讓我們一起務實的簡化它",
+    "speaker": "陳啟彰 (Nor)",
+    "speakers": [
+      "陳啟彰 (Nor)"
+    ],
+    "tags": [
+      "團隊溝通與協作",
+      "領導與人才培訓"
+    ],
+    "track": "團隊溝通與協作",
+    "room": "F 會議室",
+    "startsAt": "2026-10-15T13:30:00+08:00",
+    "endsAt": "2026-10-15T14:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5007"
+  },
+  {
+    "id": "5008",
+    "title": "初級工程師如何 AI 賦能的翻寫一個跟自己年紀差不多大的框架",
+    "speaker": "Maple Kuo",
+    "speakers": [
+      "Maple Kuo"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "A 會議室",
+    "startsAt": "2026-10-15T13:30:00+08:00",
+    "endsAt": "2026-10-15T14:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5008"
+  },
+  {
+    "id": "4961",
+    "title": "AI O11y：數據決策到技術選型",
+    "speaker": "張哲嘉 (Che Chia Chang)",
+    "speakers": [
+      "張哲嘉 (Che Chia Chang)"
+    ],
+    "tags": [
+      "AI 如何改變產品規劃與需求定義"
+    ],
+    "track": "AI 如何改變產品規劃與需求定義",
+    "room": "A 會議室",
+    "startsAt": "2026-10-15T14:15:00+08:00",
+    "endsAt": "2026-10-15T15:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4961"
+  },
+  {
+    "id": "4980",
+    "title": "別讓 Agent 瞎掰：用 Semantic Layer 打造可信賴的企業 AI",
+    "speaker": "林士凱 (Danny)",
+    "speakers": [
+      "林士凱 (Danny)"
+    ],
+    "tags": [
+      "AI 與系統架構設計"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "F 會議室",
+    "startsAt": "2026-10-15T14:15:00+08:00",
+    "endsAt": "2026-10-15T15:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4980"
+  },
+  {
+    "id": "4981",
+    "title": "AI 時代下測試的迷思——為什麼綠燈越多，品質卻沒有變好",
+    "speaker": "柯仁傑 (David Ko/敏捷三叔公)",
+    "speakers": [
+      "柯仁傑 (David Ko/敏捷三叔公)"
+    ],
+    "tags": [
+      "SDLC 相關議題"
+    ],
+    "track": "SDLC 相關議題",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-15T14:15:00+08:00",
+    "endsAt": "2026-10-15T15:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4981"
+  },
+  {
+    "id": "5004",
+    "title": "當 AI 加入團隊：打造可審查、可驗證、會自我改善的 AI 開發工作流",
+    "speaker": "蔡景翔 (James Tsai)",
+    "speakers": [
+      "蔡景翔 (James Tsai)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-15T14:15:00+08:00",
+    "endsAt": "2026-10-15T15:00:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5004"
+  },
+  {
+    "id": "4985",
+    "title": "透過 ACP 解放 Terminal：打造 Coding Agent 的協作模式",
+    "speaker": "Neo Hsu",
+    "speakers": [
+      "Neo Hsu"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "F 會議室",
+    "startsAt": "2026-10-15T15:15:00+08:00",
+    "endsAt": "2026-10-15T15:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4985"
+  },
+  {
+    "id": "4988",
+    "title": "讓 AI Agent 記住你：從零打造仿生長期記憶系統的設計決策",
+    "speaker": "吳勝繙 (Chris)",
+    "speakers": [
+      "吳勝繙 (Chris)"
+    ],
+    "tags": [
+      "AI 與系統架構設計"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "A 會議室",
+    "startsAt": "2026-10-15T15:15:00+08:00",
+    "endsAt": "2026-10-15T15:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4988"
+  },
+  {
+    "id": "5016",
+    "title": "從一本旅遊書到 LINE OMO 服務：一個很殘酷的真實漏斗教會我的事",
+    "speaker": "陳佳新 (佳新哥)",
+    "speakers": [
+      "陳佳新 (佳新哥)"
+    ],
+    "tags": [
+      "數位轉型策與技術創新"
+    ],
+    "track": "數位轉型策與技術創新",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-15T15:15:00+08:00",
+    "endsAt": "2026-10-15T15:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5016"
+  },
+  {
+    "id": "5019",
+    "title": "每個人都有 AI，為什麼團隊還是這麼慢？",
+    "speaker": "薛良斌 (hlb/布丁)",
+    "speakers": [
+      "薛良斌 (hlb/布丁)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造",
+      "SDLC 相關議題",
+      "團隊溝通與協作",
+      "數位轉型策與技術創新"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-15T15:15:00+08:00",
+    "endsAt": "2026-10-15T15:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5019"
+  },
+  {
+    "id": "5036",
+    "title": "從瀑布式的崩潰到 AI 的拯救：用積木與 AI 助手重塑敏捷協作",
+    "speaker": "葉承宇 (丁哥Dean Yeh)",
+    "speakers": [
+      "葉承宇 (丁哥Dean Yeh)"
+    ],
+    "tags": [
+      "組織文化與敏捷"
+    ],
+    "track": "組織文化與敏捷",
+    "room": "607+608 會議室",
+    "startsAt": "2026-10-15T15:30:00+08:00",
+    "endsAt": "2026-10-15T17:30:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/5036"
+  },
+  {
+    "id": "5037",
+    "title": "AI 時代下,軟體團隊要怎麼設計?",
+    "speaker": "柯仁傑 (David Ko/敏捷三叔公)",
+    "speakers": [
+      "柯仁傑 (David Ko/敏捷三叔公)"
+    ],
+    "tags": [
+      "組織文化與敏捷"
+    ],
+    "track": "組織文化與敏捷",
+    "room": "605+606 會議室",
+    "startsAt": "2026-10-15T15:30:00+08:00",
+    "endsAt": "2026-10-15T17:30:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/5037"
+  },
+  {
+    "id": "5038",
+    "title": "AI 驅動架構實戰：Structurizr × OpenCode",
+    "speaker": "郭孟坤 (Mansun Kuo)",
+    "speakers": [
+      "郭孟坤 (Mansun Kuo)"
+    ],
+    "tags": [
+      "AI 與系統架構設計"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "603+604 會議室",
+    "startsAt": "2026-10-15T15:30:00+08:00",
+    "endsAt": "2026-10-15T17:30:00+08:00",
+    "type": "lab",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/lab/5038"
+  },
+  {
+    "id": "4973",
+    "title": "同一個 Prompt 為什麼差這麼多？——從踩坑到 Harness Engineering",
+    "speaker": "許舜雯 (Olivia Shiu)",
+    "speakers": [
+      "許舜雯 (Olivia Shiu)"
+    ],
+    "tags": [
+      "AI 與系統架構設計"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "A 會議室",
+    "startsAt": "2026-10-15T16:00:00+08:00",
+    "endsAt": "2026-10-15T16:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4973"
+  },
+  {
+    "id": "4982",
+    "title": "AI Gateway：AI 治理的第一步",
+    "speaker": "張哲嘉 (Che Chia Chang)",
+    "speakers": [
+      "張哲嘉 (Che Chia Chang)"
+    ],
+    "tags": [
+      "AI 與系統架構設計"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-15T16:00:00+08:00",
+    "endsAt": "2026-10-15T16:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4982"
+  },
+  {
+    "id": "5011",
+    "title": "AI 把寫程式變便宜了，那開發者還剩下什麼？",
+    "speaker": "鄭重男 (Nickle)",
+    "speakers": [
+      "鄭重男 (Nickle)"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "F 會議室",
+    "startsAt": "2026-10-15T16:00:00+08:00",
+    "endsAt": "2026-10-15T16:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5011"
+  },
+  {
+    "id": "5024",
+    "title": "都用AI寫Code了，工程師若再往前一步：Product Builder",
+    "speaker": "劉兆恭 (JUGG)",
+    "speakers": [
+      "劉兆恭 (JUGG)"
+    ],
+    "tags": [
+      "AI 如何改變產品規劃與需求定義"
+    ],
+    "track": "AI 如何改變產品規劃與需求定義",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-15T16:00:00+08:00",
+    "endsAt": "2026-10-15T16:45:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5024"
+  },
+  {
+    "id": "4977",
+    "title": "從痛點到產品：用資料與 AI 重新定義產品的規劃邏輯",
+    "speaker": "孫甫璋 (udothemath)",
+    "speakers": [
+      "孫甫璋 (udothemath)"
+    ],
+    "tags": [
+      "AI 如何改變產品規劃與需求定義"
+    ],
+    "track": "AI 如何改變產品規劃與需求定義",
+    "room": "A 會議室",
+    "startsAt": "2026-10-15T17:00:00+08:00",
+    "endsAt": "2026-10-15T17:30:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4977"
+  },
+  {
+    "id": "4978",
+    "title": "光靠 Prompt 守不住架構：用 Lint 與 Architecture Test 打造 Agentic Coding 防護牆",
+    "speaker": "Neo Hsu",
+    "speakers": [
+      "Neo Hsu"
+    ],
+    "tags": [
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 開發工具實戰和流程改造",
+    "room": "BC 會議室",
+    "startsAt": "2026-10-15T17:00:00+08:00",
+    "endsAt": "2026-10-15T17:30:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/4978"
+  },
+  {
+    "id": "5026",
+    "title": "挖掘技能的全新可能性",
+    "speaker": "尹相志",
+    "speakers": [
+      "尹相志"
+    ],
+    "tags": [
+      "AI 與系統架構設計",
+      "AI 如何改變產品規劃與需求定義"
+    ],
+    "track": "AI 與系統架構設計",
+    "room": "DE 會議室",
+    "startsAt": "2026-10-15T17:00:00+08:00",
+    "endsAt": "2026-10-15T17:30:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5026"
+  },
+  {
+    "id": "5027",
+    "title": "從 Sprint 到 Prompt：用 AIDD 從 0 打造 LINE Bot",
+    "speaker": "Zona Wang",
+    "speakers": [
+      "Zona Wang"
+    ],
+    "tags": [
+      "AI 如何改變產品規劃與需求定義",
+      "AI 開發工具實戰和流程改造"
+    ],
+    "track": "AI 如何改變產品規劃與需求定義",
+    "room": "F 會議室",
+    "startsAt": "2026-10-15T17:00:00+08:00",
+    "endsAt": "2026-10-15T17:30:00+08:00",
+    "type": "session",
+    "sourceUrl": "https://hwdc.ithome.com.tw/2026/session/5027"
+  }
+]

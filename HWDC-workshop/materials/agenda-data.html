@@ -1,0 +1,25 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HWDC 真實議程附件</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;color:#17283e;background:#f5f8fc;line-height:1.85}main{max-width:1000px;margin:30px auto;padding:42px 48px;background:white}h1{font-size:32px;line-height:1.4;margin:0 0 24px;color:#123564}h2{font-size:24px;margin:42px 0 18px;border-bottom:2px solid #e0eafa;padding-bottom:8px}h3{font-size:20px}a{color:#155ebd;text-decoration-thickness:1px;text-underline-offset:3px}p,li{font-size:16px}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.65;margin:24px 0}th,td{border:1px solid #ccd9ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf3fc;color:#174777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fa;border-left:3px solid #155ebd;padding:18px;font:14px/1.8 ui-monospace,Menlo,monospace}code{font-family:ui-monospace,Menlo,monospace;color:#25476d}nav{max-width:1000px;margin:20px auto;padding:0 16px;font-size:14px}blockquote{margin:20px 0;padding:10px 20px;border-left:4px solid #d28c1f;background:#fff8e7}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:28px 20px}h1{font-size:27px}table{display:block;overflow-x:auto}th,td{min-width:110px}nav{margin:14px 0}}@page{size:A4;margin:18mm}@media print{body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}nav{display:none}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}p,li{font-size:11pt}table{font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}pre{font-size:9pt}a{color:inherit;text-decoration:none}}</style></head><body><nav><a href="../../開始這裡.html">教材首頁</a>　<a href="agenda-data.md">Markdown 原文</a>　可使用瀏覽器列印</nav><main><h1>HWDC 真實議程附件</h1>
+<p>附件 <code>hwdc-agenda-2026.json</code> 來自 <a href="https://hwdc.ithome.com.tw/2026/agenda">HWDC 2026 官方議程</a>，2026-10-13 擷取。兩天共 70 筆（各 35 筆）；12 筆休息時段不列為可收藏議程，原始資料另存於 evidence/agenda-raw.json。</p>
+<ul>
+<li><code>id</code>：官方議程 ID，不因排序或重複題目而變動。</li>
+<li><code>title</code>、<code>speaker</code>、<code>speakers</code>：官方標題與講者；講者未列時不要猜。</li>
+<li><code>tags</code>：完整主題標籤；同一場可有多個主題，任何一個相符都應被篩出。</li>
+<li><code>track</code>：相容舊程式的第一個標籤，正式篩選請使用 tags。</li>
+<li><code>room</code>、<code>startsAt</code>、<code>endsAt</code>：會議室及含日期、+08:00 的時間。</li>
+<li><code>sourceUrl</code>：該筆議程官方頁面。</li>
+</ul>
+<p>官網時間以臺北活動的本地時間解讀，加上 +08:00，不改變場次時段。林建宏這場的官方登錄為 13:00–15:00，包含前 30 分鐘環境準備。原始資料、查詢及轉換方式見 evidence/agenda-source.json。</p>
+<h2>如何提供給 Agent</h2>
+<p>Lovable：上傳 JSON 作為附件，再貼初版短提示。Codex：同一份資料已置於 starter/src/sessions.json，直接指定該檔案。不要把整份 JSON 貼進 prompt。</p>
+<p>開課使用這份固定快照，兩套工具共用；不在建置時要求 Agent 各自重新抓網頁。若課前需要更新，應重新擷取、重新核對並讓所有人使用同一版。</p>
+<h2>真實案例</h2>
+<ul>
+<li>4996＋5030：10/14 13:00–15:00 與 15:30–17:30，不衝堂。</li>
+<li>5030＋5009：15:30–17:30 與 15:15–15:45，部分重疊。</li>
+<li>4996＋5018：13:00–15:00 包含 13:30–14:00。</li>
+<li>4996＋4993：同為 13:00–15:00。</li>
+<li>4957＋4958：10:00–10:10 接 10:10–10:55，不衝堂。</li>
+<li>4996＋4992：不同日期的 13:00–15:00，不衝堂。</li>
+</ul>
+<p>附件只收錄公開議程事實欄位，保留來源；資訊以官網最新公告為準。本教材不是主辦單位的官方工具。</p>
+</main></body></html>

@@ -1,0 +1,27 @@
+{
+  "title": "HWDC 2026 公開議程快照",
+  "retrievedAt": "2026-10-13T06:33:02.976296+00:00",
+  "source": "https://hwdc.ithome.com.tw/2026/agenda",
+  "api": "https://ccmsapi.ithome.com.tw",
+  "queryFile": "agenda.graphql",
+  "count": 70,
+  "byDate": {
+    "2026-10-14": 35,
+    "2026-10-15": 35
+  },
+  "excluded": {
+    "type": "break",
+    "count": 12
+  },
+  "normalization": {
+    "id": "保留官方 ID 字串",
+    "speaker": "多位講者以頓號連接，另保留 speakers 陣列；原站未列講者時維持空字串",
+    "tags": "保留所有官方 addition_tag，主題篩選應逐一比對 tags，不可只比 track",
+    "track": "僅供舊介面相容，為第一個官方 tag；無標籤時為未標示主題",
+    "startsAt/endsAt": "官網無時區的本地場次時間補秒並明示 +08:00；保留日期，不轉成當日鐘點比較",
+    "title": "保留原文，不自行修正官方字詞",
+    "4996": "官網登錄 13:00–15:00，含 13:00–13:30 環境準備；正式教學 13:30–15:00"
+  },
+  "sha256": "c4e773d099db1e49cfec9e2f3c86cf2fb07aaec8183066307eba994566c6fe5a",
+  "notice": "課程使用的公開資料快照，以官網最新公告為準。本教材非主辦單位官方議程工具。僅包含議程事實欄位，未重製演講摘要或講者照片。"
+}

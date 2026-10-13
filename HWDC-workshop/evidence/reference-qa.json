@@ -1,73 +1,82 @@
 {
   "checked_on": "2026-10-13",
-  "scope": "Codex 製作的參考程式功能 QA，非工具效能實測",
-  "browser": "Google Chrome headless, fresh test profile",
+  "scope": "v3 真實 HWDC 資料參考解答功能 QA；不是兩套工具的獨立限時實測",
+  "browser": "Codex in-app browser，透過 CUA 操作；未變更瀏覽器時區",
   "viewports": [
     "1366x900",
     "390x844"
   ],
-  "browser_timezone": "America/Los_Angeles",
+  "dataset": "materials/hwdc-agenda-2026.json (70 entries)",
   "checks": [
     {
-      "name": "A1: 12 sessions sorted, Taipei time independent of browser zone",
+      "name": "70 場、兩日各 35 場、公開来源",
       "status": "passed"
     },
     {
-      "name": "A2: speaker search and empty state",
+      "name": "講者搜尋、空結果提示、日期與主題 AND 篩選",
       "status": "passed"
     },
     {
-      "name": "A3: search and track AND filter",
+      "name": "4958 三個官方主題均可篩到",
       "status": "passed"
     },
     {
-      "name": "A4: favorite add/remove without duplicates",
+      "name": "收藏新增／取消／加回、我的議程排序、重新整理保存",
       "status": "passed"
     },
     {
-      "name": "A5: favorites view ordered",
+      "name": "同一網址由 v1 切換 v2，4996 收藏保留",
       "status": "passed"
     },
     {
-      "name": "A6: reload persistence, mobile 390px, usable controls",
+      "name": "部分重疊 5030＋5009",
       "status": "passed"
     },
     {
-      "name": "B6 part: cross-version favorites retained on same origin",
+      "name": "完全包含 4996＋5018",
       "status": "passed"
     },
     {
-      "name": "B4: adjacent sessions have no conflict",
+      "name": "相同時間 4996＋4993",
       "status": "passed"
     },
     {
-      "name": "B1 partial",
+      "name": "首尾相接 4957＋4958 不衝堂",
       "status": "passed"
     },
     {
-      "name": "B2 containment",
+      "name": "跨日相同鐘點 4996＋4992 不衝堂",
       "status": "passed"
     },
     {
-      "name": "B3 identical",
+      "name": "衝堂提示不受搜尋／日期／主題影響，取消立即更新",
       "status": "passed"
     },
     {
-      "name": "B5: conflict independent of filter and removed immediately",
-      "status": "passed"
-    },
-    {
-      "name": "V2 regression: filters, favorites, empty state, persistence",
-      "status": "passed"
-    },
-    {
-      "name": "Malformed storage does not crash",
-      "status": "passed"
-    },
-    {
-      "name": "Offline single HTML builds work without network",
+      "name": "390×844 搜尋、收藏／取消可操作，文件寬 390 無橫向溢出",
       "status": "passed"
     }
   ],
-  "console_errors": []
+  "unit_tests": {
+    "reference-v1": {
+      "passed": 4
+    },
+    "reference-v2": {
+      "passed": 7
+    },
+    "ics_serialization": {
+      "passed": 8
+    }
+  },
+  "builds": {
+    "reference-v1": "passed",
+    "reference-v2": "passed"
+  },
+  "console_errors": [],
+  "not_tested_in_this_revision": [
+    "離線 HTML 已重新產生與靜態檢查，未重跑斷網瀏覽器實測",
+    "未重跑 90 分鐘完整教學彩排",
+    "新版短提示＋附件未在 Lovable 與 Codex 各跑獨立限時實測",
+    "未在原生行事曆 App 匯入 .ics"
+  ]
 }

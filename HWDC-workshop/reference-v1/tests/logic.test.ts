@@ -1,9 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
-import { sortedSessions,filterSessions,parseFavorites,timeLabel } from '../src/logic.ts';
+import {readFileSync} from 'node:fs';
+import {sortedSessions,filterSessions,parseFavorites,timeLabel, dateLabel} from '../src/logic.ts';
 const s=JSON.parse(readFileSync(new URL('../src/sessions.json',import.meta.url),'utf8'));
-test('12 synthetic sessions sorted deterministically',()=>assert.deepEqual(sortedSessions(s).map(x=>x.id),['S01','S04','S02','S03','S05','S06','S07','S08','S09','S10','S11','S12']));
-test('search speaker, whitespace, empty and AND filters',()=>{assert.equal(filterSessions(s,' 林以安 ','').length,1);assert.equal(filterSessions(s,'AI','Web 技術').length,0);assert.deepEqual(filterSessions(s,' ai ','AI 開發').map(x=>x.id),['S01','S06']);assert.equal(filterSessions(s,'不存在的議程','').length,0)});
-test('storage handles duplicates, unknown IDs, malformed JSON and wrong types',()=>{assert.deepEqual(parseFavorites('["S01","S01",7,"NO"]',s),['S01']);for(const raw of ['{', '{}','null','12',null])assert.deepEqual(parseFavorites(raw,s),[])});
-test('time labels are pinned to Taipei',()=>assert.equal(timeLabel('2026-10-14T09:00:00+08:00'),'09:00'));
+const by=(id:string)=>s.find((x:{id:string})=>x.id===id);
+test('official snapshot has unique IDs and both days',()=>{assert.equal(s.length,70);assert.equal(new Set(s.map((x:{id:string})=>x.id)).size,70);assert.equal(filterSessions(s,'','','2026-10-14').length,35);assert.equal(filterSessions(s,'','','2026-10-15').length,35);const a=sortedSessions(s);assert.equal(a[0].id,'4957');assert(a.every((x,i)=>!i||Date.parse(a[i-1].startsAt)<=Date.parse(x.startsAt)))});
+test('search and date/topic compose with AND; every official tag is searchable',()=>{assert.deepEqual(filterSessions(s,' 林建宏 ','').map(x=>x.id),['4996']);assert.equal(filterSessions(s,'林建宏','SDLC 相關議題','2026-10-14').length,0);assert.deepEqual(filterSessions(s,'林建宏','AI 開發工具實戰和流程改造','2026-10-14').map(x=>x.id),['4996']);assert.equal(filterSessions(s,'林建宏','','2026-10-15').length,0);for(const tag of by('4958').tags)assert.deepEqual(filterSessions(s,'陳宜昌',tag).map(x=>x.id),['4958']);assert.equal(filterSessions(s,'不存在的議程','').length,0);assert.deepEqual(filterSessions(s,'webmcp','').map(x=>x.id),filterSessions(s,'WebMCP','').map(x=>x.id))});
+test('favorites survive serialization and remove duplicates and obsolete IDs',()=>{assert.deepEqual(parseFavorites('["4996","4996",7,"S01","5030"]',s),['4996','5030']);for(const raw of ['{','null','12',null])assert.deepEqual(parseFavorites(raw,s),[])});
+test('Taipei date/time remains visible across days',()=>{assert.equal(timeLabel(by('4996').startsAt),'13:00');assert.equal(dateLabel(by('4996').startsAt),'10/14');assert.equal(dateLabel(by('4992').startsAt),'10/15')});

@@ -1,6 +1,6 @@
 # 逐頁講者備註
 
-38 頁，包含 3 頁準備、29 頁正式內容、6 頁附錄。
+38 頁｜v3：真實議程附件、短提示與自由 UI。
 
 ## 01　入場準備
 
@@ -27,6 +27,8 @@
 **檢核：** 學員能看到空白頁，知道本機網址。
 
 **轉場：** 最後確認額度與卡關時的接續方法。
+
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
 
 ## 03　額度與求助方式
 
@@ -60,13 +62,15 @@
 
 **時間：** 13:31–13:33，2 分鐘
 
-**講述：** 這是一個 12 場議程的小工具。我們希望能搜尋講者、篩選主題，並保存自己想去的場次。畫面中的議程與講者是合成資料。
+**講述：** 展示採真實議程附件的參考版。今天要完成的是找議程、收藏、重新整理後保留，再加上衝堂提示。這張畫面只是其中一種 UI，不要求學員模仿。
 
-**操作：** 現場開啟離線參考版，搜尋林以安，收藏 S01、S03，重新整理，確認收藏仍在。切第二版加入 S02 看提醒。
+**操作：** 現場開啟離線參考版，搜尋林建宏，收藏 4996、5030，重新整理，確認收藏仍在。切第二版加入 5018 看提醒。
 
 **檢核：** 請學員說出畫面可見但尚未證明的功能，例如重新整理保存。
 
 **轉場：** 接下來說明今天要留下什麼。
+
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
 
 ## 06　學習目標與流程
 
@@ -110,13 +114,15 @@
 
 **時間：** 13:39–13:41，2 分鐘
 
-**講述：** 我們用六個驗收項目共同定義第一版。請注意 A6 同時包含收藏保存與手機版操作，不能只看首頁截圖就打勾。每一項的完整操作在學員講義。
+**講述：** 我們固定資料與 UX 邏輯，不固定畫面。所有議程兩天各 35 筆、共 70 筆；使用者能搜尋、用日期和主題一起篩選、收藏並保留即可。資料可能有多位講者與多個標籤，不能漏掉。
 
 **操作：** 快速指向 A1–A6 文件，確認學員找到表格。
 
 **檢核：** 請一位學員說出 A3 的預期，例如 AI 搜尋加 Web 主題應為零筆。
 
 **轉場：** 接著定義如何計時。
+
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
 
 ## 10　實測規則
 
@@ -130,31 +136,33 @@
 
 **轉場：** 最後把規格整理成可貼給工具的提示。
 
-## 11　結構化需求提示
+## 11　短提示，先讓作品跑起來
 
 **時間：** 13:43–13:45，2 分鐘
 
-**講述：** 一份可執行需求應包含目標、資料、限制和驗收條件。把資料固定，可以避免比較時某個版本自動加出不存在的議程。工具回報測試通過後，我們仍要依表格實際操作。
+**講述：** 人不需要先寫成工程規格才開始。上傳資料，講清楚想做什麼、用起來要怎樣，再讓 Agent 做出可試用的第一版。色彩、版型、字型都可以自由發揮。驗收表拿在自己手上，發現缺漏再描述操作與預期。
 
-**操作：** 打開初版提示，指出正文相同，只有 Lovable 附完整 JSON、本機版指定檔案位置。
+**操作：** 展示 hwdc-agenda-2026.json 附件，再只貼 4 句短提示。可以邀請學員補充一個視覺想法，記下差異。
 
-**檢核：** 學員能找到兩份提示並理解差異。
+**檢核：** 學員知道 JSON 是附件，不需複製 70 筆資料；不把 UI 相似度當成功條件。
 
 **轉場：** 先從 Lovable 開始。
+
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
 
 ## 12　Lovable 操作示範
 
 **時間：** 13:45–13:47，2 分鐘
 
-**講述：** 這份提示已包含所有合成資料。請用新專案，避免帶入既有功能。平台介面可能調整，以帳號當日畫面為準。如果先顯示計畫，需要進入建置才會改程式。
+**講述：** 這份提示已包含所有HWDC 公開議程附件。請用新專案，避免帶入既有功能。平台介面可能調整，以帳號當日畫面為準。如果先顯示計畫，需要進入建置才會改程式。
 
-**操作：** 先確認學員使用個人額度或講師提供群組的實作安排，再在 Lovable 新專案貼完整提示並示範預覽位置。若額度已用完，講師私下提供群組加入方式。若服務仍無法使用，切換離線參考版做驗收並保留原因。
+**操作：** 示範建立專案、上傳 JSON，確認附件存在，再貼短提示送出。額度已用完者私下向講師取得群組加入方式。
 
 **檢核：** 學員準備好送出提示及計時。
 
 **轉場：** 下一頁會固定顯示任務。
 
-**來源：** [Lovable FAQ](https://docs.lovable.dev/introduction/faq)、[Lovable credits and usage](https://docs.lovable.dev/introduction/credits-and-usage)
+**來源：** [Lovable FAQ](https://docs.lovable.dev/introduction/faq)、[Lovable credits and usage](https://docs.lovable.dev/introduction/credits-and-usage)、[HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
 
 ## 13　實作 A：Lovable
 
@@ -168,17 +176,21 @@
 
 **轉場：** 時間到後一起回報完成狀態。
 
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+
 ## 14　初版驗收與紀錄
 
 **時間：** 14:03–14:05，2 分鐘
 
-**講述：** 請看這個容易漏掉的驗收：搜尋 AI 並選 Web 主題，應該沒有結果。改成 AI 主題，應只剩 S01 與 S06。再確認收藏及重新整理。
+**講述：** 搜尋林建宏，日期選 10/14，主題選 AI 開發工具實戰和流程改造，應只剩 4996。改成 SDLC 相關議題為零，改 10/15 也為零。另以陳宜昌的三個主題標籤檢查多標籤是否遺漏。
 
-**操作：** 用舉手快速統計六項通過、部分通過、還未生成。只作課堂進度，不以人數宣告工具勝負。
+**操作：** 依 A3 實際切換條件，不要求特定按鈕位置。
 
-**檢核：** 學員紀錄含未完成原因及可見用量。
+**檢核：** 條件是 AND；同一場的多個 tags 都能被找出。
 
 **轉場：** 接下來從空白起點使用通用工具。
+
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
 
 ## 15　Codex 桌面 App 操作
 
@@ -206,6 +218,8 @@
 
 **轉場：** 接著確認結果如何執行。
 
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+
 ## 17　執行與檢查
 
 **時間：** 14:06:40–14:07:20，40 秒
@@ -230,6 +244,8 @@
 
 **轉場：** 時間到，一起確認最容易漏掉的保存。
 
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+
 ## 19　同標準驗收與紀錄
 
 **時間：** 14:23–14:25，2 分鐘
@@ -241,6 +257,8 @@
 **檢核：** 兩條路徑都有可辨識的結果狀態。
 
 **轉場：** 現在需求要改變了。
+
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
 
 ## 20　新需求：收藏衝堂提示
 
@@ -254,19 +272,23 @@
 
 **轉場：** 先把邊界說清楚。
 
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+
 ## 21　時間重疊案例
 
 **時間：** 14:25:20–14:25:40，20 秒
 
-**講述：** 首尾相接不算重疊。只比較開始時間或只判斷開始時刻相等都不足。請將時間轉為可比較的數值，採用這個區間判斷。
+**講述：** 用真實場次練習邊界：5030 和 5009 部分重疊；4996 包含 5018；4996 和 4993 同時段；4957 結束 10:10 正好接 4958，因此不衝堂。再比 4996 和 4992，鐘點相同但日期不同，不能誤報。
 
-**操作：** 指向最後一列，強調 09:40 接續不衝堂。
+**操作：** 每次只收藏兩場，檢查完整日期時間。數學判斷式可放講義，不必要求大家把它寫進首輪提示。
 
-**檢核：** 學員能預測四組案例。
+**檢核：** 區分部分重疊、包含、相同、首尾相接與跨日。
 
 **轉場：** 最後補上修改時必須保留的行為。
 
-## 22　修改提示與保留條件
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+
+## 22　修改也用簡單的話
 
 **時間：** 14:25:40–14:26，20 秒
 
@@ -277,6 +299,8 @@
 **檢核：** 學員準備好在各自的第一版繼續修改。
 
 **轉場：** 開始各五分鐘。
+
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
 
 ## 23　兩套工具各修改一次
 
@@ -294,7 +318,7 @@
 
 **時間：** 14:36–14:40，4 分鐘
 
-**講述：** 請用不同組合逐一檢查，測每一組之前清除其他收藏。尤其要測相接時段、篩選後仍顯示衝突、取消收藏後提示消失。再重做第一版驗收。沒有做完回歸就把 B6 記為未測。
+**講述：** 加入新功能後重做 A1–A6。特別確認第一版原有收藏沒有遺失，日期與多標籤篩選仍正確。此圖展示 4957 與 4958 相接沒有提示。
 
 **操作：** 保留約兩分鐘操作，再邀請兩位學員各用一句話分享：一個成功案例或一個預期與實際不符的地方。
 
@@ -302,15 +326,17 @@
 
 **轉場：** 接著用紀錄討論效率。
 
-## 25　三種方式的實測結果
+**來源：** [HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
+
+## 25　上一輪彩排觀察
 
 **時間：** 14:40–14:43，3 分鐘
 
-**講述：** 這張表只接受依共同規格完成的獨立紀錄。尚未取得的欄位維持未知。課堂上大家的條件不同，分享可用來發現問題，不能直接合成工具排名。有資料時先讀完成項目，再讀耗時。
+**講述：** 這是上次長提示與 12 筆合成資料的操作彩排。兩套最後都完成。Codex 初版約 1 分 55 秒、修改約 1 分 3 秒；Lovable 初版約 4 分 22 秒、修改核心約 3 分 33 秒，精確手機尺寸在截止後補測。代理已看過解答，且第二輪交錯操作，不能據此排名。新版改用真實附件、短提示和自由 UI，必須另測。 詳細紀錄見 evidence/rehearsal-observations.md。
 
-**操作：** 若講師已完成實測，填入核實的 A／B 通過數與時間，揭露條件。若沒有，帶學員讀自己的表格，討論會影響比較的變數。
+**操作：** 先比較通過項目，再看時間與限制。補充 Lovable 衝堂區可直接取消，Codex 由卡片取消，示範 UX 路徑的差異。
 
-**檢核：** 學員能區分完成時間與截止未完成，知道為何無法用現成解答排名。
+**檢核：** 觀察時間不被解讀成普遍速度；沒有把舊成績當作新條件成績。
 
 **轉場：** 我們用一個可重現錯誤來看除錯工作。
 
@@ -318,9 +344,9 @@
 
 **時間：** 14:43–14:45，2 分鐘
 
-**講述：** 這是刻意植入的教學錯誤，不能歸因於任一工具。小於等於會把相接也算作重疊。好的除錯提示應提供現象、預期和重現步驟，修改後既要測修好的案例，也要測原本正確的案例。
+**講述：** 若沒有適合教學的實測錯誤，就用明確標示的刻意植入案例。把小於寫成小於等於會使 4957 與 4958 首尾相接被誤判。修正後，真正重疊仍應提醒，跨日不能混在一起。
 
-**操作：** 指出兩個等號，說明最小修改。請學員以 S01+S03 與 S01+S02 成對驗證。
+**操作：** 指出兩個等號，說明最小修改。請學員以 4996+5030 與 4996+5018 成對驗證。
 
 **檢核：** 學員能說出修正後要測的兩種結果。
 
@@ -340,19 +366,19 @@
 
 **來源：** [Lovable credits and usage](https://docs.lovable.dev/introduction/credits-and-usage)、[OpenAI authentication](https://learn.chatgpt.com/docs/auth)、[OpenAI pricing](https://learn.chatgpt.com/docs/pricing)
 
-## 28　可控性與維護觀察
+## 28　同一個 UX，不同的 UI
 
 **時間：** 14:48–14:50，2 分鐘
 
-**講述：** 我們今天只做一次修改，所以不能推估一整年的維護成本。可以留下的是：原始碼能否取得、修改範圍、啟動方式、回歸結果，以及不同畫面是否可操作。這些會幫助下一位開發者接手。
+**講述：** 讓兩位學員用不同 UI 展示同一任務：找到議程、收藏、看衝堂、決定取消或保留。上一輪 Lovable 在提醒區直接加取消按鈕，Codex 由卡片取消；兩者都能完成，但步驟不同。討論這些操作是否清楚，再分享個人的視覺風格。
 
-**操作：** 以手機畫面與回歸紀錄為例，指出畫面漂亮與功能驗收是不同證據。
+**操作：** 邀請鄰座互相試用 60 秒，再以 60 秒分享差異；不投票選工具冠軍。
 
-**檢核：** 學員能說出一個本次觀察到的接手條件。
+**檢核：** 能區分 UX 任務與 UI 表現，使用者找得到下一步。
 
 **轉場：** 把這些觀察帶回自己的工作情境。
 
-**來源：** [Lovable FAQ](https://docs.lovable.dev/introduction/faq)、[Lovable GitHub sync](https://docs.lovable.dev/integrations/github)
+**來源：** [Lovable FAQ](https://docs.lovable.dev/introduction/faq)、[Lovable GitHub sync](https://docs.lovable.dev/integrations/github)、[HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)
 
 ## 29　情境選型表
 
@@ -470,7 +496,7 @@
 
 **時間：** 附錄，供查閱
 
-**講述：** 工具與方案會更新，請以當日官方文件及帳號畫面為準。所有成品截圖來自本套教學參考解答，議程資料為合成，獨立實測與程式 QA 分開。 講師介紹取自本人 Medium 公開自介與著作頁，群組加入方式則依本次現場安排。
+**講述：** 議程附件是官網公開快照，70 筆場次與 12 筆休息原始資料分開保存。來源、擷取日期、台北時區正規化有紀錄，開課兩套工具使用同一份。主辦資訊以官網為準。
 
 **操作：** 需要追溯來源時開啟 sources.md。
 
@@ -478,4 +504,4 @@
 
 **轉場：** 結束。
 
-**來源：** [HWDC 公開議程](https://hwdc.ithome.com.tw/2026/lab/4996)、[Lovable FAQ](https://docs.lovable.dev/introduction/faq)、[Lovable subscription plans](https://docs.lovable.dev/introduction/subscription-plans)、[Lovable credits and usage](https://docs.lovable.dev/introduction/credits-and-usage)、[Lovable GitHub sync](https://docs.lovable.dev/integrations/github)、[OpenAI desktop quickstart](https://learn.chatgpt.com/docs/quickstart)、[OpenAI authentication](https://learn.chatgpt.com/docs/auth)、[OpenAI pricing](https://learn.chatgpt.com/docs/pricing)、[Codex CLI](https://learn.chatgpt.com/docs/codex/cli)、[RFC 5545 iCalendar](https://www.rfc-editor.org/rfc/rfc5545)、[Wolke 的 Medium 個人頁](https://wolkesau.medium.com/)、[Wolke@林建宏 自我介紹](https://medium.com/wolkesau/wolke-林建宏-自我介紹-6fbddfef865a)、[Wolke 的 Medium 著作頁](https://wolkesau.medium.com/books)
+**來源：** [HWDC 公開議程](https://hwdc.ithome.com.tw/2026/lab/4996)、[Lovable FAQ](https://docs.lovable.dev/introduction/faq)、[Lovable subscription plans](https://docs.lovable.dev/introduction/subscription-plans)、[Lovable credits and usage](https://docs.lovable.dev/introduction/credits-and-usage)、[Lovable GitHub sync](https://docs.lovable.dev/integrations/github)、[OpenAI desktop quickstart](https://learn.chatgpt.com/docs/quickstart)、[OpenAI authentication](https://learn.chatgpt.com/docs/auth)、[OpenAI pricing](https://learn.chatgpt.com/docs/pricing)、[Codex CLI](https://learn.chatgpt.com/docs/codex/cli)、[RFC 5545 iCalendar](https://www.rfc-editor.org/rfc/rfc5545)、[Wolke 的 Medium 個人頁](https://wolkesau.medium.com/)、[Wolke@林建宏 自我介紹](https://medium.com/wolkesau/wolke-林建宏-自我介紹-6fbddfef865a)、[Wolke 的 Medium 著作頁](https://wolkesau.medium.com/books)、[HWDC 2026 官方議程與公開資料](https://hwdc.ithome.com.tw/2026/agenda)

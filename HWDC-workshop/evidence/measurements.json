@@ -1,5 +1,5 @@
 {
-  "description": "獨立比較紀錄，未執行者保持 null，不以教學參考解答 QA 代替。",
+  "description": "新版 70 筆公開議程＋短提示＋自由 UI 的獨立限時比較；未執行者保持 null。舊條件彩排另見 rehearsal-observations.md。",
   "runs": [
     {
       "workflow": "手工開發",
@@ -19,7 +19,7 @@
       "v2_seconds": null,
       "v2_passed": null,
       "usage": null,
-      "reason": "瀏覽器連線受目前驗證方式限制；原生 App 停在載入畫面，未完成獨立建置"
+      "reason": "新版附件與短提示尚未另跑獨立限時比較；參考解答 QA 不代替實測"
     },
     {
       "workflow": "Codex 桌面 App",
@@ -29,7 +29,8 @@
       "v2_seconds": null,
       "v2_passed": null,
       "usage": null,
-      "reason": "本聊天製作教材與參考解答，未執行獨立的新專案限時比較"
+      "reason": "新版附件與短提示尚未另跑獨立限時比較；參考解答 QA 不代替實測"
     }
-  ]
+  ],
+  "previous_rehearsal": "rehearsal-observations.md"
 }

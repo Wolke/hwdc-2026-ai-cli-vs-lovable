@@ -1,4 +1,4 @@
-// Codex 製作的課後練習參考，輸入為本教材的合成議程。
+// Codex 製作的課後練習參考，輸入為HWDC 2026 官方公開議程快照。
 export function escapeText(value) {
   return String(value).replace(/\\/g, '\\\\').replace(/\r\n|\r|\n/g, '\\n').replace(/;/g, '\\;').replace(/,/g, '\\,');
 }
@@ -32,7 +32,7 @@ export function createCalendar(sessions, favoriteIds, now = new Date()) {
   selected.sort((a, b) => Date.parse(a.startsAt) - Date.parse(b.startsAt) || a.id.localeCompare(b.id));
   const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Wolke Lin//HWDC teaching example//ZH', 'CALSCALE:GREGORIAN'];
   for (const session of selected) {
-    lines.push('BEGIN:VEVENT', `UID:hwdc-demo-${session.id}-20261014@local.invalid`, `DTSTAMP:${utc(now)}`, `DTSTART:${utc(session.startsAt)}`, `DTEND:${utc(session.endsAt)}`, `SUMMARY:${escapeText(session.title)}`, `LOCATION:${escapeText(session.room)}`, `DESCRIPTION:${escapeText('合成教學資料，非真實 HWDC 議程。講者：' + session.speaker)}`, 'END:VEVENT');
+    lines.push('BEGIN:VEVENT', `UID:hwdc-${session.id}-2026@local.invalid`, `DTSTAMP:${utc(now)}`, `DTSTART:${utc(session.startsAt)}`, `DTEND:${utc(session.endsAt)}`, `SUMMARY:${escapeText(session.title)}`, `LOCATION:${escapeText(session.room)}`, `DESCRIPTION:${escapeText('HWDC 2026 公開議程快照，資訊以官網為準。講者：' + session.speaker + '；來源：' + session.sourceUrl)}`, 'END:VEVENT');
   }
   lines.push('END:VCALENDAR');
   return lines.map(foldLine).join('\r\n') + '\r\n';

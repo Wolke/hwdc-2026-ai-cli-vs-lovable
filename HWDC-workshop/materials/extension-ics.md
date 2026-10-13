@@ -10,18 +10,18 @@
 將時間轉為 UTC，以 Z 結尾。文字中的反斜線、分號、逗號及換行需要正確跳脫。
 用 CRLF 分行，長行以 UTF-8 位元組數折行，不切斷中文字元。沒有收藏時停用下載並清楚說明。
 下載檔名為 my-hwdc-demo-schedule.ics，並保留既有搜尋、收藏、儲存與衝堂功能。
-請驗證 S01 的 09:00 台北時間在檔案中為 01:00 UTC。
+請驗證 4996 的 13:00 台北時間在檔案中為 05:00 UTC。
 ```
 
 ## 參考實作
 
 `extension-ics.mjs` 提供 `createCalendar(sessions, favoriteIds)` 與 `downloadCalendar(calendar)`。可改成 TypeScript 後整合到自己的專案。沒有收藏時前者回傳 `null`，供 UI 停用按鈕。
 
-`example-schedule.ics` 使用 S01、S03 合成資料，不是真實活動邀請。
+`example-schedule.ics` 使用 4996、5030 的公開議程快照，僅為匯入練習，不是主辦單位的邀請。
 
 ## 驗收
 
-1. 收藏 S01、S03，檔案有兩個 VEVENT，沒有重複。
+1. 收藏 4996、5030，檔案有兩個 VEVENT，沒有重複。
 2. 開始時間分別為 `20261014T010000Z`、`20261014T014000Z`。
 3. 同一場再次匯出的 UID 相同，DTSTAMP 反映產生時間。
 4. 中文名稱、逗號、分號、反斜線及換行不破壞欄位格式。
