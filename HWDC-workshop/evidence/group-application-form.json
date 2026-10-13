@@ -1,0 +1,21 @@
+{
+  "created_on": "2026-10-13",
+  "title": "HWDC 2026｜Lovable 群組加入申請",
+  "responder_short_url": "https://forms.gle/pt3nLWy622sYTfsG6",
+  "responder_full_url": "https://docs.google.com/forms/d/e/1FAIpQLSdpGx7bm8jrByeU_m--XanCieWMK6bBI741fC-PpdKa4Id6SA/viewform",
+  "status": "published",
+  "responder_access": "anyone_with_link",
+  "email_collection": "responder_input_required",
+  "question_count_excluding_email": 0,
+  "google_login_required": false,
+  "one_response_limit": false,
+  "response_summary_shared": false,
+  "confirmation_message": "已收到申請！請向講師示意，並留意填寫信箱的 Lovable 群組邀請。收到邀請後，請依信件指示完成加入。",
+  "group_invitation": "arranged_by_instructor; not automatic",
+  "verification": "Published setting and respondent page checked in signed-in browser; no test response submitted",
+  "qr_image": "../materials/qr/lovable-group-application.png",
+  "slides": [
+    3,
+    35
+  ]
+}

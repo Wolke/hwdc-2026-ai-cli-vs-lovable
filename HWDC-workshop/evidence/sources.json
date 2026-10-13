@@ -102,6 +102,12 @@
       "title": "舊彩排用量與費用補充",
       "url": "cost-check-20261013.md",
       "supports": "Lovable 每訊息實耗與 Codex 時間窗 token 衍生統計、估算假設和限制"
+    },
+    {
+      "id": "S18",
+      "title": "Lovable 群組加入申請表",
+      "url": "https://forms.gle/pt3nLWy622sYTfsG6",
+      "supports": "本次工作坊建立的公開填寫入口，只收集 Lovable 登入 email，由講師安排邀請"
     }
   ]
 }

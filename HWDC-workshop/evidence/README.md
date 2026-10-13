@@ -10,3 +10,5 @@
 參考解答與離線版本由 Codex 協助製作。操作與 QA 的具體範圍、未測項目以 reference-qa.json 為準。
 
 - [cost-check-20261013.md](cost-check-20261013.md) / [JSON](cost-check-20261013.json)：舊彩排兩則 Lovable 訊息耗點，以及 Codex 本機 token 時間窗估算、換算公式與限制。cost-check/ 保存兩張訊息耗點截圖。美元為估算／分攤，不代表專案實扣。
+
+- group-application-form.json：本次建立的群組申請表設定與公開填寫網址。group-form/published-form.png 為已發布且只收 email 的表單畫面。未送出測試回覆，沒有保存申請者資料。

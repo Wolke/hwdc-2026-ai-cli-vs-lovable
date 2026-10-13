@@ -19,3 +19,5 @@
 - [本地舊條件彩排紀錄](rehearsal-observations.md)：單次操作觀察與限制，非正式效能排名。
 - [OpenAI Codex for students](https://developers.openai.com/community/students)：2,500 ChatGPT credits 等值 US$100，作美元面額換算假設，不代表本次實購價。
 - [舊彩排用量與費用補充](cost-check-20261013.md)：Lovable 每訊息實耗與 Codex 時間窗 token 衍生統計、估算假設和限制。
+
+- [Lovable 群組加入申請表](https://forms.gle/pt3nLWy622sYTfsG6)：2026-10-13 建立並發布，只收集 email，由講師安排邀請。
