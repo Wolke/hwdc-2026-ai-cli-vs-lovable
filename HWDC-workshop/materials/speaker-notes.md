@@ -22,11 +22,16 @@
 
 **講述：** 起始專案尚未實作搜尋、收藏或衝堂提示。請先不要打開參考解答。設定及安裝時間會另外記錄，正式建置才開始 15 分鐘計時。
 
-**操作：** 在 starter 終端機示範兩個指令，指出需要停留在有 package.json 的資料夾。
+**操作：** 先掃右側 QR Code 開啟公開 repo，依 README 連到教材網站下載起始專案 ZIP。也可在 GitHub 選 Code、Download ZIP 取得全部原始教材。教材和收藏器都已公開。解壓 starter 後，在含 package.json 的資料夾示範 npm ci 與 npm run dev。
 
-**檢核：** 學員能看到空白頁，知道本機網址。
+**檢核：** 學員能看到空白頁，知道本機網址。 學員可免登入開啟 repo，並找到 README 的教材網站。
 
 **轉場：** 最後確認額度與卡關時的接續方法。
+
+- [公開教材 GitHub Repo](https://github.com/Wolke/hwdc-2026-ai-cli-vs-lovable)
+- [教材網站](https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/)
+- [議程收藏器（含衝堂提示）](https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/offline/reference-v2.html)
+
 
 來源索引：S14；完整連結見 evidence/sources.md。
 
