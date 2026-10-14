@@ -1,4 +1,4 @@
-# 講師照片素材
+# 講師照片與 QR Code 素材
 
 用於簡報第 5 頁的林建宏 Wolke Lin 自我介紹。
 
@@ -10,3 +10,11 @@
 [原始圖片](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Gay9qEgsRt-zhP2nyFXlmQ.png)
 
 擷取日期：2026-10-13。此素材由講師本人要求用於本工作坊的自我介紹，未另行宣告通用素材授權。
+
+## Medium 個人頁 QR Code
+
+第 5 頁自我介紹右側使用 `medium-wolkesau-qr.png`，另附 `medium-wolkesau-qr.svg`。
+
+目的地：https://medium.com/@wolkesau
+
+製作日期：2026-10-14。使用高對比黑白與完整留白，保留原本可點選的網址。
