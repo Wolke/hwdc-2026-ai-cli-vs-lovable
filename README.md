@@ -9,6 +9,23 @@
 - [HWDC 官方議程](https://hwdc.ithome.com.tw/2026/lab/4996)
 - 講師示範使用 Codex 桌面 App，CLI 對應操作收錄於簡報附錄
 
+## 線上教材網站
+
+[開啟 GitHub Pages 教材網站](https://wolke.github.io/hwdc-2026-workshop-site/)
+
+線上可直接播放簡報、閱讀講義、下載議程附件，以及操作兩版收藏器。首頁提供完整教材 ZIP 和起始專案 ZIP，學員不需要私人 repo 存取權。
+
+網站發布檔放在公開的 [hwdc-2026-workshop-site](https://github.com/Wolke/hwdc-2026-workshop-site) repo。Pages 使用該 repo 的 `main` 分支根目錄。更新教材後，在本 repo 執行：
+
+```sh
+python3 scripts/build-pages.py --output ../hwdc-2026-workshop-site
+git -C ../hwdc-2026-workshop-site add .
+git -C ../hwdc-2026-workshop-site commit -m "Update workshop website"
+git -C ../hwdc-2026-workshop-site push origin main
+```
+
+產生器會檢查站內檔案連結、44 頁投影片與下載 ZIP，然後由 GitHub Pages 發布。本 repo 的教材與 PowerPoint 仍是編輯來源。
+
 ## 先從這裡開始
 
 在 GitHub 選 **Code > Download ZIP** 並解壓縮，或使用：
