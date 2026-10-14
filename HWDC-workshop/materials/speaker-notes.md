@@ -162,6 +162,8 @@
 **投影片完整 prompt：**
 
 ```text
+議程 JSON：https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json
+
 請用附件的 HWDC 議程做一個繁體中文「我的議程」網站：
 能搜尋議程或講者、依日期和主題篩選、加入或取消收藏，並查看自己的議程；重新整理後收藏要保留。
 搜尋與篩選可以一起用，日期時間要清楚，手機也能操作。資料照附件，保留來源。
@@ -169,22 +171,25 @@
 （UI 由學員自由發揮，但請讓兩個版本保持一致。）
 ```
 
+- [公開 JSON 附件](https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json)
+
+
 來源索引：S14；完整連結見 evidence/sources.md。
 
 ## 12　資料附件與來源
 
 **時間：** 13:45–13:47，2 分鐘
 
-**講述：** 官網議程是公開來源；我們把兩天 70 筆場次整理成固定 JSON 快照。投影片寫出來源及附件完整網址。目前 GitHub repo 為私人，學員可使用教材包 materials 裡的 JSON；沒有 repo 權限時不要卡在 GitHub 登入。提示與資料分開，上傳完再送出第 11 頁提示。
+**講述：** 官網議程是公開來源；我們把兩天 70 筆場次整理成固定 JSON 快照。投影片寫出來源及附件完整網址。原 GitHub repo 已公開，投影片列出的 JSON 網址可免登入直接開啟；也可使用教材包 materials 裡的同一份 JSON。提示與資料分開，上傳完再送出第 11 頁提示。
 
-**操作：** 示範從教材包選取 hwdc-agenda-2026.json 上傳，確認附件後貼第 11 頁提示。指出預覽入口並開始驗收。
+**操作：** 開啟本頁 JSON 網址，將資料下載為 hwdc-agenda-2026.json 後上傳；工具支援讀網址時，也可直接使用提示內網址。確認資料後貼第 11 頁提示，開始驗收。
 
 **檢核：** 學員準備好送出提示及計時。
 
 **轉場：** 下一頁會固定顯示任務。
 
 - [官方議程](https://hwdc.ithome.com.tw/2026/agenda)
-- [JSON 附件（私人 repo，需存取權）](https://github.com/Wolke/hwdc-2026-ai-cli-vs-lovable/blob/main/HWDC-workshop/materials/hwdc-agenda-2026.json)
+- [公開 JSON 附件（免登入）](https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json)
 
 
 來源索引：S2, S4, S14；完整連結見 evidence/sources.md。
@@ -246,6 +251,8 @@
 **投影片完整 prompt：**
 
 ```text
+議程 JSON：https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json
+
 資料檔：src/sessions.json（與 HWDC 議程附件相同）。
 
 請用附件的 HWDC 議程做一個繁體中文「我的議程」網站：
@@ -254,6 +261,9 @@
 不用登入。做好後請開啟預覽，讓我試用。
 （UI 由學員自由發揮，但請讓兩個版本保持一致。）
 ```
+
+- [公開 JSON 附件](https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json)
+
 
 來源索引：S14；完整連結見 evidence/sources.md。
 

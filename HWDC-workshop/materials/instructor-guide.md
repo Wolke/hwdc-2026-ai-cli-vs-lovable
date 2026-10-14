@@ -103,7 +103,7 @@ Lovable 額度用完者先填寫 [群組加入申請表](https://forms.gle/pt3nL
 
 ## 從投影片直接取用
 
-第 11 頁是 Lovable 初版完整提示，第 16 頁是 Codex 初版完整提示，第 22 頁是修改提示；第 26 頁有除錯範本，第 36 頁有行事曆延伸提示。第 12 頁列出官方來源、附件檔名、教材包位置與 GitHub 完整網址。網址可直接點選。GitHub repo 目前為私人，沒有存取權時使用教材包內 materials/hwdc-agenda-2026.json。瀏覽器投影片的「本頁提示／附件」可展開文字並選取複製。
+第 11 頁是 Lovable 初版完整提示，第 16 頁是 Codex 初版完整提示，第 22 頁是修改提示；第 26 頁有除錯範本，第 36 頁有行事曆延伸提示。第 12 頁列出官方來源、附件檔名、教材包位置與 公開 JSON 完整網址。網址可直接點選。原 GitHub repo 已公開，JSON 可免登入存取；離線時使用教材包內 materials/hwdc-agenda-2026.json。瀏覽器投影片的「本頁提示／附件」可展開文字並選取複製。
 
 ## 群組申請表與 QR Code
 
@@ -116,3 +116,7 @@ Lovable 額度用完者先填寫 [群組加入申請表](https://forms.gle/pt3nL
 第 39–40 頁約 4–5 分鐘，說明費用估算的場景限制與 Roblox 原投稿經驗。第 41–43 頁約 6 分鐘，介紹 Lovable 發布、內建工具及 connectors。按剩餘時間選頁，不占用核心實作與最後 5 分鐘 Q&A。時間不足時，第 32 頁直接跳到第 44 頁，預留約 1 分鐘讓學員掃兩個系列的 QR Code。瀏覽器預覽有跳頁按鈕。
 
 完整底稿與來源見 [選講補充](bonus-content.md)，各頁亦附講者備註。
+
+公開 JSON 附件（免登入，可貼入 AI 提示）：
+
+https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json

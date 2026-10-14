@@ -1,3 +1,5 @@
+議程 JSON：https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json
+
 資料檔：src/sessions.json（與 HWDC 議程附件相同）。
 
 請用附件的 HWDC 議程做一個繁體中文「我的議程」網站：

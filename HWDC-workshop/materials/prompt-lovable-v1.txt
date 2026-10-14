@@ -1,3 +1,5 @@
+議程 JSON：https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json
+
 請用附件的 HWDC 議程做一個繁體中文「我的議程」網站：
 能搜尋議程或講者、依日期和主題篩選、加入或取消收藏，並查看自己的議程；重新整理後收藏要保留。
 搜尋與篩選可以一起用，日期時間要清楚，手機也能操作。資料照附件，保留來源。

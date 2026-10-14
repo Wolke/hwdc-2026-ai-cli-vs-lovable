@@ -11,7 +11,7 @@ import shutil
 import zipfile
 
 REPO = Path(__file__).resolve().parent.parent
-SITE_URL = 'https://wolke.github.io/hwdc-2026-workshop-site/'
+SITE_URL = 'https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/'
 IGNORED = {'.git', 'node_modules', 'dist', 'coverage', '__pycache__', '.vite', '.DS_Store', 'Thumbs.db'}
 PROJECTS = ['starter', 'reference-v1', 'reference-v2']
 
@@ -72,13 +72,13 @@ def main():
     portal=portal.replace('單檔 HTML，無網路也可操作','直接開啟示範，也可隨教材下載離線使用')
     for filename in ['index.html','開始這裡.html']:(site/filename).write_text(portal)
     (site/'.nojekyll').write_text('')
-    # Web notes and attachment links work without access to the private source repository.
-    private_attachment='https://github.com/Wolke/hwdc-2026-ai-cli-vs-lovable/blob/main/HWDC-workshop/materials/hwdc-agenda-2026.json'
+    # Normalize JSON references to the direct public attachment.
+    github_attachment='https://github.com/Wolke/hwdc-2026-ai-cli-vs-lovable/blob/main/HWDC-workshop/materials/hwdc-agenda-2026.json'
     public_attachment=SITE_URL+'HWDC-workshop/materials/hwdc-agenda-2026.json'
     for page in site.rglob('*.html'):
-        text=page.read_text().replace(private_attachment,public_attachment)
+        text=page.read_text().replace(github_attachment,public_attachment)
         page.write_text(text)
-    readme=f'''# HWDC 2026 工作坊網站\n\n[開啟教材網站]({SITE_URL})\n\n網站包含 44 頁簡報預覽、可下載 PPTX、學員講義、提示詞、70 筆公開議程、議程收藏器示範，以及起始專案與完整教材 ZIP。\n\n網站檔案由教材來源的 `scripts/build-pages.py` 產生。GitHub Pages 使用 `main` 分支根目錄，每次 push 後更新網站。\n\n- [完整教材](downloads/hwdc-workshop-materials.zip)\n- [起始專案](downloads/starter.zip)\n- [可編輯簡報]({deck.name})\n- [官方議程](https://hwdc.ithome.com.tw/2026/lab/4996)\n\n講師：林建宏 Wolke Lin。議程為公開教學快照，以官方最新公告為準。\n'''
+    readme=f'''# HWDC 2026 工作坊網站\n\n[開啟教材網站]({SITE_URL})\n\n網站包含 44 頁簡報預覽、可下載 PPTX、學員講義、提示詞、70 筆公開議程、議程收藏器示範，以及起始專案與完整教材 ZIP。\n\n網站檔案由教材來源的 `scripts/build-pages.py` 產生。由同一個 repo 的 GitHub Actions 建置並發布，`main` 每次 push 後更新網站。\n\n- [完整教材](downloads/hwdc-workshop-materials.zip)\n- [起始專案](downloads/starter.zip)\n- [可編輯簡報]({deck.name})\n- [官方議程](https://hwdc.ithome.com.tw/2026/lab/4996)\n\n講師：林建宏 Wolke Lin。議程為公開教學快照，以官方最新公告為準。\n'''
     (site/'README.md').write_text(readme)
     # The download preserves the original local package structure, including source projects.
     with zipfile.ZipFile(downloads/'hwdc-workshop-materials.zip','w',zipfile.ZIP_DEFLATED) as z:

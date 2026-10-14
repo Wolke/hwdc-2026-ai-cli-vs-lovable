@@ -36,6 +36,8 @@ Lovable 免費方案有每日 5 點與每月 30 點建置上限，任務耗點�
 先把 `hwdc-agenda-2026.json` 當附檔上傳，再貼下面這幾句。Codex 的同一份資料已放在 `src/sessions.json`。
 
 ```text
+議程 JSON：https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json
+
 請用附件的 HWDC 議程做一個繁體中文「我的議程」網站：
 能搜尋議程或講者、依日期和主題篩選、加入或取消收藏，並查看自己的議程；重新整理後收藏要保留。
 搜尋與篩選可以一起用，日期時間要清楚，手機也能操作。資料照附件，保留來源。
@@ -151,4 +153,8 @@ Lovable 可在每則回覆的 More options → Credits used 查看消耗。Codex
 
 ## 從投影片直接取用
 
-第 11 頁是 Lovable 初版完整提示，第 16 頁是 Codex 初版完整提示，第 22 頁是修改提示；第 26 頁有除錯範本，第 36 頁有行事曆延伸提示。第 12 頁列出官方來源、附件檔名、教材包位置與 GitHub 完整網址。網址可直接點選。GitHub repo 目前為私人，沒有存取權時使用教材包內 materials/hwdc-agenda-2026.json。瀏覽器投影片的「本頁提示／附件」可展開文字並選取複製。
+第 11 頁是 Lovable 初版完整提示，第 16 頁是 Codex 初版完整提示，第 22 頁是修改提示；第 26 頁有除錯範本，第 36 頁有行事曆延伸提示。第 12 頁列出官方來源、附件檔名、教材包位置與 公開 JSON 完整網址。網址可直接點選。原 GitHub repo 已公開，JSON 可免登入存取；離線時使用教材包內 materials/hwdc-agenda-2026.json。瀏覽器投影片的「本頁提示／附件」可展開文字並選取複製。
+
+公開 JSON 附件（免登入，可貼入 AI 提示）：
+
+https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json

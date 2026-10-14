@@ -27,3 +27,9 @@ Lovable：上傳 JSON 作為附件，再貼初版短提示。Codex：同一份�
 - 4996＋4992：不同日期的 13:00–15:00，不衝堂。
 
 附件只收錄公開議程事實欄位，保留來源；資訊以官網最新公告為準。本教材不是主辦單位的官方工具。
+
+## 公開 JSON 網址
+
+https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json
+
+可將此網址貼入 AI 提示；若工具無法直接讀取網址，下載後作為附件上傳。

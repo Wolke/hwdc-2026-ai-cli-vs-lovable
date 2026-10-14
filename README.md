@@ -11,20 +11,23 @@
 
 ## 線上教材網站
 
-[開啟 GitHub Pages 教材網站](https://wolke.github.io/hwdc-2026-workshop-site/)
+[開啟 GitHub Pages 教材網站](https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/)
 
-線上可直接播放簡報、閱讀講義、下載議程附件，以及操作兩版收藏器。首頁提供完整教材 ZIP 和起始專案 ZIP，學員不需要私人 repo 存取權。
+原本的 [hwdc-2026-ai-cli-vs-lovable](https://github.com/Wolke/hwdc-2026-ai-cli-vs-lovable) repo 已公開。網站、教材與程式都由本 repo 維護，學員免登入即可取得。
 
-網站發布檔放在公開的 [hwdc-2026-workshop-site](https://github.com/Wolke/hwdc-2026-workshop-site) repo。Pages 使用該 repo 的 `main` 分支根目錄。更新教材後，在本 repo 執行：
+**議程 JSON（可直接貼入 AI 提示）：**
+
+https://wolke.github.io/hwdc-2026-ai-cli-vs-lovable/HWDC-workshop/materials/hwdc-agenda-2026.json
+
+首頁提供簡報預覽、完整教材 ZIP、起始專案 ZIP 與兩版收藏器。修改本 repo 並 push 至 `main` 後，GitHub Actions 會自動產生、檢查並發布 Pages，不需要另一個網站 repo。
+
+本機可先檢查發布檔：
 
 ```sh
-python3 scripts/build-pages.py --output ../hwdc-2026-workshop-site
-git -C ../hwdc-2026-workshop-site add .
-git -C ../hwdc-2026-workshop-site commit -m "Update workshop website"
-git -C ../hwdc-2026-workshop-site push origin main
+python3 scripts/build-pages.py --output ../../work/pages-preview
 ```
 
-產生器會檢查站內檔案連結、44 頁投影片與下載 ZIP，然後由 GitHub Pages 發布。本 repo 的教材與 PowerPoint 仍是編輯來源。
+發布流程位於 `.github/workflows/pages.yml`，會檢查站內連結、44 頁投影片與下載 ZIP。
 
 ## 先從這裡開始
 
@@ -42,7 +45,7 @@ cd hwdc-2026-ai-cli-vs-lovable
 | 取得兩日議程附件 | [70 筆公開議程 JSON](HWDC-workshop/materials/hwdc-agenda-2026.json) |
 | 閱讀學員步驟、提示與驗收 | [學員講義](HWDC-workshop/materials/student-handout.md) |
 | 準備講課、示範與備援 | [講師手冊](HWDC-workshop/materials/instructor-guide.md) |
-| 編輯投影片 | [44 頁 PPTX，含逐頁講者備註](HWDC-2026-workshop-v11.pptx) |
+| 編輯投影片 | [44 頁 PPTX，含逐頁講者備註](HWDC-2026-workshop-v12.pptx) |
 | 閱讀逐頁講稿 | [講者備註](HWDC-workshop/materials/speaker-notes.md) |
 | 準備通用 AI 實作 | [空白起始專案](HWDC-workshop/starter/) |
 | 記錄工具條件與結果 | [實測紀錄表](HWDC-workshop/materials/measurement-template.md) |
@@ -150,7 +153,7 @@ npm run build
 
 議程附件擷取自 [HWDC 官方議程](https://hwdc.ithome.com.tw/2026/agenda)，2026-10-13 快照共 70 筆，10/14、10/15 各 35 筆。保留官方 ID、完整主題、日期時間、會議室、講者與來源連結。[資料說明與原始來源](HWDC-workshop/materials/agenda-data.md)。
 
-目前版本 v11：課程與比較只保留 Lovable 和通用 AI 工具。投影片直接列出初版、修改、除錯與延伸 prompt；第 12 頁列出官方來源及 JSON 附件完整網址。瀏覽器投影片另提供可選取複製的提示文字。GitHub 附件目前需要私人 repo 存取權，現場可直接使用教材包內的 JSON。
+目前版本 v12：課程與比較只保留 Lovable 和通用 AI 工具。投影片直接列出初版、修改、除錯與延伸 prompt；第 12 頁列出官方來源及 JSON 附件完整網址。瀏覽器投影片另提供可選取複製的提示文字。GitHub repo 與 JSON 附件皆已公開，提示詞與第 12 頁列出 JSON 完整網址。
 
 本次 v6：第 27 頁補上舊彩排費用。Lovable 實耗 5.10 credits，正常月費分攤約 US$2.50；Codex Standard 情境估算約 US$1.39，速度模式與實扣未取得。完整 [token 明細、證據與換算假設](HWDC-workshop/evidence/cost-check-20261013.md)。
 
@@ -165,3 +168,5 @@ npm run build
 本次 v10：第 5 頁自我介紹右側加入 Medium 個人頁 QR Code，保留可點選網址。
 
 本次 v11：初版 prompt 最後一句改為「UI 由學員自由發揮，但請讓兩個版本保持一致」。Lovable、Codex 提示與目前教學說明均採此要求。
+
+本次 v12：直接以原 repo 公開並發布 GitHub Pages，更新 JSON 公開網址、提示與附件頁。

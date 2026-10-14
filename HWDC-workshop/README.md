@@ -15,7 +15,7 @@
 
 可編輯 PPTX 採 Heiti TC／Menlo 字體。若電腦沒有這些字體，PowerPoint 可能替換字體；請投影前檢視，或使用 slides/index.html 的固定版面預覽。
 
-Lovable 額度用完者填寫群組申請表，由講師安排邀請；講師介紹依本人 Medium 自介與著作頁更新。新版簡報為根目錄 HWDC-2026-workshop-v11.pptx。
+Lovable 額度用完者填寫群組申請表，由講師安排邀請；講師介紹依本人 Medium 自介與著作頁更新。新版簡報為根目錄 HWDC-2026-workshop-v12.pptx。
 
 本次 v3：真實兩日議程以 JSON 附件提供，初版／修改 prompt 改為簡短人話，驗收 UX 邏輯，UI 由個人或 Agent 自由設計。資料來源見 materials/agenda-data.md，舊彩排結果見 evidence/rehearsal-observations.md。
 
