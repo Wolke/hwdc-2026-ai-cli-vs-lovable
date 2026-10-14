@@ -1,6 +1,6 @@
 <!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HWDC 2026 學員講義</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;color:#17283e;background:#f5f8fc;line-height:1.85}main{max-width:1000px;margin:30px auto;padding:42px 48px;background:white}h1{font-size:32px;line-height:1.4;margin:0 0 24px;color:#123564}h2{font-size:24px;margin:42px 0 18px;border-bottom:2px solid #e0eafa;padding-bottom:8px}h3{font-size:20px}a{color:#155ebd;text-decoration-thickness:1px;text-underline-offset:3px}p,li{font-size:16px}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.65;margin:24px 0}th,td{border:1px solid #ccd9ea;padding:12px;text-align:left;vertical-align:top}th{background:#edf3fc;color:#174777}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f5fa;border-left:3px solid #155ebd;padding:18px;font:14px/1.8 ui-monospace,Menlo,monospace}code{font-family:ui-monospace,Menlo,monospace;color:#25476d}nav{max-width:1000px;margin:20px auto;padding:0 16px;font-size:14px}blockquote{margin:20px 0;padding:10px 20px;border-left:4px solid #d28c1f;background:#fff8e7}img{max-width:100%}@media(max-width:650px){main{margin:0;padding:28px 20px}h1{font-size:27px}table{display:block;overflow-x:auto}th,td{min-width:110px}nav{margin:14px 0}}@page{size:A4;margin:18mm}@media print{body{background:white;font-size:11pt}main{margin:0;padding:0;max-width:none}nav{display:none}h1{font-size:22pt}h2{font-size:16pt;break-after:avoid}p,li{font-size:11pt}table{font-size:10pt}tr{break-inside:avoid}thead{display:table-header-group}pre{font-size:9pt}a{color:inherit;text-decoration:none}}</style></head><body><nav><a href="../../開始這裡.html">教材首頁</a>　<a href="student-handout.md">Markdown 原文</a>　可使用瀏覽器列印</nav><main><h1>HWDC 2026 學員講義</h1>
 <p>講師：林建宏（Wolke Lin）｜2026/10/14 13:30–15:00</p>
-<p>用 Lovable 與自選通用 AI 工具各做一版「我的 HWDC 議程」。同一份公開議程附件、同樣的 UX 任務，UI 由你或 Agent 自由設計。</p>
+<p>用 Lovable 與自選通用 AI 工具各做一版「我的 HWDC 議程」。同一份公開議程附件、同樣的 UX 任務，UI 由學員自由設計，但自己的兩個工具版本須保持一致。先用一句話描述想要的 UI，再把相同設計要求交給兩套工具。</p>
 <p>90 分鐘聚焦兩套 AI 工具的建置、需求修改與驗收。每套初版 15 分鐘、修改 5 分鐘，驗收包含在時間內；到時保存成果與未完成項目。</p>
 <h2>講師</h2>
 <p>林建宏（Wolke Lin），Google Developer Expert、LINE Expert 與技術書作者。分享 AI 人機協作、提示工程及程式開發，將教學視為幫助學員理解問題與開始實作的方式。背景及著作可見 <a href="https://medium.com/@wolkesau">Medium</a>。</p>
@@ -53,7 +53,8 @@
 <pre><code class="language-text">請用附件的 HWDC 議程做一個繁體中文「我的議程」網站：
 能搜尋議程或講者、依日期和主題篩選、加入或取消收藏，並查看自己的議程；重新整理後收藏要保留。
 搜尋與篩選可以一起用，日期時間要清楚，手機也能操作。資料照附件，保留來源。
-UI 風格自由發揮，不用登入。做好後請開啟預覽，讓我試用。
+不用登入。做好後請開啟預覽，讓我試用。
+（UI 由學員自由發揮，但請讓兩個版本保持一致。）
 </code></pre>
 <p>你可以再說一個自己的視覺想法，例如「像我的旅行手帳」或「讓我一眼看懂一天的安排」。記下自己補充的設計要求，分享時討論差異。這些要求影響作品風格，不作工具能力排名的共同條件。</p>
 <h2>實作 A：Lovable（15 分鐘）</h2>
@@ -67,10 +68,10 @@ UI 風格自由發揮，不用登入。做好後請開啟預覽，讓我試用�
 <ol>
 <li>開啟全新的 starter 副本；不要帶入 Lovable 程式。</li>
 <li>告訴 Agent 資料在 src/sessions.json，使用相同短提示。</li>
-<li>讓 Agent 實作並開預覽，照同一張表驗收。UI 不必與 Lovable 相同。</li>
+<li>讓 Agent 實作並開預覽，照同一張表驗收。加入與 Lovable 相同的 UI 設計要求，讓兩個版本保持一致。</li>
 </ol>
 <h2>第一版 UX 驗收表</h2>
-<p>不要求相同 UI。每項全部成立才記通過；不確定就記未測。資料為 2026-10-13 的固定快照。</p>
+<p>UI 由學員自訂，兩個工具版本保持一致。每項全部成立才記通過；不確定就記未測。資料為 2026-10-13 的固定快照。</p>
 <table>
 <thead>
 <tr>
@@ -222,7 +223,7 @@ UI 風格自由發揮，不用登入。做好後請開啟預覽，讓我試用�
 </ul>
 <p>查核日期：2026-10-13。介面與方案可能更新，以現場帳號可用功能及官方頁面為準。</p>
 <h2>附件與 UI 分享</h2>
-<p>資料內容、來源和轉換方式見 <a href="agenda-data.html">真實議程附件說明</a>。完成者展示「找到一場 → 收藏 → 發現衝堂 → 取消或保留」的流程，再分享卡片、清單、配色與提醒位置。使用同一個任務互相試用，觀察操作是否清楚，不投票選工具冠軍。</p>
+<p>資料內容、來源和轉換方式見 <a href="agenda-data.html">真實議程附件說明</a>。完成者展示「找到一場 → 收藏 → 發現衝堂 → 取消或保留」的流程，再檢查自己的兩個工具版本是否採用相同的卡片或清單、配色與提醒位置。使用同一個任務互相試用，觀察操作是否清楚，不投票選工具冠軍。</p>
 <h2>從投影片直接取用</h2>
 <p>第 11 頁是 Lovable 初版完整提示，第 16 頁是 Codex 初版完整提示，第 22 頁是修改提示；第 26 頁有除錯範本，第 36 頁有行事曆延伸提示。第 12 頁列出官方來源、附件檔名、教材包位置與 GitHub 完整網址。網址可直接點選。GitHub repo 目前為私人，沒有存取權時使用教材包內 materials/hwdc-agenda-2026.json。瀏覽器投影片的「本頁提示／附件」可展開文字並選取複製。</p>
 </main></body></html>

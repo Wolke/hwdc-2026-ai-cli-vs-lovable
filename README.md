@@ -2,7 +2,7 @@
 
 **以 Lovable Web 開發為例的效能實測**
 
-使用同一份短提示與 70 筆 HWDC 公開議程附件，在 Lovable 與自選通用 AI 工具各做一版「研討會議程收藏器」，再加入收藏衝堂提示。比較時同時記錄完成度、時間、用量及修改成本。**UX 邏輯一致，UI 由學員或 Agent 自由發揮**，不要求配色、版型或像素相同。
+使用同一份短提示與 70 筆 HWDC 公開議程附件，在 Lovable 與自選通用 AI 工具各做一版「研討會議程收藏器」，再加入收藏衝堂提示。比較時同時記錄完成度、時間、用量及修改成本。**UX 邏輯一致，UI 由學員自由發揮，但自己的兩個工具版本須保持一致**。學員先選定設計，再給兩套工具相同的設計要求。
 
 - 講師：林建宏（Wolke Lin），[Medium](https://medium.com/@wolkesau)
 - 時間：2026/10/14 13:30–15:00，13:00–13:30 環境準備
@@ -25,7 +25,7 @@ cd hwdc-2026-ai-cli-vs-lovable
 | 取得兩日議程附件 | [70 筆公開議程 JSON](HWDC-workshop/materials/hwdc-agenda-2026.json) |
 | 閱讀學員步驟、提示與驗收 | [學員講義](HWDC-workshop/materials/student-handout.md) |
 | 準備講課、示範與備援 | [講師手冊](HWDC-workshop/materials/instructor-guide.md) |
-| 編輯投影片 | [44 頁 PPTX，含逐頁講者備註](HWDC-2026-workshop-v10.pptx) |
+| 編輯投影片 | [44 頁 PPTX，含逐頁講者備註](HWDC-2026-workshop-v11.pptx) |
 | 閱讀逐頁講稿 | [講者備註](HWDC-workshop/materials/speaker-notes.md) |
 | 準備通用 AI 實作 | [空白起始專案](HWDC-workshop/starter/) |
 | 記錄工具條件與結果 | [實測紀錄表](HWDC-workshop/materials/measurement-template.md) |
@@ -133,7 +133,7 @@ npm run build
 
 議程附件擷取自 [HWDC 官方議程](https://hwdc.ithome.com.tw/2026/agenda)，2026-10-13 快照共 70 筆，10/14、10/15 各 35 筆。保留官方 ID、完整主題、日期時間、會議室、講者與來源連結。[資料說明與原始來源](HWDC-workshop/materials/agenda-data.md)。
 
-目前版本 v10：課程與比較只保留 Lovable 和通用 AI 工具。投影片直接列出初版、修改、除錯與延伸 prompt；第 12 頁列出官方來源及 JSON 附件完整網址。瀏覽器投影片另提供可選取複製的提示文字。GitHub 附件目前需要私人 repo 存取權，現場可直接使用教材包內的 JSON。
+目前版本 v11：課程與比較只保留 Lovable 和通用 AI 工具。投影片直接列出初版、修改、除錯與延伸 prompt；第 12 頁列出官方來源及 JSON 附件完整網址。瀏覽器投影片另提供可選取複製的提示文字。GitHub 附件目前需要私人 repo 存取權，現場可直接使用教材包內的 JSON。
 
 本次 v6：第 27 頁補上舊彩排費用。Lovable 實耗 5.10 credits，正常月費分攤約 US$2.50；Codex Standard 情境估算約 US$1.39，速度模式與實扣未取得。完整 [token 明細、證據與換算假設](HWDC-workshop/evidence/cost-check-20261013.md)。
 
@@ -146,3 +146,5 @@ npm run build
 本次 v9：總共 44 頁。第 39–40 頁補充費用口徑與 Roblox 投稿經驗，第 41–43 頁介紹 Lovable 平台，第 44 頁直接放入 Roblox／Lovable 系列訂閱 QR Code。原 90 分鐘流程不變，時間不足時從第 32 頁直達第 44 頁。[選講底稿與來源](HWDC-workshop/materials/bonus-content.md)。第 5 頁資格依最新自介修正為曾任 GDE（2019–2023）與 LINE API Expert。
 
 本次 v10：第 5 頁自我介紹右側加入 Medium 個人頁 QR Code，保留可點選網址。
+
+本次 v11：初版 prompt 最後一句改為「UI 由學員自由發揮，但請讓兩個版本保持一致」。Lovable、Codex 提示與目前教學說明均採此要求。
