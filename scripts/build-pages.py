@@ -19,6 +19,8 @@ def files_under(directory):
     for p in sorted(directory.rglob('*')):
         if any(part in IGNORED or part.startswith('.env') for part in p.relative_to(directory).parts):
             continue
+        if p.suffix in {'.tsbuildinfo', '.log'}:
+            continue
         if p.is_symlink():
             raise ValueError(f'Symlink is not a publishable file: {p}')
         if p.is_file():
